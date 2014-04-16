@@ -1,0 +1,10 @@
+[3.817602999999999]Telemetry: Gyro:180.0,TestItem:Test,Compressor:false
+[4.893344999999999]Telemetry: Gyro:179.98000000044703,TestItem:Test,Compressor:false
+[5.953460999999999]Telemetry: Gyro:179.98000000044703,TestItem:Test,Compressor:false
+[7.020942000000001]Telemetry: Gyro:179.98000000044703,TestItem:Test,Compressor:true
+[8.098863999999999]Telemetry: Gyro:179.98000000044703,TestItem:Test,Compressor:true
+[9.118177]Telemetry: Gyro:179.97000000067055,TestItem:Test,Compressor:true
+[10.142541999999999]Telemetry: Gyro:179.96000000089407,TestItem:Test,Compressor:true
+[11.158100999999998]Telemetry: Gyro:179.97000000067055,TestItem:Test,Compressor:true
+[12.161523]Telemetry: Gyro:179.96000000089407,TestItem:Test,Compressor:true
+[13.20257]Telemetry: Gyro:179.94999999925494,TestItem:Test,Compressor:true

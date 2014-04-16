@@ -1,0 +1,66 @@
+[0.8901229999999996][Important] Robot: RobotContext initialized!
+[0.8979810000000007][Info] SensorCore: Constructing, gyroOffset:90.0
+[0.9142850000000008][Info] PneumaticCore: Initializing
+[0.9289630000000006][Info] CatapultCore: Initializing
+[2.2755][Info] BackCollector: ScaledPosition set to: 1.0
+[2.540080000000001][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.544785][Info] BackCollector: ScaledPosition set to: 0.0
+[2.561231][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.571192][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.5787300000000006][Info] BackCollector: ScaledPosition set to: 0.6
+[2.5803460000000005][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.587401][Info] BackCollector: ScaledPosition set to: 1.0
+[2.589671][Info] BackCollector: ScaledPosition set to: 0.6
+[2.595259][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.596986][Info] BackCollector: ScaledPosition set to: 0.0
+[2.600754][Info] BackCollector: ScaledPosition set to: 0.6
+[2.6021549999999998][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.608822][Info] BackCollector: ScaledPosition set to: 1.0
+[2.6198459999999995][Info] BackCollector: ScaledPosition set to: 0.6
+[2.62229][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.6239129999999995][Info] BackCollector: ScaledPosition set to: 0.0
+[2.633705][Info] BackCollector: ScaledPosition set to: 1.0
+[2.637254][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.6397520000000005][Info] BackCollector: ScaledPosition set to: 0.6
+[2.6413][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.64817][Info] BackCollector: ScaledPosition set to: 0.0
+[2.6495029999999997][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.6547610000000006][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.6564880000000004][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.658558][Info] FrontCollector: ScaledPosition set to: 0.35
+[2.661597000000001][Info] BackCollector: ScaledPosition set to: 0.6
+[2.6633050000000003][Info] BackCollector: ScaledPosition set to: 1.0
+[2.668472000000001][Info] BackCollector: ScaledPosition set to: 0.45
+[2.6794720000000005][Info] BackCollector: ScaledPosition set to: 0.0
+[2.6890480000000005][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.6937349999999998][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.6958559999999996][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.697992][Info] FrontCollector: ScaledPosition set to: 0.35
+[2.702321][Info] BackCollector: ScaledPosition set to: 0.6
+[2.706718][Info] BackCollector: ScaledPosition set to: 1.0
+[2.7117659999999995][Info] BackCollector: ScaledPosition set to: 0.45
+[2.7261840000000004][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.7284440000000005][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.7393489999999994][Info] FrontCollector: ScaledPosition set to: 0.35
+[2.7423500000000005][Info] BackCollector: ScaledPosition set to: 0.6
+[2.744036][Info] BackCollector: ScaledPosition set to: 1.0
+[2.746189][Info] BackCollector: ScaledPosition set to: 0.45
+[2.8428520000000006][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.845499][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.8487070000000005][Info] BackCollector: ScaledPosition set to: 0.0
+[2.858182][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.8607219999999995][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.864068][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.872917][Info] BackCollector: ScaledPosition set to: 0.6
+[2.877228][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.9036899999999997][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.9136630000000006][Info] BackCollector: ScaledPosition set to: 1.0
+[2.916354][Info] BackCollector: ScaledPosition set to: 0.45
+[2.9339620000000006][Info] BackCollector: ScaledPosition set to: 0.6
+[2.936295][Info] BackCollector: ScaledPosition set to: 1.0
+[3.522215][Important] Robot: disabledInit()
+[3.666094][Info] RobotPermanentStorage: Saving properties to disk
+[3.6667929999999997][Info] RobotPermanentStorage: Serializing Properties to String
+[3.6985820000000005][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[3.7600469999999997][Info] SetRobotDisabledStateWorker: Initializing
+[97.03305][Important] Robot: autonomousInit()

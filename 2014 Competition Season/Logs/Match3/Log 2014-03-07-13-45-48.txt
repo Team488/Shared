@@ -1,0 +1,30 @@
+[153.210489][Info] SetRobotDisabledStateWorker: Initializing
+[153.391854][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[153.394071][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[153.396572][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[153.397704][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[153.398655][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[153.399652][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[153.400679][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[153.40168100000002][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[153.402931][Info] RotationForceProviderWorker: On success: 0 -> 0
+[153.404025][Info] RotationForceProviderWorker: On success: 1 -> 1
+[153.404813][Info] HumanRotationWorker: Initializing
+[153.40552100000002][Info] RotationForceProviderWorker: Initialized state machine
+[153.406905][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[153.410764][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[153.413914][Info] WaitAfterJoystickWorker: Initializing
+[153.414753][Info] RobotControlsHeadingWorker: Initialized state machine
+[153.416032][Important] PneumaticCore: Compressor is ON
+[153.416781][Important] CompressorWorker: Compressor on
+[153.417779][Info] CollectionPositionMaintainer: init
+[153.419206][Info] CollectionPositionMaintainer: init
+[153.420533][Info] FrontRollerListenerWorker: Initializing
+[153.42158300000003][Info] BackRollerListenerWorker: Initializing
+[153.422784][Info] CatapultPIDWorker - cock: Initializing
+[153.424139][Info] RaiseBothArmsWorker: Setting arms up
+[153.425118][Info] FrontCollector: ScaledPosition set to: 0.0
+[153.426715][Info] BackCollector: ScaledPosition set to: 0.0
+[153.427599][Info] FieldOrientedCollectionWorker: Initialized state machine
+[153.570721][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[153.572024][Info] DriveCore: New DesiredHeading is: 170.2799997329712

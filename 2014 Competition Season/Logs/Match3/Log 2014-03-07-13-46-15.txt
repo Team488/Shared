@@ -1,0 +1,41 @@
+[166.894501][Info] RobotPermanentStorage: Saving properties to disk
+[166.895243][Info] RobotPermanentStorage: Serializing Properties to String
+[166.924917][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[167.284898][Info] SetRobotDisabledStateWorker: Initializing
+[167.31793399999998][Warning] RoboAdapter: Time between update calls was 567.3940000000002ms
+[172.609569][Info] DriveCore: New DesiredHeading is: 170.11999988555908
+[172.61056][Info] SetRobotDisabledStateWorker: Initializing
+[180.773532][Info] CatapultPIDWorker - cock:  was interrupted!
+[184.253155][Info] CatapultPIDWorker - cock: Initializing
+[184.41355][Info] CatapultPIDWorker - cock:  was interrupted!
+[184.57320099999998][Info] CatapultPIDWorker - cock: Initializing
+[184.574605][Info] CatapultPIDWorker - cock:  was interrupted!
+[184.75336][Info] CatapultPIDWorker - cock: Initializing
+[184.754709][Info] CatapultPIDWorker - cock:  was interrupted!
+[184.873113][Info] CatapultPIDWorker - cock: Initializing
+[184.87462399999998][Info] CatapultPIDWorker - cock:  was interrupted!
+[185.193365][Info] CatapultPIDWorker - cock: Initializing
+[185.194714][Info] CatapultPIDWorker - cock:  was interrupted!
+[185.313231][Info] CatapultPIDWorker - cock: Initializing
+[185.55383999999998][Info] CatapultPIDWorker - cock:  was interrupted!
+[185.71336399999998][Info] CatapultPIDWorker - cock: Initializing
+[185.75359899999998][Info] CatapultPIDWorker - cock:  was interrupted!
+[185.913442][Info] CatapultPIDWorker - cock: Initializing
+[185.91482499999998][Info] CatapultPIDWorker - cock:  was interrupted!
+[186.072992][Info] CatapultPIDWorker - cock: Initializing
+[186.0745][Info] CatapultPIDWorker - cock:  was interrupted!
+[186.193142][Info] CatapultPIDWorker - cock: Initializing
+[186.793748][Info] CatapultPIDWorker - cock:  was interrupted!
+[186.953214][Info] CatapultPIDWorker - cock: Initializing
+[187.313855][Info] CatapultPIDWorker - cock:  was interrupted!
+[187.433157][Info] CatapultPIDWorker - cock: Initializing
+[187.47354199999998][Info] CatapultPIDWorker - cock:  was interrupted!
+[187.553012][Info] CatapultPIDWorker - cock: Initializing
+[188.193661][Info] CatapultPIDWorker - cock:  was interrupted!
+[188.353369][Info] CatapultPIDWorker - cock: Initializing
+[188.35485699999998][Info] CatapultPIDWorker - cock:  was interrupted!
+[188.493277][Info] CatapultPIDWorker - cock: Initializing
+[188.813848][Info] CatapultPIDWorker - cock:  was interrupted!
+[188.973222][Info] CatapultPIDWorker - cock: Initializing
+[189.21383000000003][Info] CatapultPIDWorker - cock:  was interrupted!
+[189.37323][Info] CatapultPIDWorker - cock: Initializing

@@ -1,0 +1,6 @@
+translationVelocityP,1.0
+translationVelocityD,1.0
+useTranslationVelocityPID,0.0
+collectorSpeed,1.0
+translationVelocityI,1.0
+topSpeedFtPerS,15.0

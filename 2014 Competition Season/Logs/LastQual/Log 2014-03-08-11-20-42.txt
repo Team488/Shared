@@ -1,0 +1,204 @@
+[162.65875999999997][Info] RobotPermanentStorage: Saving properties to disk
+[162.65954200000002][Info] RobotPermanentStorage: Serializing Properties to String
+[162.69081][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[162.74623200000002][Info] SetRobotDisabledStateWorker: Initializing
+[162.766081][Warning] RoboAdapter: Time between update calls was 636.5009999999893ms
+[165.76611][Info] DriveCore: New DesiredHeading is: 178.12000000476837
+[165.767162][Info] SetRobotDisabledStateWorker: Initializing
+[166.46994][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[166.470832][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[166.47171600000001][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[166.47337299999998][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[166.47437599999998][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[166.47596900000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[166.477036][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[166.478036][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[166.478851][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[166.479639][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[166.4819][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[166.48286000000002][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[166.48646100000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[166.487714][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[166.610597][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[166.612025][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[166.61333100000002][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[166.614231][Info] FireCatapultWorker: Catapult firing
+[166.61573199999998][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[166.61720499999998][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[166.61857500000002][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[166.619463][Info] FireCatapultWorker: Catapult firing
+[167.829878][Info] FireCatapultWorker: Catapult finished firing
+[167.83123500000002][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[167.833606][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[174.729117][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[174.73001499999998][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[174.73083099999997][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[174.73269200000001][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[174.73368999999997][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[174.73527599999997][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[174.7365][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[174.73758399999997][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[174.73847700000002][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[174.73929599999997][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[174.7416][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[174.74253799999997][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[174.74623099999997][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[174.747367][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[174.86944999999997][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[174.870824][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[174.87225899999999][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[174.87319399999998][Info] FireCatapultWorker: Catapult firing
+[174.87466700000002][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[174.876004][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[174.877435][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[174.878297][Info] FireCatapultWorker: Catapult firing
+[176.088672][Info] FireCatapultWorker: Catapult finished firing
+[176.09024][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[176.09257300000002][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[186.90958799999999][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[186.91052599999998][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[186.91146][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[186.913196][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[186.91415][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[186.915694][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[186.916731][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[186.917742][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[186.918562][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[186.91932500000001][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[186.921625][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[186.92257999999998][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[186.926396][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[186.92735499999998][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[187.049886][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[187.05119200000001][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[187.05286999999998][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[187.053796][Info] FireCatapultWorker: Catapult firing
+[187.055109][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[187.056652][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[187.05795999999998][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[187.05885800000001][Info] FireCatapultWorker: Catapult firing
+[188.26905000000002][Info] FireCatapultWorker: Catapult finished firing
+[188.270486][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[188.27290599999998][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[198.08877299999997][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[198.089728][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[198.090494][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[198.092204][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[198.093212][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[198.094777][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[198.095843][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[198.096973][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[198.09781][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[198.098569][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[198.100663][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[198.10172599999999][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[198.105411][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[198.106468][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[198.229394][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[198.23069700000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[198.232188][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[198.233036][Info] FireCatapultWorker: Catapult firing
+[198.23443600000002][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[198.23593100000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[198.23743299999998][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[198.23835200000002][Info] FireCatapultWorker: Catapult firing
+[199.47019299999997][Info] FireCatapultWorker: Catapult finished firing
+[199.471746][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[199.474017][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[207.390023][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[207.390915][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[207.391814][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[207.393413][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[207.39435299999997][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[207.395943][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[207.396983][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[207.398202][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[207.399025][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[207.39979799999998][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[207.40205600000002][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[207.403027][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[207.406673][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[207.407617][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[207.530757][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[207.532265][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[207.533574][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[207.53444][Info] FireCatapultWorker: Catapult firing
+[207.536255][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[207.53756900000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[207.53909][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[207.539927][Info] FireCatapultWorker: Catapult firing
+[208.749734][Info] FireCatapultWorker: Catapult finished firing
+[208.75122699999997][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[208.75348799999998][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[222.71016199999997][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[222.71121300000001][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[222.71204999999998][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[222.71367600000002][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[222.714771][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[222.716498][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[222.71745][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[222.71844799999997][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[222.719313][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[222.72007799999997][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[222.722444][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[222.72338399999998][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[222.727253][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[222.72821000000002][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[222.85085499999997][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[222.85235999999998][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[222.853713][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[222.85457300000002][Info] FireCatapultWorker: Catapult firing
+[222.856109][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[222.857432][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[222.858734][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[222.85959][Info] FireCatapultWorker: Catapult firing
+[224.069057][Info] FireCatapultWorker: Catapult finished firing
+[224.07041700000002][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[224.07289600000001][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[232.149631][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[232.150522][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[232.151407][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[232.15307][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[232.15425100000002][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[232.15607500000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[232.157066][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[232.15805799999998][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[232.15892499999998][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[232.159729][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[232.161954][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[232.162882][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[232.17014500000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[232.17128599999998][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[232.29013299999997][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[232.291606][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[232.29291800000001][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[232.29382][Info] FireCatapultWorker: Catapult firing
+[232.29511300000001][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[232.29660199999998][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[232.29797299999998][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[232.298875][Info] FireCatapultWorker: Catapult firing
+[233.50919][Info] FireCatapultWorker: Catapult finished firing
+[233.51063][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[233.512953][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[242.86815299999998][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[242.86908899999997][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[242.869905][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[242.871601][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[242.87255899999997][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[242.874158][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[242.875069][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[242.87616400000002][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[242.87705300000002][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[242.87787099999997][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[242.879552][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[242.88114000000002][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[242.884826][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[242.885889][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[242.98884099999998][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[242.99044700000002][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[242.991983][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[242.992841][Info] FireCatapultWorker: Catapult firing
+[242.99414599999997][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[242.995468][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[242.996881][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[242.99774100000002][Info] FireCatapultWorker: Catapult firing

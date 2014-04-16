@@ -1,0 +1,18 @@
+[75.49703499999998][Info] DriveCore: New DesiredHeading is: 344.3699951171875
+[75.82754200000001][Warning] RoboAdapter: Time between update calls was 324.9309999999823ms
+[109.691407][Info] DriveCore: New DesiredHeading is: 344.24000549316406
+[109.69238899999999][Info] SetRobotDisabledStateWorker: Initializing
+[112.897068][Info] FrontCollector: ScaledPosition set to: 1.0
+[112.898028][Info] BackCollector: ScaledPosition set to: 1.0
+[113.13783399999998][Info] FrontCollector: ScaledPosition set to: 0.0
+[113.13881199999999][Info] BackCollector: ScaledPosition set to: 0.0
+[114.997878][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[114.99903799999998][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[115.00012999999998][Info] BackCollector: ScaledPosition set to: 1.0
+[115.21779][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 1 (FrontFOSideCollectionWorker)
+[115.218967][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[115.220078][Info] FrontCollector: ScaledPosition set to: 1.0
+[115.221124][Info] BackCollector: ScaledPosition set to: 0.0
+[115.67720200000001][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[115.67823299999999][Info] RaiseBothArmsWorker: Setting arms up
+[115.67922999999999][Info] FrontCollector: ScaledPosition set to: 0.0

@@ -1,0 +1,58 @@
+[191.12287400000002][Info] DriveCore: New DesiredHeading is: 179.5900000333786
+[191.123905][Info] SetRobotDisabledStateWorker: Initializing
+[191.24829499999998][Info] MasterAutonomousWorker: Initializing
+[191.249678][Info] MasterAutonomousWorker: Chosen:OneBallAutonomousWorker
+[191.25071499999999][Info] OneBallAutonomousWorker: Initialized state machine
+[191.254602][Info] OneBallAutonomousWorker: Transitioned from worker 0 (BoolPropertyWorker:AutoDriveForwardFirst) to worker 1 (WhenAllWorker)
+[191.256217][Info] DriveForTimeWorker: init x = 0.0, y = 1.0, timeout = 2250.0
+[191.257382][Info] DriveCore: New DesiredHeading is: 179.5900000333786
+[191.258245][Info] CheckGoalHotWorker: Initializing
+[191.259509][Info] ManualBallEjectBallWorker: init: shouldEject: false
+[191.263219][Important] PneumaticCore: Compressor is ON
+[191.263994][Important] CompressorWorker: Compressor on
+[191.264865][Info] CollectionPositionMaintainer: init
+[191.26713][Info] CollectionPositionMaintainer: init
+[192.283243][Info] OneBallAutonomousWorker: Transitioned from worker 1 (WhenAllWorker) to worker 4 (DriveForTimeWorker)
+[192.28449799999999][Info] DriveForTimeWorker: init x = 0.0, y = 0.0, timeout = 50.0
+[192.28580499999998][Info] DriveCore: New DesiredHeading is: 176.88999998569489
+[192.34413999999998][Info] OneBallAutonomousWorker: Transitioned from worker 4 (DriveForTimeWorker) to worker 5 (WaitWorker)
+[196.366783][Info] OneBallAutonomousWorker: Transitioned from worker 5 (WaitWorker) to worker 6 (SetArmsAndFireCatapultWorker)
+[196.367742][Info] SetFiringLockWorker: Initializing
+[196.36847799999998][Info] CatapultCore: IsFiring flag has been set!
+[196.369296][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[196.425449][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (SetFiringLockWorker) to worker 1 (WhenAllWorker)
+[196.426807][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 1. Name: CollectorDeployPIDWorker:FrontCollector:FIRING
+[196.428136][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 3. Name: IsArmSafeToFireWorkerUnderDuress
+[196.42960300000001][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 4. Name: CollectorDeployPIDWorker:FrontCollector:DURESS
+[196.430647][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[196.43206899999998][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 1. Name: CollectorDeployPIDWorker:BackCollector:FIRING
+[196.43348799999998][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 3. Name: IsArmSafeToFireWorkerUnderDuress
+[196.434999][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 4. Name: CollectorDeployPIDWorker:BackCollector:DURESS
+[196.436057][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[196.544794][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker -1 (Success)
+[196.546541][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker -1 (Success)
+[196.547932][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (WhenAllWorker) to worker 2 (FireCatapultWorker)
+[196.548855][Info] CatapultCore: IsFiring flag has been set!
+[196.549755][Info] FireCatapultWorker: Catapult firing
+[197.56410499999998][Info] FireCatapultWorker: Catapult finished firing
+[197.565829][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 2 (FireCatapultWorker) to worker -1 (Success)
+[197.567214][Info] OneBallAutonomousWorker: Transitioned from worker 6 (SetArmsAndFireCatapultWorker) to worker 7 (DriveForTimeWorker)
+[197.568633][Info] DriveForTimeWorker: init x = 0.0, y = 1.0, timeout = 2250.0
+[197.569901][Info] DriveCore: New DesiredHeading is: 174.31000006198883
+[199.84503899999999][Info] OneBallAutonomousWorker: Transitioned from worker 7 (DriveForTimeWorker) to worker -1 (Success)
+[199.915069][Info] HumanRotationWorker: Initializing
+[199.91586][Info] RotationForceProviderWorker: Initialized state machine
+[199.916631][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[199.918562][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[199.919657][Info] WaitAfterJoystickWorker: Initializing
+[199.920596][Info] RobotControlsHeadingWorker: Initialized state machine
+[199.924423][Info] FrontRollerListenerWorker: Initializing
+[199.92557700000003][Info] BackRollerListenerWorker: Initializing
+[199.926686][Info] CatapultPIDWorker - cock: Initializing
+[199.927896][Info] RaiseBothArmsWorker: Setting arms up
+[199.928875][Info] FrontCollector: ScaledPosition set to: 0.0
+[199.930836][Info] BackCollector: ScaledPosition set to: 0.0
+[199.932682][Info] FieldOrientedCollectionWorker: Initialized state machine
+[200.02862600000003][Info] CatapultPIDWorker - cock: Initializing
+[200.926758][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[200.92804999999998][Info] DriveCore: New DesiredHeading is: 168.55000030994415

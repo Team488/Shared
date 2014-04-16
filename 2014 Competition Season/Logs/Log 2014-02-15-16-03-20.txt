@@ -1,0 +1,43 @@
+[1508.464][Warning] RoboAdapter: Time between update calls was 99.0ms
+[1567.824][Warning] RoboAdapter: Time between update calls was 121.0ms
+[1567.99][Warning] RoboAdapter: Time between update calls was 87.0ms
+[1568.223][Warning] RoboAdapter: Time between update calls was 101.0ms
+[1568.425][Warning] RoboAdapter: Time between update calls was 102.0ms
+[1568.526][Warning] RoboAdapter: Time between update calls was 91.0ms
+[1568.711][Warning] RoboAdapter: Time between update calls was 88.0ms
+[1568.943][Warning] RoboAdapter: Time between update calls was 90.0ms
+[1569.144][Warning] RoboAdapter: Time between update calls was 101.0ms
+[1569.349][Warning] RoboAdapter: Time between update calls was 102.0ms
+[1569.554][Warning] RoboAdapter: Time between update calls was 110.0ms
+[1569.762][Warning] RoboAdapter: Time between update calls was 117.0ms
+[1569.963][Warning] RoboAdapter: Time between update calls was 95.0ms
+[1570.166][Warning] RoboAdapter: Time between update calls was 104.0ms
+[1570.372][Warning] RoboAdapter: Time between update calls was 108.0ms
+[1570.579][Warning] RoboAdapter: Time between update calls was 112.0ms
+[1570.782][Warning] RoboAdapter: Time between update calls was 100.0ms
+[1570.988][Warning] RoboAdapter: Time between update calls was 100.0ms
+[1571.192][Warning] RoboAdapter: Time between update calls was 108.0ms
+[1571.4][Warning] RoboAdapter: Time between update calls was 112.0ms
+[1571.601][Warning] RoboAdapter: Time between update calls was 99.0ms
+[1571.807][Warning] RoboAdapter: Time between update calls was 106.0ms
+[1582.097][Info] FireCatapultWorker: Catapult firing
+[1582.106][Info] FireCatapultWorker: Catapult finished firing
+[1582.178][Info] KeepCatapultCockedWorker: initializing
+[1583.017][Info] FireCatapultWorker: Catapult firing
+[1583.027][Info] FireCatapultWorker: Catapult finished firing
+[1583.077][Info] KeepCatapultCockedWorker: initializing
+[1583.419][Info] FireCatapultWorker: Catapult firing
+[1583.431][Info] FireCatapultWorker: Catapult finished firing
+[1583.478][Info] KeepCatapultCockedWorker: initializing
+[1583.659][Info] FireCatapultWorker: Catapult firing
+[1583.669][Info] FireCatapultWorker: Catapult finished firing
+[1583.717][Info] KeepCatapultCockedWorker: initializing
+[1585.018][Info] FireCatapultWorker: Catapult firing
+[1585.027][Info] FireCatapultWorker: Catapult finished firing
+[1585.077][Info] KeepCatapultCockedWorker: initializing
+[1586.739][Info] FireCatapultWorker: Catapult firing
+[1586.749][Info] FireCatapultWorker: Catapult finished firing
+[1586.797][Info] KeepCatapultCockedWorker: initializing
+[1588.498][Info] FireCatapultWorker: Catapult firing
+[1588.508][Info] FireCatapultWorker: Catapult finished firing
+[1588.557][Info] KeepCatapultCockedWorker: initializing

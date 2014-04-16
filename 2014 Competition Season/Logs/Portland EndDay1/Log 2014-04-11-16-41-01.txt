@@ -1,0 +1,7 @@
+[358.1995390000001][Important] Robot: disabledInit()
+[358.341205][Info] RobotPermanentStorage: Saving properties to disk
+[358.34192600000006][Info] RobotPermanentStorage: Serializing Properties to String
+[358.41106700000006][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[358.559663][Info] SetRobotDisabledStateWorker: Initializing
+[358.573118][Warning] RoboAdapter: Time between update calls was 405.5900000000256ms
+[439.181316][Important] Robot: teleopInit()

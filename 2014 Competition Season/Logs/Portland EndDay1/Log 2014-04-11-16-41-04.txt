@@ -1,0 +1,26 @@
+[439.182475][Info] DriveCore: New DesiredHeading is: 176.4100000858307
+[439.183422][Info] SetRobotDisabledStateWorker: Initializing
+[440.526821][Info] SetFiringLockWorker: Initializing
+[440.52763300000004][Info] CatapultCore: IsFiring flag has been set!
+[440.528575][Info] SetArmsAndFireCatapultWorkerSimultaneous: Initialized state machine
+[440.52988400000004][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 0 (SetFiringLockWorker) to worker 1 (WhenAllWorker)
+[440.531278][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 1. Name: CollectorDeployPIDWorker:FrontCollector:FIRING
+[440.53271400000006][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 3. Name: IsArmSafeToFireWorkerUnderDuress
+[440.53432][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 4. Name: CollectorDeployPIDWorker:FrontCollector:DURESS
+[440.535339][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[440.53656200000006][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 1. Name: CollectorDeployPIDWorker:BackCollector:FIRING
+[440.53854500000006][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 3. Name: IsArmSafeToFireWorkerUnderDuress
+[440.54214300000007][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 4. Name: CollectorDeployPIDWorker:BackCollector:DURESS
+[440.543284][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[440.544128][Info] CatapultCore: IsFiring flag has been set!
+[440.5448850000001][Info] FireCatapultWorker: Catapult firing
+[440.68753000000004][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[440.688923][Info] FrontCollector: ScaledPosition set to: 1.0
+[440.690535][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[440.692061][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[440.693417][Info] BackCollector: ScaledPosition set to: 1.0
+[440.695055][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[440.7681340000001][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[440.769537][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[441.567157][Info] FireCatapultWorker: Catapult finished firing
+[441.568668][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 1 (WhenAllWorker) to worker -1 (Success)

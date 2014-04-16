@@ -1,0 +1,163 @@
+[200.35526199999998][Info] RobotPermanentStorage: Saving properties to disk
+[200.356077][Info] RobotPermanentStorage: Serializing Properties to String
+[200.38959999999997][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[200.58518699999996][Info] SetRobotDisabledStateWorker: Initializing
+[200.59977699999996][Warning] RoboAdapter: Time between update calls was 392.20799999998417ms
+[226.324278][Info] DriveCore: New DesiredHeading is: 188.60999965667725
+[226.325095][Info] SetRobotDisabledStateWorker: Initializing
+[226.366021][Info] MasterAutonomousWorker: Initializing
+[226.36798][Info] MasterAutonomousWorker: Chosen:ThreeBallAutonomous
+[226.369033][Info] ThreeBallAutonomous: Initialized state machine
+[226.370514][Info] ThreeBallAutonomous: Transitioned from worker 0 (BoolPropertyWorker:AutoStartCocked) to worker 4 (BoolPropertyWorker:AutonomousUseFront)
+[226.42529899999997][Info] ThreeBallAutonomous: Transitioned from worker 4 (BoolPropertyWorker:AutonomousUseFront) to worker 5 (CollectAndFireBallFromSideWorker)
+[226.42645100000001][Info] CatapultPIDThatFinishesWorker: Initializing
+[226.42763699999998][Info] FrontCollector: ScaledPosition set to: 1.0
+[226.428453][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[226.42922499999997][Info] HoldAndCollectBallWorker: Initialized state machine
+[226.43032399999998][Info] CollectorRollerWorker:FrontCollector:COLLECT: Initializing CollectorRollerWorker on Collector: FrontCollectorwith direction: COLLECT
+[226.43183899999997][Info] BackCollector: ScaledPosition set to: 0.0
+[226.432651][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[226.43343299999998][Info] CollectAndFireBallFromSideWorker: Initialized state machine
+[226.905262][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[226.90666099999999][Info] HoldAndCollectBallWorker: Transitioned from worker 0 (CollectorDeployPIDWorker:FrontCollector:DOWN) to worker 1 (WaitWorker)
+[226.968331][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[226.97016699999998][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[226.971384][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.00735999999998][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.00937399999998][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.01061699999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.04745099999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.04934999999998][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.050573][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.087483][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.08937499999996][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.09058899999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.12745299999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.129361][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.13052699999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.16786299999998][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.169759][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.17092899999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.20750499999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.209427][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.210613][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.247068][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.248904][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.250076][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.28773699999996][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.289568][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.29074199999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[227.430204][Info] HoldAndCollectBallWorker: Transitioned from worker 1 (WaitWorker) to worker 2 (ImmediateWorker)
+[227.43142099999997][Info] FrontCollector: ScaledPosition set to: 0.6
+[227.432317][Info] CollectorDeployPIDWorker:FrontCollector:SAFE: initializing
+[227.48582499999998][Info] HoldAndCollectBallWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[228.409787][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.0937597938000001
+[228.411627][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.0937597938000001
+[228.41355699999997][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.0937597938000001
+[228.415328][Info] CollectAndFireBallFromSideWorker: Transitioned from worker 0 (PrepareToCollectBallWorker) to worker 1 (ConsumeAndFireWorker)
+[228.41629399999997][Info] cockCatapultWorker: initializing
+[228.417334][Info] FrontCollector: ScaledPosition set to: 0.0
+[228.418279][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[228.422234][Info] ConsumeAndFireWorker: Initialized state machine
+[229.088868][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[229.09010299999997][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[229.091336][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[229.09283499999998][Info] ConsumeAndFireWorker: Transitioned from worker 0 (ConsumeBallAndFinishCockingWorker) to worker 1 (ConsumeBallAndFireWorker)
+[229.09415699999997][Info] CollectorRollerWorker:FrontCollector:STOP: Initializing CollectorRollerWorker on Collector: FrontCollectorwith direction: STOP
+[229.095176][Info] ConsumeBallAndFireWorker: Initialized state machine
+[229.165357][Info] ConsumeBallAndFireWorker: Transitioned from worker 0 (CollectorRollerWorker:FrontCollector:STOP) to worker 1 (WaitForBallToSettleWorker)
+[229.20563099999998][Info] ConsumeBallAndFireWorker: Transitioned from worker 1 (WaitForBallToSettleWorker) to worker 2 (DeployCollectors:FIRING,FIRING)
+[229.20713800000001][Info] BackCollector: ScaledPosition set to: 0.6
+[229.20794499999997][Info] CollectorDeployPIDWorker:BackCollector:FIRING: initializing
+[229.209148][Info] FrontCollector: ScaledPosition set to: 0.6
+[229.209904][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: initializing
+[229.58830700000001][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[229.62488799999997][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[229.664945][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[229.704602][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[229.70572399999998][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[229.707306][Info] ConsumeBallAndFireWorker: Transitioned from worker 2 (DeployCollectors:FIRING,FIRING) to worker 3 (FireCatapultWorker)
+[229.70827099999997][Info] CatapultCore: IsFiring flag has been set!
+[229.709173][Info] FireCatapultWorker: Catapult firing
+[230.744556][Info] FireCatapultWorker: Catapult finished firing
+[230.74598999999998][Info] ConsumeBallAndFireWorker: Transitioned from worker 3 (FireCatapultWorker) to worker -1 (Success)
+[230.747561][Info] ConsumeAndFireWorker: Transitioned from worker 1 (ConsumeBallAndFireWorker) to worker -1 (Success)
+[230.74890299999998][Info] CollectAndFireBallFromSideWorker: Transitioned from worker 1 (ConsumeAndFireWorker) to worker -1 (Success)
+[230.750381][Info] ThreeBallAutonomous: Transitioned from worker 5 (CollectAndFireBallFromSideWorker) to worker 6 (BoolPropertyWorker:AutonomousUseBack)
+[230.806361][Info] ThreeBallAutonomous: Transitioned from worker 6 (BoolPropertyWorker:AutonomousUseBack) to worker 7 (BoolPropertyWorker:AutoFireThirdBall)
+[230.84514000000001][Info] ThreeBallAutonomous: Transitioned from worker 7 (BoolPropertyWorker:AutoFireThirdBall) to worker 8 (CollectAndFireBallFromSideWorker)
+[230.846205][Info] CatapultPIDThatFinishesWorker: Initializing
+[230.84732099999997][Info] BackCollector: ScaledPosition set to: 1.0
+[230.848128][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[230.848895][Info] HoldAndCollectBallWorker: Initialized state machine
+[230.849919][Info] CollectorRollerWorker:BackCollector:COLLECT: Initializing CollectorRollerWorker on Collector: BackCollectorwith direction: COLLECT
+[230.851227][Info] FrontCollector: ScaledPosition set to: 0.0
+[230.85214599999998][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[230.852999][Info] CollectAndFireBallFromSideWorker: Initialized state machine
+[231.20561399999997][Info] CollectorDeployPIDWorker:BackCollector:DOWN: Finished Down
+[231.20720699999998][Info] HoldAndCollectBallWorker: Transitioned from worker 0 (CollectorDeployPIDWorker:BackCollector:DOWN) to worker 1 (WaitWorker)
+[231.468493][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.47033299999998][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.47155099999998][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.50995999999998][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.511826][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.513033][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.56534999999997][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.56719599999997][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.56844499999997][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.607438][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.60911599999997][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.61032600000001][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.647271][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.64913][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.65028499999997][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.689024][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.690732][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.69205599999998][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.73079][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.733047][Info] HoldAndCollectBallWorker: Transitioned from worker 1 (WaitWorker) to worker 2 (ImmediateWorker)
+[231.734308][Info] BackCollector: ScaledPosition set to: 0.6
+[231.73505499999996][Info] CollectorDeployPIDWorker:BackCollector:SAFE: initializing
+[231.736017][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.737273][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.79059499999997][Info] HoldAndCollectBallWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[231.94482099999996][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.946327][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.947616][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.985014][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.986479][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[231.9878][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[232.025004][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[232.905133][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.09684563580000005
+[232.90710099999998][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.09684563580000005
+[232.90904599999996][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.09684563580000005
+[232.91084099999998][Info] CollectAndFireBallFromSideWorker: Transitioned from worker 0 (PrepareToCollectBallWorker) to worker 1 (ConsumeAndFireWorker)
+[232.911975][Info] cockCatapultWorker: initializing
+[232.91286599999998][Info] BackCollector: ScaledPosition set to: 0.0
+[232.91365299999998][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[232.914458][Info] ConsumeAndFireWorker: Initialized state machine
+[233.72399399999998][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[233.725288][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[233.72646399999996][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[233.72807999999998][Info] ConsumeAndFireWorker: Transitioned from worker 0 (ConsumeBallAndFinishCockingWorker) to worker 1 (ConsumeBallAndFireWorker)
+[233.72953799999996][Info] CollectorRollerWorker:BackCollector:STOP: Initializing CollectorRollerWorker on Collector: BackCollectorwith direction: STOP
+[233.73056599999998][Info] ConsumeBallAndFireWorker: Initialized state machine
+[233.804305][Info] ConsumeBallAndFireWorker: Transitioned from worker 0 (CollectorRollerWorker:BackCollector:STOP) to worker 1 (WaitForBallToSettleWorker)
+[233.845194][Info] ConsumeBallAndFireWorker: Transitioned from worker 1 (WaitForBallToSettleWorker) to worker 2 (DeployCollectors:FIRING,FIRING)
+[233.846566][Info] BackCollector: ScaledPosition set to: 0.6
+[233.84753][Info] CollectorDeployPIDWorker:BackCollector:FIRING: initializing
+[233.848658][Info] FrontCollector: ScaledPosition set to: 0.6
+[233.849411][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: initializing
+[234.283711][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[234.325067][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[234.326094][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[234.32759][Info] ConsumeBallAndFireWorker: Transitioned from worker 2 (DeployCollectors:FIRING,FIRING) to worker 3 (FireCatapultWorker)
+[234.328534][Info] CatapultCore: IsFiring flag has been set!
+[234.329316][Info] FireCatapultWorker: Catapult firing
+[235.349016][Info] FireCatapultWorker: Catapult finished firing
+[235.35043100000001][Info] ConsumeBallAndFireWorker: Transitioned from worker 3 (FireCatapultWorker) to worker -1 (Success)
+[235.351943][Info] ConsumeAndFireWorker: Transitioned from worker 1 (ConsumeBallAndFireWorker) to worker -1 (Success)
+[235.353418][Info] CollectAndFireBallFromSideWorker: Transitioned from worker 1 (ConsumeAndFireWorker) to worker -1 (Success)
+[235.35491799999997][Info] ThreeBallAutonomous: Transitioned from worker 8 (CollectAndFireBallFromSideWorker) to worker 11 (DriveForTimeWorker)
+[235.356248][Info] DriveForTimeWorker: init x = 0.0, y = 1.0, timeout = 1750.0
+[235.35749699999997][Info] DriveCore: New DesiredHeading is: 188.60999965667725

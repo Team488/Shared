@@ -1,0 +1,14 @@
+[207.653985][Info] RobotPermanentStorage: Saving properties to disk
+[207.65472][Info] RobotPermanentStorage: Serializing Properties to String
+[207.68970800000002][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[207.834951][Info] SetRobotDisabledStateWorker: Initializing
+[207.85725300000001][Warning] RoboAdapter: Time between update calls was 358.637000000017ms
+[208.070062][Info] DriveCore: New DesiredHeading is: 344.52000427246094
+[208.071025][Info] SetRobotDisabledStateWorker: Initializing
+[208.080486][Info] FireCatapultWorker: Catapult finished firing
+[208.082236][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[208.08454700000001][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[218.575048][Info] FrontCollector: ScaledPosition set to: 1.0
+[218.576103][Info] BackCollector: ScaledPosition set to: 1.0
+[218.65509800000004][Info] FrontCollector: ScaledPosition set to: 0.0
+[218.65618800000001][Info] BackCollector: ScaledPosition set to: 0.0

@@ -1,0 +1,340 @@
+[301.6314249999999][Info] MasterAutonomousWorker: Chosen:ThreeBallAutonomous
+[301.63240599999995][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[301.633261][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[301.634029][Info] ThreeBallAutonomous: Initialized state machine
+[301.63759500000003][Important] PneumaticCore: Compressor is ON
+[301.638386][Important] CompressorWorker: Compressor on
+[301.639239][Info] CollectionPositionMaintainer: init
+[301.641721][Info] CollectionPositionMaintainer: init
+[301.9707169999999][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[302.010463][Info] CollectorDeployPIDWorker:BackCollector:DOWN: Finished Down
+[302.011587][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[302.012996][Info] ThreeBallAutonomous: Transitioned from worker 0 (DeployCollectors:DOWN,DOWN) to worker 1 (FireCatapultWorker)
+[302.01389599999993][Info] FireCatapultWorker: Catapult firing
+[303.234011][Info] FireCatapultWorker: Catapult finished firing
+[303.235574][Info] ThreeBallAutonomous: Transitioned from worker 1 (FireCatapultWorker) to worker 2 (BoolPropertyWorker:AutonomousUseFront)
+[303.271338][Info] ThreeBallAutonomous: Transitioned from worker 2 (BoolPropertyWorker:AutonomousUseFront) to worker 3 (CollectAndFireBallFromSideWorker)
+[303.272359][Info] CatapultPIDThatFinishesWorker: Initializing
+[303.273183][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[303.274028][Info] HoldAndCollectBallWorker: Initialized state machine
+[303.27506900000003][Info] CollectorRollerWorker:FrontCollector:COLLECT: Initializing CollectorRollerWorker on Collector: FrontCollectorwith direction: COLLECT
+[303.27662799999996][Info] BackCollector: ScaledPosition set to: 0.0
+[303.277441][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[303.278201][Info] CollectAndFireBallFromSideWorker: Initialized state machine
+[303.351523][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[303.35290399999997][Info] HoldAndCollectBallWorker: Transitioned from worker 0 (CollectorDeployPIDWorker:FrontCollector:DOWN) to worker 1 (WaitWorker)
+[303.753876][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.75549][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.75677][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.79106399999995][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.79274200000003][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.794068][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.8313979999999][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.83309][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.834286][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.871548][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.873561][Info] HoldAndCollectBallWorker: Transitioned from worker 1 (WaitWorker) to worker 2 (ImmediateWorker)
+[303.87485][Info] FrontCollector: ScaledPosition set to: 0.6
+[303.87555799999996][Info] CollectorDeployPIDWorker:FrontCollector:SAFE: initializing
+[303.876631][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.87778399999996][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.9320379999999][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.93384499999996][Info] HoldAndCollectBallWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[303.934893][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.936125][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.99095099999994][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.9924409999999][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[303.9936139999999][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.050889][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.052333][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.05346499999996][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.091131][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.092563][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.0938039999999][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.131233][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.13266999999996][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.133929][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[304.171072][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[305.091966][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.09548408379999995
+[305.09388399999995][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.09548408379999995
+[305.095693][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.09548408379999995
+[305.09755199999995][Info] CollectAndFireBallFromSideWorker: Transitioned from worker 0 (PrepareToCollectBallWorker) to worker 1 (ConsumeAndFireWorker)
+[305.098573][Info] cockCatapultWorker: initializing
+[305.09944299999995][Info] FrontCollector: ScaledPosition set to: 0.0
+[305.10045299999996][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[305.101518][Info] ConsumeAndFireWorker: Initialized state machine
+[305.751338][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[305.752558][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[305.75370899999996][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up
+[305.755257][Info] ConsumeAndFireWorker: Transitioned from worker 0 (ConsumeBallAndFinishCockingWorker) to worker 1 (ConsumeBallAndFireWorker)
+[305.7566259999999][Info] CollectorRollerWorker:FrontCollector:STOP: Initializing CollectorRollerWorker on Collector: FrontCollectorwith direction: STOP
+[305.757646][Info] ConsumeBallAndFireWorker: Initialized state machine
+[305.831285][Info] ConsumeBallAndFireWorker: Transitioned from worker 0 (CollectorRollerWorker:FrontCollector:STOP) to worker 1 (WaitForBallToSettleWorker)
+[305.871905][Info] ConsumeBallAndFireWorker: Transitioned from worker 1 (WaitForBallToSettleWorker) to worker 2 (DeployCollectors:FIRING,FIRING)
+[305.873205][Info] BackCollector: ScaledPosition set to: 0.6
+[305.873941][Info] CollectorDeployPIDWorker:BackCollector:FIRING: initializing
+[305.875014][Info] FrontCollector: ScaledPosition set to: 0.6
+[305.87585799999994][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: initializing
+[306.13393][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[306.17091199999993][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[306.21095999999994][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[306.250544][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[306.25170899999995][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[306.25310699999994][Info] ConsumeBallAndFireWorker: Transitioned from worker 2 (DeployCollectors:FIRING,FIRING) to worker 3 (FireCatapultWorker)
+[306.254127][Info] FireCatapultWorker: Catapult firing
+[307.47412899999995][Info] FireCatapultWorker: Catapult finished firing
+[307.47559799999993][Info] ConsumeBallAndFireWorker: Transitioned from worker 3 (FireCatapultWorker) to worker -1 (Success)
+[307.477133][Info] ConsumeAndFireWorker: Transitioned from worker 1 (ConsumeBallAndFireWorker) to worker -1 (Success)
+[307.478425][Info] CollectAndFireBallFromSideWorker: Transitioned from worker 1 (ConsumeAndFireWorker) to worker -1 (Success)
+[307.47998699999994][Info] ThreeBallAutonomous: Transitioned from worker 3 (CollectAndFireBallFromSideWorker) to worker 4 (BoolPropertyWorker:AutonomousUseBack)
+[307.551511][Info] ThreeBallAutonomous: Transitioned from worker 4 (BoolPropertyWorker:AutonomousUseBack) to worker 6 (DriveForTimeWorker)
+[307.552895][Info] DriveForTimeWorker: init x = 0.0, y = 1.0, timeout = 1750.0
+[307.554042][Info] DriveCore: New DesiredHeading is: 178.88999998569489
+[309.311136][Info] ThreeBallAutonomous: Transitioned from worker 6 (DriveForTimeWorker) to worker -1 (Success)
+[309.37445][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[309.376619][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[309.379127][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[309.38013599999994][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[309.38123899999994][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[309.382307][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[309.383386][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[309.38430999999997][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[309.38528499999995][Info] RotationForceProviderWorker: On success: 0 -> 0
+[309.38637399999993][Info] RotationForceProviderWorker: On success: 1 -> 1
+[309.389895][Info] HumanRotationWorker: Initializing
+[309.390626][Info] RotationForceProviderWorker: Initialized state machine
+[309.391531][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[309.393057][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[309.39413999999994][Info] WaitAfterJoystickWorker: Initializing
+[309.39504299999993][Info] RobotControlsHeadingWorker: Initialized state machine
+[309.396365][Info] FrontRollerListenerWorker: Initializing
+[309.39743699999997][Info] BackRollerListenerWorker: Initializing
+[309.398538][Info] CatapultPIDWorker - cock: Initializing
+[309.399748][Info] RaiseBothArmsWorker: Setting arms up
+[309.40105299999993][Info] FrontCollector: ScaledPosition set to: 0.0
+[309.402046][Info] BackCollector: ScaledPosition set to: 0.0
+[309.402785][Info] FieldOrientedCollectionWorker: Initialized state machine
+[310.41763299999997][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[310.41896499999996][Info] DriveCore: New DesiredHeading is: 174.53000020980835
+[313.15100399999994][Info] DriveCore: New DesiredHeading is: 174.57000017166138
+[313.1519349999999][Info] SetRobotDisabledStateWorker: Initializing
+[313.693053][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[313.694436][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[313.69532699999996][Info] HumanRotationWorker: Initializing
+[313.87411][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[313.87525800000003][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[313.87645799999996][Info] FrontCollector: ScaledPosition set to: 1.0
+[315.652603][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[315.65358399999997][Info] WaitAfterJoystickWorker: Initializing
+[315.65440699999994][Info] RobotControlsHeadingWorker: Initialized state machine
+[315.93398099999996][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[315.93549999999993][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[315.93658899999997][Info] HumanRotationWorker: Initializing
+[316.494549][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[316.49552099999994][Info] WaitAfterJoystickWorker: Initializing
+[316.49654200000003][Info] RobotControlsHeadingWorker: Initialized state machine
+[317.033911][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[317.0353089999999][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[317.03638599999994][Info] HumanRotationWorker: Initializing
+[317.294719][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[317.295865][Info] WaitAfterJoystickWorker: Initializing
+[317.29668300000003][Info] RobotControlsHeadingWorker: Initialized state machine
+[317.39409699999993][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[317.395548][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[317.39659099999994][Info] HumanRotationWorker: Initializing
+[317.933289][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[317.93426900000003][Info] WaitAfterJoystickWorker: Initializing
+[317.93508499999996][Info] RobotControlsHeadingWorker: Initialized state machine
+[318.776797][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[318.777769][Info] RaiseBothArmsWorker: Setting arms up
+[318.77875][Info] FrontCollector: ScaledPosition set to: 0.0
+[318.83317999999997][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[318.834644][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[318.83552399999996][Info] HumanRotationWorker: Initializing
+[319.052595][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[319.053731][Info] WaitAfterJoystickWorker: Initializing
+[319.05449][Info] RobotControlsHeadingWorker: Initialized state machine
+[319.254179][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[319.255696][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[319.256649][Info] HumanRotationWorker: Initializing
+[319.892897][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[319.89756499999993][Info] WaitAfterJoystickWorker: Initializing
+[319.898414][Info] RobotControlsHeadingWorker: Initialized state machine
+[320.916208][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[320.91747][Info] DriveCore: New DesiredHeading is: 263.5800018310547
+[321.152877][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[321.154533][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[321.15544499999993][Info] HumanRotationWorker: Initializing
+[321.79466599999995][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[321.795815][Info] WaitAfterJoystickWorker: Initializing
+[321.79660799999994][Info] RobotControlsHeadingWorker: Initialized state machine
+[321.83677099999994][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[321.83817999999997][Info] DriveCore: New DesiredHeading is: 219.20999908447266
+[322.07497799999993][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[322.076565][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[322.07746499999996][Info] HumanRotationWorker: Initializing
+[322.15312299999994][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[322.15428499999996][Info] WaitAfterJoystickWorker: Initializing
+[322.1551309999999][Info] RobotControlsHeadingWorker: Initialized state machine
+[322.194709][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[322.196162][Info] DriveCore: New DesiredHeading is: 199.70000076293945
+[322.29306099999997][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[322.29471699999993][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[322.2958][Info] HumanRotationWorker: Initializing
+[323.055357][Info] DriveMecanumWithJoysticksWorker:  was interrupted!
+[323.092922][Info] DriveTankWithJoysticksWorker: Is running tank drive.
+[323.09375499999993][Info] OrientForSpeedWorker: Initializing
+[323.095277][Info] DriveCore: New DesiredHeading is: 184.95027223429176
+[323.0967289999999][Info] DriveCore: isRunningMecanum = false
+[323.1377279999999][Info] DriveCore: New DesiredHeading is: 184.95027223429176
+[323.173791][Info] DriveCore: New DesiredHeading is: 184.95027223429176
+[323.21348299999994][Info] DriveCore: New DesiredHeading is: 184.95027223429176
+[323.25334399999997][Info] DriveCore: New DesiredHeading is: 184.95027223429176
+[323.293301][Info] DriveCore: New DesiredHeading is: 186.2641903371431
+[323.33345399999996][Info] DriveCore: New DesiredHeading is: 192.14286755001865
+[323.373632][Info] DriveCore: New DesiredHeading is: 195.96149881483885
+[323.41337400000003][Info] DriveCore: New DesiredHeading is: 200.704223629342
+[323.4535159999999][Info] DriveCore: New DesiredHeading is: 198.84870818704664
+[323.493654][Info] DriveCore: New DesiredHeading is: 199.28781333612233
+[323.533351][Info] DriveCore: New DesiredHeading is: 200.06999503789825
+[323.573436][Info] DriveCore: New DesiredHeading is: 203.20171968642924
+[323.613724][Info] DriveCore: New DesiredHeading is: 203.20171968642924
+[323.65376799999996][Info] DriveCore: New DesiredHeading is: 202.73386943055397
+[323.693435][Info] DriveCore: New DesiredHeading is: 202.73386943055397
+[323.73382799999996][Info] DriveCore: New DesiredHeading is: 202.50658445721442
+[323.77351500000003][Info] DriveCore: New DesiredHeading is: 202.50658445721442
+[323.81369299999994][Info] DriveCore: New DesiredHeading is: 195.00547432832377
+[323.853431][Info] DriveCore: New DesiredHeading is: 192.43323518809564
+[323.893612][Info] DriveCore: New DesiredHeading is: 188.68245807042055
+[323.933812][Info] DriveCore: New DesiredHeading is: 186.38970320892128
+[323.97388499999994][Info] DriveCore: New DesiredHeading is: 184.07622498495687
+[324.01378][Info] DriveCore: New DesiredHeading is: 183.2048161641965
+[324.05340799999993][Info] DriveCore: New DesiredHeading is: 180.67934377967134
+[324.09328299999993][Info] DriveCore: New DesiredHeading is: 180.0
+[324.133482][Info] DriveCore: New DesiredHeading is: 180.0
+[324.1733699999999][Info] DriveCore: New DesiredHeading is: 180.0
+[324.593365][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[324.594281][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[324.595212][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[324.596957][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING)
+[324.59836799999994][Info] FrontCollector: ScaledPosition set to: 0.6
+[324.599166][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: initializing
+[324.601015][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING)
+[324.60236599999996][Info] BackCollector: ScaledPosition set to: 0.6
+[324.603157][Info] CollectorDeployPIDWorker:BackCollector:FIRING: initializing
+[324.604255][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[324.605092][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[324.605995][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[324.608137][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING)
+[324.609269][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: initializing
+[324.618287][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING)
+[324.619413][Info] CollectorDeployPIDWorker:BackCollector:FIRING: initializing
+[324.776063][Info] DriveCore: New DesiredHeading is: 180.0
+[324.81670299999996][Info] DriveCore: New DesiredHeading is: 180.0
+[324.855701][Info] DriveCore: New DesiredHeading is: 201.69488903222017
+[324.89579599999996][Info] DriveCore: New DesiredHeading is: 207.53366849431592
+[324.93632899999994][Info] DriveCore: New DesiredHeading is: 210.1765358192004
+[324.975929][Info] DriveCore: New DesiredHeading is: 182.2199241703949
+[325.038157][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[325.03951][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING) to worker -1 (Success)
+[325.040973][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[325.042305][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING) to worker -1 (Success)
+[325.12028499999997][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[325.121886][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING) to worker -1 (Success)
+[325.123289][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[325.12416099999996][Info] FireCatapultWorker: Catapult firing
+[325.1252999999999][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[325.126785][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING) to worker -1 (Success)
+[325.128176][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[325.129044][Info] FireCatapultWorker: Catapult firing
+[326.33426000000003][Info] FireCatapultWorker: Catapult finished firing
+[326.33605][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[326.338313][Info] SetArmsAndFireCatapultWorker:  was interrupted!
+[327.09437699999995][Info] DriveTankWithJoysticksWorker:  was interrupted!
+[327.135289][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[327.13721999999996][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[327.13974999999994][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[327.140984][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[327.141919][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[327.142892][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[327.143895][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[327.144805][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[327.145929][Info] RotationForceProviderWorker: On success: 0 -> 0
+[327.146858][Info] RotationForceProviderWorker: On success: 1 -> 1
+[327.147619][Info] HumanRotationWorker: Initializing
+[327.14891][Info] RotationForceProviderWorker: Initialized state machine
+[327.149685][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[327.151292][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[327.15424][Info] WaitAfterJoystickWorker: Initializing
+[327.15504999999996][Info] RobotControlsHeadingWorker: Initialized state machine
+[327.25912900000003][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[327.674865][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[327.676518][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[327.67741899999993][Info] HumanRotationWorker: Initializing
+[328.03669][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[328.03790999999995][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[328.039002][Info] BackCollector: ScaledPosition set to: 1.0
+[328.039878][Info] FrontCollector: ScaledPosition set to: 0.0
+[328.04166599999996][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[328.0426949999999][Info] WaitAfterJoystickWorker: Initializing
+[328.0435049999999][Info] RobotControlsHeadingWorker: Initialized state machine
+[328.11607899999996][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[328.17691499999995][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[328.17835499999995][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[328.179319][Info] HumanRotationWorker: Initializing
+[328.534441][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[328.53537399999993][Info] RaiseBothArmsWorker: Setting arms up
+[328.536705][Info] BackCollector: ScaledPosition set to: 0.0
+[330.15457799999996][Info] DriveMecanumWithJoysticksWorker:  was interrupted!
+[330.19408500000003][Info] DriveTankWithJoysticksWorker: Is running tank drive.
+[330.19497699999994][Info] OrientForSpeedWorker: Initializing
+[331.39828099999994][Info] DriveTankWithJoysticksWorker:  was interrupted!
+[331.435804][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[331.43762300000003][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[331.44013399999994][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[331.44131699999997][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[331.442323][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[331.4432939999999][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[331.44442300000003][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[331.445418][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[331.446442][Info] RotationForceProviderWorker: On success: 0 -> 0
+[331.447354][Info] RotationForceProviderWorker: On success: 1 -> 1
+[331.448119][Info] HumanRotationWorker: Initializing
+[331.449366][Info] RotationForceProviderWorker: Initialized state machine
+[331.45015799999993][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[332.355271][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[332.356375][Info] WaitAfterJoystickWorker: Initializing
+[332.357356][Info] RobotControlsHeadingWorker: Initialized state machine
+[332.396946][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[332.436521][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[332.438054][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[332.43895799999996][Info] HumanRotationWorker: Initializing
+[333.037683][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[333.0386409999999][Info] WaitAfterJoystickWorker: Initializing
+[333.03942799999993][Info] RobotControlsHeadingWorker: Initialized state machine
+[333.07858999999996][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[333.215084][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[333.216602][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[333.21765099999993][Info] HumanRotationWorker: Initializing
+[333.85985299999993][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[333.8610709999999][Info] WaitAfterJoystickWorker: Initializing
+[333.861918][Info] RobotControlsHeadingWorker: Initialized state machine
+[333.91587599999997][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[334.19830999999994][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[334.199767][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[334.200789][Info] HumanRotationWorker: Initializing
+[334.535126][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[334.536217][Info] WaitAfterJoystickWorker: Initializing
+[334.536997][Info] RobotControlsHeadingWorker: Initialized state machine
+[334.57688299999995][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[334.616195][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[334.61760599999997][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[334.618729][Info] HumanRotationWorker: Initializing
+[336.59709][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[336.598048][Info] WaitAfterJoystickWorker: Initializing
+[336.59897099999995][Info] RobotControlsHeadingWorker: Initialized state machine
+[336.73609700000003][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[336.737659][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[336.73875599999997][Info] HumanRotationWorker: Initializing
+[336.85713899999996][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[336.858222][Info] WaitAfterJoystickWorker: Initializing

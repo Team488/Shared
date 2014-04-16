@@ -1,0 +1,3 @@
+[249.96547799999996][Warning] RoboAdapter: Time between update calls was 408.9890000000014ms
+[285.25462400000004][Warning] RoboAdapter: Time between update calls was 31621.208999999973ms
+[482.570751][Warning] RoboAdapter: Time between update calls was 10875.367000000027ms

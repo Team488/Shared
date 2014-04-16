@@ -1,0 +1,377 @@
+[0.6696449999999995][Important] Robot: RobotContext initialized!
+[0.6907330000000002][Info] PneumaticCore: Initializing
+[0.7051369999999997][Info] CatapultCore: Initializing
+[1.744826][Info] BackCollector: ScaledPosition set to: 1.0
+[1.7459209999999994][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.747008][Info] ThreeBallAutonomous: Added worker DeployCollectors:DOWN,DOWN with id 0
+[1.7491359999999996][Info] ThreeBallAutonomous: Added worker FireCatapultWorker with id 1
+[1.7506199999999998][Info] ThreeBallAutonomous: Added worker BoolPropertyWorker:AutonomousUseFront with id 2
+[1.7554719999999997][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:FrontCollector:DOWN with id 0
+[1.7566469999999998][Info] HoldAndCollectBallWorker: Added worker WaitWorker with id 1
+[1.7586689999999998][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.7599409999999998][Info] HoldAndCollectBallWorker: Added worker ImmediateWorker with id 2
+[1.7610109999999994][Info] HoldAndCollectBallWorker: On success: 0 -> 1
+[1.7619939999999996][Info] HoldAndCollectBallWorker: On success: 1 -> 2
+[1.7631630000000005][Info] HoldAndCollectBallWorker: On success: 2 -> -1
+[1.7668579999999994][Info] BackCollector: ScaledPosition set to: 0.0
+[1.7679750000000003][Info] CollectAndFireBallFromSideWorker: Added worker PrepareToCollectBallWorker with id 0
+[1.7694970000000003][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.77071][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFinishCockingWorker with id 0
+[1.772174][Info] ConsumeBallAndFireWorker: Added worker CollectorRollerWorker:FrontCollector:STOP with id 0
+[1.7733360000000002][Info] ConsumeBallAndFireWorker: Added worker WaitForBallToSettleWorker with id 1
+[1.7752169999999996][Info] BackCollector: ScaledPosition set to: 0.6
+[1.776553999999999][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.7781130000000003][Info] ConsumeBallAndFireWorker: Added worker DeployCollectors:FIRING,FIRING with id 2
+[1.7798289999999997][Info] ConsumeBallAndFireWorker: Added worker FireCatapultWorker with id 3
+[1.780902][Info] ConsumeBallAndFireWorker: On success: 0 -> 1
+[1.781808][Info] ConsumeBallAndFireWorker: On success: 1 -> 2
+[1.7828509999999997][Info] ConsumeBallAndFireWorker: On success: 2 -> 3
+[1.7840349999999998][Info] ConsumeBallAndFireWorker: On success: 3 -> -1
+[1.78513][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFireWorker with id 1
+[1.7861130000000003][Info] ConsumeAndFireWorker: On success: 0 -> 1
+[1.7870810000000001][Info] ConsumeAndFireWorker: On success: 1 -> -1
+[1.7880989999999992][Info] CollectAndFireBallFromSideWorker: Added worker ConsumeAndFireWorker with id 1
+[1.7892860000000002][Info] CollectAndFireBallFromSideWorker: On success: 0 -> 1
+[1.7903229999999994][Info] CollectAndFireBallFromSideWorker: On success: 1 -> -1
+[1.7914229999999998][Info] ThreeBallAutonomous: Added worker CollectAndFireBallFromSideWorker with id 3
+[1.7927449999999998][Info] ThreeBallAutonomous: Added worker BoolPropertyWorker:AutonomousUseBack with id 4
+[1.7961629999999995][Info] BackCollector: ScaledPosition set to: 1.0
+[1.7972959999999993][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:BackCollector:DOWN with id 0
+[1.7990650000000006][Info] HoldAndCollectBallWorker: Added worker WaitWorker with id 1
+[1.8006139999999995][Info] BackCollector: ScaledPosition set to: 0.6
+[1.8016909999999997][Info] HoldAndCollectBallWorker: Added worker ImmediateWorker with id 2
+[1.8029619999999995][Info] HoldAndCollectBallWorker: On success: 0 -> 1
+[1.804134][Info] HoldAndCollectBallWorker: On success: 1 -> 2
+[1.8050960000000005][Info] HoldAndCollectBallWorker: On success: 2 -> -1
+[1.8065739999999997][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.807629][Info] CollectAndFireBallFromSideWhileMovingWorker: Added worker PrepareToCollectBallWorker with id 0
+[1.8091620000000002][Info] BackCollector: ScaledPosition set to: 0.0
+[1.8102480000000005][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFinishCockingWorker with id 0
+[1.8117349999999997][Info] ConsumeBallAndFireWorker: Added worker CollectorRollerWorker:BackCollector:STOP with id 0
+[1.8130259999999998][Info] ConsumeBallAndFireWorker: Added worker WaitForBallToSettleWorker with id 1
+[1.8149499999999998][Info] BackCollector: ScaledPosition set to: 0.6
+[1.8162960000000004][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.81737][Info] ConsumeBallAndFireWorker: Added worker DeployCollectors:FIRING,FIRING with id 2
+[1.8194839999999994][Info] ConsumeBallAndFireWorker: Added worker FireCatapultWorker with id 3
+[1.8206490000000004][Info] ConsumeBallAndFireWorker: On success: 0 -> 1
+[1.8216639999999997][Info] ConsumeBallAndFireWorker: On success: 1 -> 2
+[1.82266][Info] ConsumeBallAndFireWorker: On success: 2 -> 3
+[1.8235779999999995][Info] ConsumeBallAndFireWorker: On success: 3 -> -1
+[1.8249229999999999][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFireWorker with id 1
+[1.826129][Info] ConsumeAndFireWorker: On success: 0 -> 1
+[1.8270540000000002][Info] ConsumeAndFireWorker: On success: 1 -> -1
+[1.831133][Info] CollectAndFireBallFromSideWhileMovingWorker: Added worker WhenAllWorker with id 1
+[1.8322379999999994][Info] CollectAndFireBallFromSideWhileMovingWorker: On success: 0 -> 1
+[1.8333039999999992][Info] CollectAndFireBallFromSideWhileMovingWorker: On success: 1 -> -1
+[1.834571][Info] ThreeBallAutonomous: Added worker CollectAndFireBallFromSideWhileMovingWorker with id 5
+[1.8356099999999997][Info] ThreeBallAutonomous: On success: 0 -> 1
+[1.8365750000000007][Info] ThreeBallAutonomous: On success: 1 -> 2
+[1.8380519999999996][Info] ThreeBallAutonomous: On success: 2 -> 3
+[1.8391899999999997][Info] ThreeBallAutonomous: On failure: 2 -> 4
+[1.8403040000000002][Info] ThreeBallAutonomous: On success: 3 -> 4
+[1.841258999999999][Info] ThreeBallAutonomous: On success: 4 -> 5
+[1.842224][Info] ThreeBallAutonomous: On failure: 4 -> -1
+[1.8432960000000003][Info] ThreeBallAutonomous: On success: 5 -> -1
+[1.8457209999999995][Info] BackCollector: ScaledPosition set to: 1.0
+[1.8469029999999993][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.8481279999999998][Info] LoadBallWorker: Added worker DeployCollectors:DOWN,DOWN with id 0
+[1.8495159999999997][Info] LoadBallWorker: Added worker WaitWorker with id 1
+[1.8512169999999997][Info] BackCollector: ScaledPosition set to: 0.6
+[1.852544][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.8535159999999997][Info] LoadBallWorker: Added worker DeployCollectors:SAFE,SAFE with id 2
+[1.8547350000000007][Info] LoadBallWorker: On success: 0 -> 1
+[1.855688][Info] LoadBallWorker: On success: 1 -> 2
+[1.8566580000000004][Info] LoadBallWorker: On success: 2 -> -1
+[1.8590039999999999][Info] TwoBallAutonomousWorker: Added worker LoadBallAndWaitForGoalHotWorker with id 0
+[1.8612660000000005][Info] AutoGoalHotWorker: Added worker FireCatapultWorker with id 0
+[1.8647439999999997][Info] AutoGoalHotWorker: Added worker WhenAllWorker with id 1
+[1.8664250000000002][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 0
+[1.8680050000000001][Info] BackCollector: ScaledPosition set to: 0.0
+[1.869272][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.8702560000000004][Info] BringArmsUpAndStopRollersWorker: Added worker DeployCollectors:UP,UP with id 1
+[1.8718679999999994][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 2
+[1.8729449999999996][Info] BringArmsUpAndStopRollersWorker: On success: 0 -> 1
+[1.8740469999999996][Info] BringArmsUpAndStopRollersWorker: On success: 1 -> 2
+[1.875093][Info] BringArmsUpAndStopRollersWorker: On success: 2 -> -1
+[1.87608][Info] AutoGoalHotWorker: Added worker WhenAllWorker with id 2
+[1.8791639999999998][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[1.8808670000000003][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.8820999999999994][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[1.883674][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.8848280000000004][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[1.8859110000000001][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[1.8869389999999995][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[1.8879780000000002][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[1.8891170000000002][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[1.8905119999999997][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[1.8921729999999999][Info] BackCollector: ScaledPosition set to: 0.6
+[1.893281][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[1.8947289999999994][Info] BackCollector: ScaledPosition set to: 1.0
+[1.8957919999999995][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[1.896870999999999][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[1.898406][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[1.8995320000000002][Info] BackCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[1.9006129999999994][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[1.9017039999999996][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0
+[1.903401][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[1.9045909999999995][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[1.9056450000000005][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[1.9067199999999993][Info] AutoGoalHotWorker: Added worker SetArmsAndFireCatapultWorker with id 3
+[1.907786][Info] AutoGoalHotWorker: On success: 0 -> 1
+[1.908669][Info] AutoGoalHotWorker: On success: 1 -> 2
+[1.9096899999999997][Info] AutoGoalHotWorker: On success: 2 -> 3
+[1.9106729999999998][Info] AutoGoalHotWorker: On success: 3 -> -1
+[1.911688][Info] TwoBallAutonomousWorker: Added worker AutoGoalHotWorker with id 1
+[1.9149269999999996][Info] AutoGoalColdWorker: Added worker MaintainHeadingWorker with id 0
+[1.916492][Info] AutoGoalColdWorker: Added worker FireCatapultWorker with id 1
+[1.9205990000000002][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 0
+[1.9222030000000003][Info] BackCollector: ScaledPosition set to: 0.0
+[1.9235659999999999][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.9248010000000004][Info] BringArmsUpAndStopRollersWorker: Added worker DeployCollectors:UP,UP with id 1
+[1.92641][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 2
+[1.9273930000000001][Info] BringArmsUpAndStopRollersWorker: On success: 0 -> 1
+[1.9284740000000002][Info] BringArmsUpAndStopRollersWorker: On success: 1 -> 2
+[1.9296310000000003][Info] BringArmsUpAndStopRollersWorker: On success: 2 -> -1
+[1.9307250000000005][Info] AutoGoalColdWorker: Added worker WhenAllWorker with id 2
+[1.932259][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[1.9339349999999995][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.9350989999999992][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[1.9365190000000003][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.9375600000000004][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[1.9395320000000003][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[1.9406769999999998][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[1.941741][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[1.9428949999999996][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[1.9444229999999998][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[1.9460279999999994][Info] BackCollector: ScaledPosition set to: 0.6
+[1.9471219999999994][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[1.948718][Info] BackCollector: ScaledPosition set to: 1.0
+[1.9499659999999994][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[1.951049][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[1.9520779999999995][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[1.953129][Info] BackCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[1.9542169999999996][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[1.9553289999999997][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0
+[1.9569030000000003][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[1.9584920000000001][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[1.9596899999999997][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[1.9608189999999994][Info] AutoGoalColdWorker: Added worker SetArmsAndFireCatapultWorker with id 3
+[1.9618769999999994][Info] AutoGoalColdWorker: On success: 0 -> 1
+[1.9629869999999991][Info] AutoGoalColdWorker: On success: 1 -> 2
+[1.9641179999999996][Info] AutoGoalColdWorker: On success: 2 -> 3
+[1.9651580000000004][Info] AutoGoalColdWorker: On success: 3 -> -1
+[1.966183][Info] TwoBallAutonomousWorker: Added worker AutoGoalColdWorker with id 2
+[1.9690969999999997][Info] TwoBallAutonomousWorker: Added worker DriveForTimeWorker with id 3
+[1.9701720000000005][Info] TwoBallAutonomousWorker: On success: 0 -> 1
+[1.9711409999999996][Info] TwoBallAutonomousWorker: On failure: 0 -> 2
+[1.9720999999999995][Info] TwoBallAutonomousWorker: On success: 1 -> 3
+[1.973054][Info] TwoBallAutonomousWorker: On success: 2 -> 3
+[1.9740590000000002][Info] TwoBallAutonomousWorker: On success: 3 -> -1
+[1.9755839999999998][Info] OneBallAutonomousWorker: Added worker CheckGoalHotWorker with id 0
+[1.9768950000000005][Info] OneBallAutonomousWorker: Added worker WaitForGoalToGetHot with id 1
+[1.9790499999999993][Info] OneBallAutonomousWorker: Added worker FireCatapultWorker with id 2
+[1.9815989999999992][Info] OneBallAutonomousWorker: Added worker DriveForTimeWorker with id 3
+[1.9828199999999998][Info] OneBallAutonomousWorker: On success: 0 -> 2
+[1.9839160000000002][Info] OneBallAutonomousWorker: On success: 2 -> 3
+[1.9849079999999995][Info] OneBallAutonomousWorker: On failure: 0 -> 1
+[1.9858730000000004][Info] OneBallAutonomousWorker: On success: 1 -> 2
+[1.9868539999999995][Info] OneBallAutonomousWorker: On success: 3 -> -1
+[1.989567][Info] ZeroBallAutonomousWorker: Added worker DriveForTimeWorker with id 0
+[2.2695329999999996][Info] FieldOrientedCollectionWorker: Added worker RaiseBothArmsWorker with id 0
+[2.2709269999999995][Info] FieldOrientedCollectionWorker: Added worker FrontFOSideCollectionWorker with id 1
+[2.2722870000000004][Info] FieldOrientedCollectionWorker: Added worker BackFOSideCollectionWorker with id 2
+[2.273549][Info] FieldOrientedCollectionWorker: On success: 0 -> 1
+[2.2747290000000002][Info] FieldOrientedCollectionWorker: On failure: 0 -> 2
+[2.2757479999999997][Info] FieldOrientedCollectionWorker: On success: 1 -> 2
+[2.276852][Info] FieldOrientedCollectionWorker: On failure: 1 -> 0
+[2.278326][Info] FieldOrientedCollectionWorker: On success: 2 -> 1
+[2.2794160000000003][Info] FieldOrientedCollectionWorker: On failure: 2 -> 0
+[2.3469830000000003][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[2.348996][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.3501769999999995][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[2.3516000000000004][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.352644][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[2.3536629999999996][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[2.3548599999999995][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[2.355905][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[2.356876][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[2.35875][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[2.360486][Info] BackCollector: ScaledPosition set to: 0.6
+[2.3615289999999995][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[2.3630960000000005][Info] BackCollector: ScaledPosition set to: 1.0
+[2.3642879999999997][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[2.3653910000000007][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[2.36642][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[2.367362999999999][Info] BackCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[2.3683919999999996][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[2.369588][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0
+[2.3710829999999996][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[2.3722280000000002][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[2.373268][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[2.3786099999999997][Info] SideCollect:FrontCollector: Added worker CollectorRollerWorker:FrontCollector:COLLECT with id 0
+[2.3803769999999993][Info] BackCollector: ScaledPosition set to: 0.0
+[2.3814090000000006][Info] SideCollect:FrontCollector: Added worker Open collectors with id 1
+[2.382482][Info] SideCollect:FrontCollector: Added worker WaitWorker with id 2
+[2.3840749999999997][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.3851929999999992][Info] SideCollect:FrontCollector: Added worker CollectorDeployPIDWorker:FrontCollector:UP with id 3
+[2.386464][Info] SideCollect:FrontCollector: Added worker WaitWorker with id 4
+[2.387948][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.389349][Info] BackCollector: ScaledPosition set to: 0.6
+[2.390316][Info] SideCollect:FrontCollector: Added worker Open collectors with id 5
+[2.391671][Info] SideCollect:FrontCollector: Added worker CollectorRollerWorker:FrontCollector:STOP with id 6
+[2.392718][Info] SideCollect:FrontCollector: On success: 0 -> 1
+[2.3936139999999995][Info] SideCollect:FrontCollector: On success: 1 -> 2
+[2.3947119999999997][Info] SideCollect:FrontCollector: On success: 2 -> 3
+[2.3957100000000002][Info] SideCollect:FrontCollector: On success: 3 -> 4
+[2.3967879999999995][Info] SideCollect:FrontCollector: On success: 4 -> 5
+[2.3982699999999997][Info] SideCollect:FrontCollector: On success: 5 -> 6
+[2.3994449999999996][Info] SideCollect:FrontCollector: On success: 6 -> -1
+[2.4032439999999995][Info] Fire and cock catapult: Added worker FireCatapultWorker with id 0
+[2.4045039999999998][Info] Fire and cock catapult: Added worker cockCatapultWorker with id 1
+[2.405581][Info] Fire and cock catapult: On success: 0 -> 1
+[2.406495][Info] Fire and cock catapult: On success: 1 -> -1
+[2.4108509999999996][Info] BackCollector: ScaledPosition set to: 1.0
+[2.4120110000000006][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.413062][Info] ThreeBallAutonomous: Added worker DeployCollectors:DOWN,DOWN with id 0
+[2.414648][Info] ThreeBallAutonomous: Added worker FireCatapultWorker with id 1
+[2.4159399999999995][Info] ThreeBallAutonomous: Added worker BoolPropertyWorker:AutonomousUseFront with id 2
+[2.420049][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:FrontCollector:DOWN with id 0
+[2.4211670000000005][Info] HoldAndCollectBallWorker: Added worker WaitWorker with id 1
+[2.4226490000000003][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.4239499999999996][Info] HoldAndCollectBallWorker: Added worker ImmediateWorker with id 2
+[2.4250329999999996][Info] HoldAndCollectBallWorker: On success: 0 -> 1
+[2.4260189999999993][Info] HoldAndCollectBallWorker: On success: 1 -> 2
+[2.427019][Info] HoldAndCollectBallWorker: On success: 2 -> -1
+[2.428419][Info] BackCollector: ScaledPosition set to: 0.0
+[2.4295290000000005][Info] CollectAndFireBallFromSideWorker: Added worker PrepareToCollectBallWorker with id 0
+[2.430932][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.4320109999999997][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFinishCockingWorker with id 0
+[2.4334949999999997][Info] ConsumeBallAndFireWorker: Added worker CollectorRollerWorker:FrontCollector:STOP with id 0
+[2.4349310000000006][Info] ConsumeBallAndFireWorker: Added worker WaitForBallToSettleWorker with id 1
+[2.4367449999999997][Info] BackCollector: ScaledPosition set to: 0.6
+[2.438621][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.4399079999999995][Info] ConsumeBallAndFireWorker: Added worker DeployCollectors:FIRING,FIRING with id 2
+[2.4414450000000008][Info] ConsumeBallAndFireWorker: Added worker FireCatapultWorker with id 3
+[2.442648][Info] ConsumeBallAndFireWorker: On success: 0 -> 1
+[2.443732][Info] ConsumeBallAndFireWorker: On success: 1 -> 2
+[2.4448509999999994][Info] ConsumeBallAndFireWorker: On success: 2 -> 3
+[2.4458819999999997][Info] ConsumeBallAndFireWorker: On success: 3 -> -1
+[2.44701][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFireWorker with id 1
+[2.4482300000000006][Info] ConsumeAndFireWorker: On success: 0 -> 1
+[2.449508][Info] ConsumeAndFireWorker: On success: 1 -> -1
+[2.450500999999999][Info] CollectAndFireBallFromSideWorker: Added worker ConsumeAndFireWorker with id 1
+[2.451562][Info] CollectAndFireBallFromSideWorker: On success: 0 -> 1
+[2.4525149999999996][Info] CollectAndFireBallFromSideWorker: On success: 1 -> -1
+[2.4536130000000003][Info] ThreeBallAutonomous: Added worker CollectAndFireBallFromSideWorker with id 3
+[2.455071][Info] ThreeBallAutonomous: Added worker BoolPropertyWorker:AutonomousUseBack with id 4
+[2.458941][Info] BackCollector: ScaledPosition set to: 1.0
+[2.4600159999999995][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:BackCollector:DOWN with id 0
+[2.4611419999999997][Info] HoldAndCollectBallWorker: Added worker WaitWorker with id 1
+[2.4626400000000004][Info] BackCollector: ScaledPosition set to: 0.6
+[2.4639399999999996][Info] HoldAndCollectBallWorker: Added worker ImmediateWorker with id 2
+[2.465013999999999][Info] HoldAndCollectBallWorker: On success: 0 -> 1
+[2.465965][Info] HoldAndCollectBallWorker: On success: 1 -> 2
+[2.4668699999999997][Info] HoldAndCollectBallWorker: On success: 2 -> -1
+[2.4684440000000003][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.4696170000000004][Info] CollectAndFireBallFromSideWhileMovingWorker: Added worker PrepareToCollectBallWorker with id 0
+[2.471044][Info] BackCollector: ScaledPosition set to: 0.0
+[2.4720429999999998][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFinishCockingWorker with id 0
+[2.4735039999999997][Info] ConsumeBallAndFireWorker: Added worker CollectorRollerWorker:BackCollector:STOP with id 0
+[2.4748449999999993][Info] ConsumeBallAndFireWorker: Added worker WaitForBallToSettleWorker with id 1
+[2.4765789999999996][Info] BackCollector: ScaledPosition set to: 0.6
+[2.4784399999999995][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.4796539999999996][Info] ConsumeBallAndFireWorker: Added worker DeployCollectors:FIRING,FIRING with id 2
+[2.4812839999999996][Info] ConsumeBallAndFireWorker: Added worker FireCatapultWorker with id 3
+[2.4823429999999997][Info] ConsumeBallAndFireWorker: On success: 0 -> 1
+[2.4834880000000004][Info] ConsumeBallAndFireWorker: On success: 1 -> 2
+[2.4846150000000007][Info] ConsumeBallAndFireWorker: On success: 2 -> 3
+[2.4856259999999994][Info] ConsumeBallAndFireWorker: On success: 3 -> -1
+[2.4866899999999994][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFireWorker with id 1
+[2.487741][Info] ConsumeAndFireWorker: On success: 0 -> 1
+[2.4886409999999994][Info] ConsumeAndFireWorker: On success: 1 -> -1
+[2.491563][Info] CollectAndFireBallFromSideWhileMovingWorker: Added worker WhenAllWorker with id 1
+[2.492671][Info] CollectAndFireBallFromSideWhileMovingWorker: On success: 0 -> 1
+[2.493664][Info] CollectAndFireBallFromSideWhileMovingWorker: On success: 1 -> -1
+[2.4949149999999998][Info] ThreeBallAutonomous: Added worker CollectAndFireBallFromSideWhileMovingWorker with id 5
+[2.4960200000000006][Info] ThreeBallAutonomous: On success: 0 -> 1
+[2.4969740000000002][Info] ThreeBallAutonomous: On success: 1 -> 2
+[2.498562999999999][Info] ThreeBallAutonomous: On success: 2 -> 3
+[2.499674][Info] ThreeBallAutonomous: On failure: 2 -> 4
+[2.500575][Info] ThreeBallAutonomous: On success: 3 -> 4
+[2.5014619999999996][Info] ThreeBallAutonomous: On success: 4 -> 5
+[2.5024349999999993][Info] ThreeBallAutonomous: On failure: 4 -> -1
+[2.503581][Info] ThreeBallAutonomous: On success: 5 -> -1
+[2.522223][Info] BackCollector: ScaledPosition set to: 1.0
+[2.5234900000000007][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.5247129999999998][Info] LoadBallWorker: Added worker DeployCollectors:DOWN,DOWN with id 0
+[2.525871][Info] LoadBallWorker: Added worker WaitWorker with id 1
+[2.527461][Info] BackCollector: ScaledPosition set to: 0.6
+[2.528947][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.5299580000000006][Info] LoadBallWorker: Added worker DeployCollectors:SAFE,SAFE with id 2
+[2.531017][Info] LoadBallWorker: On success: 0 -> 1
+[2.5318959999999997][Info] LoadBallWorker: On success: 1 -> 2
+[2.5328550000000005][Info] LoadBallWorker: On success: 2 -> -1
+[2.534375][Info] TwoBallAutonomousWorker: Added worker LoadBallAndWaitForGoalHotWorker with id 0
+[2.5362300000000007][Info] AutoGoalHotWorker: Added worker FireCatapultWorker with id 0
+[2.5399619999999996][Info] AutoGoalHotWorker: Added worker WhenAllWorker with id 1
+[2.5416679999999996][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 0
+[2.5433339999999998][Info] BackCollector: ScaledPosition set to: 0.0
+[2.544624999999999][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.5456779999999997][Info] BringArmsUpAndStopRollersWorker: Added worker DeployCollectors:UP,UP with id 1
+[2.5473009999999996][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 2
+[2.5486499999999994][Info] BringArmsUpAndStopRollersWorker: On success: 0 -> 1
+[2.5499389999999993][Info] BringArmsUpAndStopRollersWorker: On success: 1 -> 2
+[2.5509759999999995][Info] BringArmsUpAndStopRollersWorker: On success: 2 -> -1
+[2.552142][Info] AutoGoalHotWorker: Added worker WhenAllWorker with id 2
+[2.5535810000000003][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[2.555438][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.5564800000000005][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[2.5583949999999995][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.559624][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[2.560691][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[2.561705][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[2.5627269999999998][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[2.5642210000000003][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[2.565629][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[2.567151][Info] BackCollector: ScaledPosition set to: 0.6
+[2.5681899999999995][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[2.5703630000000004][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[2.5714839999999994][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[2.5725540000000002][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[2.5736329999999996][Info] BackCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[2.5748450000000003][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[2.5760039999999997][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0
+[2.5775140000000003][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[2.579229][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[2.5801940000000005][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[2.581277][Info] AutoGoalHotWorker: Added worker SetArmsAndFireCatapultWorker with id 3
+[2.5822730000000003][Info] AutoGoalHotWorker: On success: 0 -> 1
+[2.5833969999999997][Info] AutoGoalHotWorker: On success: 1 -> 2
+[2.5844769999999997][Info] AutoGoalHotWorker: On success: 2 -> 3
+[2.5854610000000005][Info] AutoGoalHotWorker: On success: 3 -> -1
+[2.586477][Info] TwoBallAutonomousWorker: Added worker AutoGoalHotWorker with id 1
+[2.589848][Info] AutoGoalColdWorker: Added worker MaintainHeadingWorker with id 0
+[2.591282][Info] AutoGoalColdWorker: Added worker FireCatapultWorker with id 1
+[2.594786][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 0
+[2.5968560000000007][Info] FrontCollector: ScaledPosition set to: 0.0
+[2.598399][Info] BringArmsUpAndStopRollersWorker: Added worker DeployCollectors:UP,UP with id 1
+[2.600192][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 2
+[2.601224][Info] BringArmsUpAndStopRollersWorker: On success: 0 -> 1
+[2.6021530000000004][Info] BringArmsUpAndStopRollersWorker: On success: 1 -> 2
+[2.603334][Info] BringArmsUpAndStopRollersWorker: On success: 2 -> -1
+[2.6044670000000005][Info] AutoGoalColdWorker: Added worker WhenAllWorker with id 2
+[2.6059490000000007][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[2.6081899999999996][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[2.610389][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[2.611428][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[2.6124569999999996][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[2.613504999999999][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[2.614665][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[2.6160479999999997][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[2.6186819999999997][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[2.620782][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[2.6218339999999998][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[2.6228800000000003][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[2.624262][Info] BackCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[2.625299][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[2.626353999999999][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0

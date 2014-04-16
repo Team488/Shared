@@ -1,0 +1,67 @@
+[362.638489][Info] RobotPermanentStorage: Saving properties to disk
+[362.639392][Info] RobotPermanentStorage: Serializing Properties to String
+[362.672447][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[362.80503100000004][Info] SetRobotDisabledStateWorker: Initializing
+[362.82804699999997][Warning] RoboAdapter: Time between update calls was 310.0439999999944ms
+[411.72174199999995][Info] DriveCore: New DesiredHeading is: 187.8899998664856
+[411.722631][Info] SetRobotDisabledStateWorker: Initializing
+[413.52646000000004][Info] SetFiringLockWorker: Initializing
+[413.527338][Info] CatapultCore: IsFiring flag has been set!
+[413.528201][Info] SetArmsAndFireCatapultWorkerSimultaneous: Initialized state machine
+[413.52950799999996][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 0 (SetFiringLockWorker) to worker 1 (WhenAllWorker)
+[413.53067300000004][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[413.531552][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[413.53237499999994][Info] CatapultCore: IsFiring flag has been set!
+[413.53321][Info] FireCatapultWorker: Catapult firing
+[413.60743499999995][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[413.608499][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[413.610387][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[413.611583][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[413.667337][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[413.66872099999995][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[414.546318][Info] FireCatapultWorker: Catapult finished firing
+[414.5478][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 1 (WhenAllWorker) to worker -1 (Success)
+[415.606648][Info] FrontCollector: ScaledPosition set to: 0.0
+[415.60754499999996][Info] BackCollector: ScaledPosition set to: 0.0
+[418.306826][Info] SetFiringLockWorker: Initializing
+[418.307713][Info] CatapultCore: IsFiring flag has been set!
+[418.30852000000004][Info] SetArmsAndFireCatapultWorkerSimultaneous: Initialized state machine
+[418.310011][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 0 (SetFiringLockWorker) to worker 1 (WhenAllWorker)
+[418.31100799999996][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[418.31190399999997][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[418.31278699999996][Info] CatapultCore: IsFiring flag has been set!
+[418.31363400000004][Info] FireCatapultWorker: Catapult firing
+[418.388707][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING)
+[418.390275][Info] FrontCollector: ScaledPosition set to: 0.6
+[418.39108799999997][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: initializing
+[418.392836][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING)
+[418.394169][Info] BackCollector: ScaledPosition set to: 0.6
+[418.39504800000003][Info] CollectorDeployPIDWorker:BackCollector:FIRING: initializing
+[418.70674899999995][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[418.70822][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING) to worker -1 (Success)
+[418.787339][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[418.788757][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING) to worker -1 (Success)
+[419.34644399999996][Info] FireCatapultWorker: Catapult finished firing
+[419.347918][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 1 (WhenAllWorker) to worker -1 (Success)
+[422.20703499999996][Info] FrontCollector: ScaledPosition set to: 1.0
+[422.207854][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[422.288109][Info] BackCollector: ScaledPosition set to: 1.0
+[422.28886900000003][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[422.487603][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[422.56697499999996][Info] CollectorDeployPIDWorker:BackCollector:DOWN: Finished Down
+[423.48772199999996][Info] SetFiringLockWorker: Initializing
+[423.488659][Info] CatapultCore: IsFiring flag has been set!
+[423.48945799999996][Info] SetArmsAndFireCatapultWorkerSimultaneous: Initialized state machine
+[423.490977][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 0 (SetFiringLockWorker) to worker 1 (WhenAllWorker)
+[423.491957][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[423.492799][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[423.49363][Info] CatapultCore: IsFiring flag has been set!
+[423.494408][Info] FireCatapultWorker: Catapult firing
+[423.56807299999997][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[423.56913399999996][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[423.57085700000005][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[423.571872][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[423.62791200000004][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[423.629326][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[424.506919][Info] FireCatapultWorker: Catapult finished firing
+[424.508319][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 1 (WhenAllWorker) to worker -1 (Success)

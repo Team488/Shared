@@ -1,0 +1,11 @@
+[494.62388899999996][Warning] RoboAdapter: Time between update calls was 266.28000000002794ms
+[520.7533109999999][Info] DriveCore: New DesiredHeading is: 181.3200000524521
+[520.7545490000001][Info] SetRobotDisabledStateWorker: Initializing
+[520.75995][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[520.76123][Info] DriveCore: New DesiredHeading is: 181.3200000524521
+[520.83657][Info] CatapultCore: IsFiring flag has been set!
+[520.837445][Info] FireCatapultWorker: Catapult firing
+[520.838222][Info] Fire and cock catapult: Initialized state machine
+[521.85683][Info] FireCatapultWorker: Catapult finished firing
+[521.858448][Info] Fire and cock catapult: Transitioned from worker 0 (FireCatapultWorker) to worker 1 (cockCatapultWorker)
+[521.8594469999999][Info] cockCatapultWorker: initializing

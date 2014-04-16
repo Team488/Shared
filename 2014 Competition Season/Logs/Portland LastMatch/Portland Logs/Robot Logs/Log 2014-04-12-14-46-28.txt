@@ -1,0 +1,23 @@
+[376.728644][Info] DriveCore: New DesiredHeading is: 178.33000003360212
+[376.72959199999997][Info] SetRobotDisabledStateWorker: Initializing
+[376.86427299999997][Info] ManualBallEjectBallWorker: init: shouldEject: false
+[376.878673][Info] HumanRotationWorker: Initializing
+[376.879456][Info] RotationForceProviderWorker: Initialized state machine
+[376.880967][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[376.883262][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[376.88639400000005][Info] WaitAfterJoystickWorker: Initializing
+[376.887299][Info] RobotControlsHeadingWorker: Initialized state machine
+[376.888597][Important] PneumaticCore: Compressor is ON
+[376.88935599999996][Important] CompressorWorker: Compressor on
+[376.89036699999997][Info] CollectionPositionMaintainer: init
+[376.891773][Info] CollectionPositionMaintainer: init
+[376.893009][Info] FrontRollerListenerWorker: Initializing
+[376.894076][Info] BackRollerListenerWorker: Initializing
+[376.895132][Info] CatapultPIDWorker - cock: Initializing
+[376.896569][Info] RaiseBothArmsWorker: Setting arms up
+[376.89757000000003][Info] FrontCollector: ScaledPosition set to: 0.0
+[376.89944][Info] BackCollector: ScaledPosition set to: 0.0
+[376.90962099999996][Info] FieldOrientedCollectionWorker: Initialized state machine
+[377.02538699999997][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[377.0269][Info] DriveCore: New DesiredHeading is: 178.33000003360212
+[377.029976][Info] CatapultPIDWorker - cock: Initializing

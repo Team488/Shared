@@ -1,0 +1,129 @@
+<head><version>2.59.3</version></head>
+<Axis_Internet_Camera>
+  <auto_back_light>TRUE</auto_back_light>
+  <auto_exposure>FALSE</auto_exposure>
+  <auto_white_balance>TRUE</auto_white_balance>
+  <brightness_value>50</brightness_value>
+  <color_level_value>50</color_level_value>
+  <compression_index>5</compression_index>
+  <contrast_value>50</contrast_value>
+  <exposure_value>50</exposure_value>
+  <ip_address>10.4.88.11</ip_address>
+  <is_active>TRUE</is_active>
+  <password>FRC</password>
+  <port>80</port>
+  <resolution>2</resolution>
+  <sharpness_value>50</sharpness_value>
+  <username>FRC</username>
+</Axis_Internet_Camera>
+<Crop>
+  <auto_crop>FALSE</auto_crop>
+  <max_auto_crop>20</max_auto_crop>
+  <tolerance>1</tolerance>
+  <x_end>259</x_end>
+  <x_start>35</x_start>
+  <y_end>220</y_end>
+  <y_start>43</y_start>
+  <zoom>8</zoom>
+</Crop>
+<Fisheye_Transform>
+  <center_x>0.5</center_x>
+  <center_y>0.5</center_y>
+  <inner_fov>85.0</inner_fov>
+  <maintain_fov_aspect>TRUE</maintain_fov_aspect>
+  <maintain_zoom_aspect>TRUE</maintain_zoom_aspect>
+  <outer_fov>100.0</outer_fov>
+  <radius>254</radius>
+  <sample_mode>1</sample_mode>
+  <scale_x>1</scale_x>
+  <scale_y>1.0</scale_y>
+  <transform_type>1</transform_type>
+  <x_trans>-0.01</x_trans>
+  <x_zoom>0.91</x_zoom>
+  <y_trans>0.0</y_trans>
+  <y_zoom>0.91</y_zoom>
+</Fisheye_Transform>
+<Color_Threshold>
+  <blue_end>75</blue_end>
+  <blue_start>27</blue_start>
+  <green_end>69</green_end>
+  <green_start>26</green_start>
+  <red_end>157</red_end>
+  <red_start>74</red_start>
+</Color_Threshold>
+<Close>
+  <close_borders>FALSE</close_borders>
+  <dilate_count>1</dilate_count>
+  <erode_count>1</erode_count>
+  <restrict_dilation>FALSE</restrict_dilation>
+  <symmetrical>TRUE</symmetrical>
+</Close>
+<Erode>
+  <count>3</count>
+  <erode_borders>FALSE</erode_borders>
+  <kernal_shape>4</kernal_shape>
+</Erode>
+<Dilate>
+  <avoid_connection>FALSE</avoid_connection>
+  <count>13</count>
+  <dilate_borders>FALSE</dilate_borders>
+  <kernal_shape>4</kernal_shape>
+</Dilate>
+<Fill>
+  <check_border>FALSE</check_border>
+  <fill_with_average_color>FALSE</fill_with_average_color>
+  <four_pixel_connectivity>FALSE</four_pixel_connectivity>
+  <size>0</size>
+</Fill>
+<Blob_Filter>
+  <create_blob_array_variable>FALSE</create_blob_array_variable>
+  <filters>
+    <tab>
+      <filter>
+        <count_threshold>0</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>8</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <minimum_size>85</minimum_size>
+        <weight_threshold>0</weight_threshold>
+      </filter>
+      <filter:2>
+        <count_threshold>1</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>21</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>1</weight_threshold>
+      </filter:2>
+    </tab>
+    <tab:2/>
+    <tab:3/>
+    <tab:4/>
+    <tab:5/>
+    <tab:6/>
+  </filters>
+  <largest_is_background>FALSE</largest_is_background>
+  <show_mode>3</show_mode>
+  <show_weights>FALSE</show_weights>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+</Blob_Filter>
+<Blob_Count/>
+<Geometric_Statistics>
+  <basic_statistics>FALSE</basic_statistics>
+  <scope>1</scope>
+</Geometric_Statistics>
+<NetworkTables>
+  <delay>100</delay>
+  <filter_type_index>0</filter_type_index>
+  <hostname>10.4.88.2</hostname>
+  <port>1735</port>
+  <prefix>/SmartDashboard/</prefix>
+  <variables_to_send>BLOB_COUNT
+COG_X
+COG_Y
+IMAGE_HEIGHT
+IMAGE_WIDTH</variables_to_send>
+  <variable_type_index>2</variable_type_index>
+</NetworkTables>

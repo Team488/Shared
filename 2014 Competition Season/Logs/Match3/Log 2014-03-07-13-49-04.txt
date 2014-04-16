@@ -1,0 +1,322 @@
+[256.92848499999997][Info] SetRobotDisabledStateWorker: Initializing
+[261.912745][Info] BackCollector: ScaledPosition set to: 1.0
+[261.91350000000006][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[261.914901][Info] FrontCollector: ScaledPosition set to: 1.0
+[261.91564999999997][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[262.37277400000005][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[262.412752][Info] CollectorDeployPIDWorker:BackCollector:DOWN: Finished Down
+[270.412108][Info] CatapultPIDWorker - cock:  was interrupted!
+[270.61163200000004][Info] CatapultPIDWorker - cock: Initializing
+[270.852037][Info] CatapultPIDWorker - cock:  was interrupted!
+[271.011511][Info] CatapultPIDWorker - cock: Initializing
+[271.25192599999997][Info] CatapultPIDWorker - cock:  was interrupted!
+[271.371601][Info] CatapultPIDWorker - cock: Initializing
+[271.61208500000004][Info] CatapultPIDWorker - cock:  was interrupted!
+[271.811525][Info] CatapultPIDWorker - cock: Initializing
+[275.532386][Info] FrontRollerListenerWorker:  was interrupted!
+[275.53422400000005][Info] BackRollerListenerWorker:  was interrupted!
+[275.53614400000004][Info] CatapultPIDWorker - cock:  was interrupted!
+[275.53836600000005][Info] DriveMecanumWithJoysticksWorker:  was interrupted!
+[275.590195][Info] CatapultPIDThatFinishesWorker: Initializing
+[275.591191][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[275.59198499999997][Info] HoldAndCollectBallWorker: Initialized state machine
+[275.593266][Info] CollectorRollerWorker:FrontCollector:COLLECT: Initializing CollectorRollerWorker on Collector: FrontCollectorwith direction: COLLECT
+[275.59486499999997][Info] BackCollector: ScaledPosition set to: 0.0
+[275.59582900000004][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[275.59740000000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[275.59902][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[275.600051][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[275.60163200000005][Info] HoldAndCollectBallWorker: Transitioned from worker 0 (CollectorDeployPIDWorker:FrontCollector:DOWN) to worker 1 (WaitWorker)
+[275.60348999999997][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[275.71089400000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9307456498000002
+[275.712687][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9307456498000002
+[275.714515][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9307456498000002
+[275.77117300000003][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.772852][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.774687][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.83084800000006][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.83264800000006][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.834528][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.890837][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[275.89258300000006][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[275.8944670000001][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[275.95062800000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.95248499999997][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[275.954369][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[276.01074800000004][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[276.012541][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[276.01436700000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[276.07070500000003][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[276.07256900000004][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[276.07445000000007][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[276.130652][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[276.132462][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[276.13407200000006][Info] HoldAndCollectBallWorker: Transitioned from worker 1 (WaitWorker) to worker 2 (ImmediateWorker)
+[276.135352][Info] FrontCollector: ScaledPosition set to: 0.6
+[276.13619100000005][Info] CollectorDeployPIDWorker:FrontCollector:SAFE: initializing
+[276.13774600000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[276.210928][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[276.212163][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[276.21431800000005][Info] HoldAndCollectBallWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[276.21539000000007][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[276.217386][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[276.31203600000003][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[276.313759][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[276.31634][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[276.3173790000001][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[276.31837500000006][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[276.31943700000005][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[276.3205990000001][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[276.322012][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[276.322942][Info] RotationForceProviderWorker: On success: 0 -> 0
+[276.32441700000004][Info] RotationForceProviderWorker: On success: 1 -> 1
+[276.32756800000004][Info] HumanRotationWorker: Initializing
+[276.328388][Info] RotationForceProviderWorker: Initialized state machine
+[276.32915900000006][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[276.33078300000005][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[276.33191999999997][Info] WaitAfterJoystickWorker: Initializing
+[276.33284900000007][Info] RobotControlsHeadingWorker: Initialized state machine
+[276.33411000000007][Info] FrontRollerListenerWorker: Initializing
+[276.3352550000001][Info] BackRollerListenerWorker: Initializing
+[276.33650300000005][Info] CatapultPIDWorker - cock: Initializing
+[277.351269][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[277.35257200000007][Info] DriveCore: New DesiredHeading is: 169.5299997329712
+[281.51263100000006][Info] CatapultPIDWorker - cock:  was interrupted!
+[281.71198100000004][Info] CatapultPIDWorker - cock: Initializing
+[282.07325299999997][Info] CatapultPIDWorker - cock:  was interrupted!
+[282.23197500000003][Info] CatapultPIDWorker - cock: Initializing
+[283.631718][Info] CatapultPIDWorker - cock:  was interrupted!
+[283.831325][Info] CatapultPIDWorker - cock: Initializing
+[284.23170500000003][Info] CatapultPIDWorker - cock:  was interrupted!
+[284.43111300000004][Info] CatapultPIDWorker - cock: Initializing
+[284.79218099999997][Info] CatapultPIDWorker - cock:  was interrupted!
+[285.03171900000007][Info] CatapultPIDWorker - cock: Initializing
+[285.35156700000005][Info] CatapultPIDWorker - cock:  was interrupted!
+[285.55117400000006][Info] CatapultPIDWorker - cock: Initializing
+[286.15170200000006][Info] CatapultPIDWorker - cock:  was interrupted!
+[286.3113000000001][Info] CatapultPIDWorker - cock: Initializing
+[286.71181100000007][Info] CatapultPIDWorker - cock:  was interrupted!
+[286.95130800000004][Info] CatapultPIDWorker - cock: Initializing
+[287.27236100000005][Info] CatapultPIDWorker - cock:  was interrupted!
+[287.51122399999997][Info] CatapultPIDWorker - cock: Initializing
+[287.831826][Info] CatapultPIDWorker - cock:  was interrupted!
+[288.031982][Info] CatapultPIDWorker - cock: Initializing
+[288.31194][Info] CatapultPIDWorker - cock:  was interrupted!
+[288.55133900000004][Info] CatapultPIDWorker - cock: Initializing
+[288.831819][Info] CatapultPIDWorker - cock:  was interrupted!
+[289.071423][Info] CatapultPIDWorker - cock: Initializing
+[289.351922][Info] CatapultPIDWorker - cock:  was interrupted!
+[289.592056][Info] CatapultPIDWorker - cock: Initializing
+[289.7925010000001][Info] CatapultPIDWorker - cock:  was interrupted!
+[290.11139800000007][Info] CatapultPIDWorker - cock: Initializing
+[290.31198600000005][Info] CatapultPIDWorker - cock:  was interrupted!
+[290.59188300000005][Info] CatapultPIDWorker - cock: Initializing
+[290.792403][Info] CatapultPIDWorker - cock:  was interrupted!
+[291.07155700000004][Info] CatapultPIDWorker - cock: Initializing
+[291.31211500000006][Info] CatapultPIDWorker - cock:  was interrupted!
+[291.592216][Info] CatapultPIDWorker - cock: Initializing
+[291.832][Info] CatapultPIDWorker - cock:  was interrupted!
+[292.11239900000004][Info] CatapultPIDWorker - cock: Initializing
+[292.311948][Info] CatapultPIDWorker - cock:  was interrupted!
+[292.6314550000001][Info] CatapultPIDWorker - cock: Initializing
+[292.792533][Info] CatapultPIDWorker - cock:  was interrupted!
+[293.152216][Info] CatapultPIDWorker - cock: Initializing
+[293.31204099999997][Info] CatapultPIDWorker - cock:  was interrupted!
+[293.59222700000004][Info] CatapultPIDWorker - cock: Initializing
+[293.792569][Info] CatapultPIDWorker - cock:  was interrupted!
+[294.151781][Info] CatapultPIDWorker - cock: Initializing
+[294.272135][Info] CatapultPIDWorker - cock:  was interrupted!
+[294.5117010000001][Info] CatapultPIDWorker - cock: Initializing
+[294.592544][Info] CatapultPIDWorker - cock:  was interrupted!
+[294.79206800000003][Info] CatapultPIDWorker - cock: Initializing
+[294.832335][Info] CatapultPIDWorker - cock:  was interrupted!
+[294.99211500000007][Info] CatapultPIDWorker - cock: Initializing
+[294.99349500000005][Info] CatapultPIDWorker - cock:  was interrupted!
+[295.1921080000001][Info] CatapultPIDWorker - cock: Initializing
+[295.19364300000007][Info] CatapultPIDWorker - cock:  was interrupted!
+[295.35161999999997][Info] CatapultPIDWorker - cock: Initializing
+[295.3531300000001][Info] CatapultPIDWorker - cock:  was interrupted!
+[295.511746][Info] CatapultPIDWorker - cock: Initializing
+[295.55196300000006][Info] CatapultPIDWorker - cock:  was interrupted!
+[295.71179500000005][Info] CatapultPIDWorker - cock: Initializing
+[295.71318700000006][Info] CatapultPIDWorker - cock:  was interrupted!
+[295.911902][Info] CatapultPIDWorker - cock: Initializing
+[295.91324099999997][Info] CatapultPIDWorker - cock:  was interrupted!
+[296.15180100000003][Info] CatapultPIDWorker - cock: Initializing
+[296.1532][Info] CatapultPIDWorker - cock:  was interrupted!
+[296.351701][Info] CatapultPIDWorker - cock: Initializing
+[296.39239800000007][Info] CatapultPIDWorker - cock:  was interrupted!
+[296.63184200000006][Info] CatapultPIDWorker - cock: Initializing
+[296.672136][Info] CatapultPIDWorker - cock:  was interrupted!
+[296.911807][Info] CatapultPIDWorker - cock: Initializing
+[297.072176][Info] CatapultPIDWorker - cock:  was interrupted!
+[297.271972][Info] CatapultPIDWorker - cock: Initializing
+[297.35234700000007][Info] CatapultPIDWorker - cock:  was interrupted!
+[297.6318160000001][Info] CatapultPIDWorker - cock: Initializing
+[298.032723][Info] CatapultPIDWorker - cock:  was interrupted!
+[298.31254300000006][Info] CatapultPIDWorker - cock: Initializing
+[298.55233000000004][Info] CatapultPIDWorker - cock:  was interrupted!
+[298.71198300000003][Info] CatapultPIDWorker - cock: Initializing
+[298.99273800000003][Info] CatapultPIDWorker - cock:  was interrupted!
+[299.15187][Info] CatapultPIDWorker - cock: Initializing
+[330.812383][Info] FrontCollector: ScaledPosition set to: 1.0
+[330.81314299999997][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[331.13205700000003][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[331.172374][Info] BackCollector: ScaledPosition set to: 1.0
+[331.173155][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[331.612189][Info] CollectorDeployPIDWorker:BackCollector:DOWN: Finished Down
+[334.81156599999997][Info] CatapultPIDWorker - cock:  was interrupted!
+[335.17129700000004][Info] CatapultPIDWorker - cock: Initializing
+[335.37187700000004][Info] CatapultPIDWorker - cock:  was interrupted!
+[335.611615][Info] CatapultPIDWorker - cock: Initializing
+[338.330931][Info] FrontRollerListenerWorker:  was interrupted!
+[338.33278400000006][Info] BackRollerListenerWorker:  was interrupted!
+[338.334591][Info] CatapultPIDWorker - cock:  was interrupted!
+[338.336633][Info] DriveMecanumWithJoysticksWorker:  was interrupted!
+[338.389414][Info] CatapultPIDThatFinishesWorker: Initializing
+[338.39027400000003][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[338.39144200000004][Info] HoldAndCollectBallWorker: Initialized state machine
+[338.39254700000004][Info] CollectorRollerWorker:FrontCollector:COLLECT: Initializing CollectorRollerWorker on Collector: FrontCollectorwith direction: COLLECT
+[338.3939950000001][Info] BackCollector: ScaledPosition set to: 0.0
+[338.39479000000006][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[338.3962920000001][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.397915][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.39894][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[338.400286][Info] HoldAndCollectBallWorker: Transitioned from worker 0 (CollectorDeployPIDWorker:FrontCollector:DOWN) to worker 1 (WaitWorker)
+[338.40283600000004][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.50918700000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.5110480000001][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.51293499999997][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.56919300000004][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.571052][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.572902][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.63016100000004][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.631954][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.63378600000004][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.68944799999997][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.69123300000007][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.693123][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.74971700000003][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.751522][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.75335300000006][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[338.81113][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[338.812734][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[338.8145640000001][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[338.869337][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.871124][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.873129][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[338.92950800000006][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9348601058000001
+[338.931276][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9348601058000001
+[338.932905][Info] HoldAndCollectBallWorker: Transitioned from worker 1 (WaitWorker) to worker 2 (ImmediateWorker)
+[338.934136][Info] FrontCollector: ScaledPosition set to: 0.6
+[338.93487200000004][Info] CollectorDeployPIDWorker:FrontCollector:SAFE: initializing
+[338.93653300000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9348601058000001
+[339.009226][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[339.010307][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[339.012623][Info] HoldAndCollectBallWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[339.01365000000004][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[339.01556][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[339.0907930000001][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[339.0925490000001][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[339.095091][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[339.096233][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[339.097422][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[339.098446][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[339.09947999999997][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[339.10060100000004][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[339.101771][Info] RotationForceProviderWorker: On success: 0 -> 0
+[339.103349][Info] RotationForceProviderWorker: On success: 1 -> 1
+[339.106443][Info] HumanRotationWorker: Initializing
+[339.10720000000003][Info] RotationForceProviderWorker: Initialized state machine
+[339.1080390000001][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[339.109749][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[339.11084400000004][Info] WaitAfterJoystickWorker: Initializing
+[339.111706][Info] RobotControlsHeadingWorker: Initialized state machine
+[339.11289899999997][Info] FrontRollerListenerWorker: Initializing
+[339.11404100000004][Info] BackRollerListenerWorker: Initializing
+[339.11517200000003][Info] CatapultPIDWorker - cock: Initializing
+[340.129749][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[340.131165][Info] DriveCore: New DesiredHeading is: 169.44999980926514
+[342.93105099999997][Info] FrontRollerListenerWorker:  was interrupted!
+[342.93297300000006][Info] BackRollerListenerWorker:  was interrupted!
+[342.93477300000006][Info] CatapultPIDWorker - cock:  was interrupted!
+[342.93686400000007][Info] DriveMecanumWithJoysticksWorker:  was interrupted!
+[343.008868][Info] CatapultPIDThatFinishesWorker: Initializing
+[343.009921][Info] FrontCollector: ScaledPosition set to: 1.0
+[343.01079100000004][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[343.01164500000004][Info] HoldAndCollectBallWorker: Initialized state machine
+[343.012751][Info] CollectorRollerWorker:FrontCollector:COLLECT: Initializing CollectorRollerWorker on Collector: FrontCollectorwith direction: COLLECT
+[343.013927][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[343.015395][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.01662200000004][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.01804599999997][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.019227][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.020752][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.021835][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.12952900000005][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[343.13079000000005][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.132214][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[343.133358][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.134699][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[343.13586900000007][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.2094880000001][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.210739][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.212114][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.213259][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.2147][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.215874][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.289545][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[343.29073999999997][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.2921620000001][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[343.29356000000007][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.29495800000007][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9317742638000002
+[343.296179][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.36940500000003][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.3706470000001][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.372069][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.373093][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[343.37462300000004][Info] HoldAndCollectBallWorker: Transitioned from worker 0 (CollectorDeployPIDWorker:FrontCollector:DOWN) to worker 1 (WaitWorker)
+[343.37604000000005][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.377467][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9328028778000002
+[343.378515][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.46974600000004][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[343.471012][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.472396][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[343.473664][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.47501][Info] CatapultPIDThatFinishesWorker: Finished! Currently at position:0.9338314918000001
+[343.47616100000005][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.54996400000005][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.552123][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.554052][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.59524200000004][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.59742800000004][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.599208][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.65011200000004][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.65229100000005][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.65408][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.696114][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[343.892594][Info] HoldAndCollectBallWorker: Transitioned from worker 1 (WaitWorker) to worker 2 (ImmediateWorker)
+[343.893833][Info] FrontCollector: ScaledPosition set to: 0.6
+[343.894564][Info] CollectorDeployPIDWorker:FrontCollector:SAFE: initializing
+[343.951611][Info] HoldAndCollectBallWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[344.01063500000004][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[344.012378][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[344.014836][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[344.01597000000004][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[344.01698700000003][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[344.018051][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[344.01907][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[344.019992][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[344.021191][Info] RotationForceProviderWorker: On success: 0 -> 0
+[344.02214000000004][Info] RotationForceProviderWorker: On success: 1 -> 1
+[344.02592599999997][Info] HumanRotationWorker: Initializing
+[344.026749][Info] RotationForceProviderWorker: Initialized state machine
+[344.02752399999997][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[344.029147][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[344.03010700000004][Info] WaitAfterJoystickWorker: Initializing
+[344.03107][Info] RobotControlsHeadingWorker: Initialized state machine
+[344.03233400000005][Info] FrontRollerListenerWorker: Initializing
+[344.033506][Info] BackRollerListenerWorker: Initializing
+[344.034587][Info] CatapultPIDWorker - cock: Initializing
+[345.07004500000005][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[345.0715220000001][Info] DriveCore: New DesiredHeading is: 169.38000011444092

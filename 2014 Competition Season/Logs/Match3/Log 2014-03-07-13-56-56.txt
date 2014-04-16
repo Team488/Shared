@@ -1,0 +1,54 @@
+[76.534784][Info] RobotPermanentStorage: Saving properties to disk
+[76.535617][Info] RobotPermanentStorage: Serializing Properties to String
+[76.568753][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[76.8173][Info] SetRobotDisabledStateWorker: Initializing
+[76.841246][Warning] RoboAdapter: Time between update calls was 447.9149999999936ms
+[87.06017200000001][Info] CatapultPIDWorker - cock:  was interrupted!
+[87.062318][Info] BackRollerListenerWorker:  was interrupted!
+[87.06406999999999][Info] FrontRollerListenerWorker:  was interrupted!
+[87.06616199999999][Info] DriveMecanumWithJoysticksWorker:  was interrupted!
+[87.06856400000001][Info] FieldOrientedCollectionWorker:  was interrupted!
+[87.13384500000001][Info] MasterAutonomousWorker: Initializing
+[87.134797][Info] MasterAutonomousWorker: Chosen:ThreeBallAutonomous
+[87.135958][Info] BackCollector: ScaledPosition set to: 1.0
+[87.136708][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[87.137856][Info] FrontCollector: ScaledPosition set to: 1.0
+[87.138625][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[87.139463][Info] ThreeBallAutonomous: Initialized state machine
+[87.596822][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[87.63439000000001][Info] CollectorDeployPIDWorker:BackCollector:DOWN: Finished Down
+[87.63556][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: Finished Down
+[87.63688799999998][Info] ThreeBallAutonomous: Transitioned from worker 0 (DeployCollectors:DOWN,DOWN) to worker 1 (FireCatapultWorker)
+[87.63803][Info] FireCatapultWorker: Catapult firing
+[95.08198800000001][Warning] RoboAdapter: Time between update calls was 6721.559000000008ms
+[97.952349][Info] DriveCore: New DesiredHeading is: 167.32999992370605
+[97.95314900000001][Info] SetRobotDisabledStateWorker: Initializing
+[98.022053][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[98.023785][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[98.02637700000001][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[98.028064][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[98.029027][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[98.029998][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[98.031163][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[98.03206200000001][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[98.03303000000001][Info] RotationForceProviderWorker: On success: 0 -> 0
+[98.034003][Info] RotationForceProviderWorker: On success: 1 -> 1
+[98.040418][Info] HumanRotationWorker: Initializing
+[98.041152][Info] RotationForceProviderWorker: Initialized state machine
+[98.041889][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[98.043442][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[98.044454][Info] WaitAfterJoystickWorker: Initializing
+[98.045327][Info] RobotControlsHeadingWorker: Initialized state machine
+[98.04650600000001][Info] FrontRollerListenerWorker: Initializing
+[98.048337][Info] BackRollerListenerWorker: Initializing
+[98.051898][Info] CatapultPIDWorker - cock: Initializing
+[98.053272][Info] RaiseBothArmsWorker: Setting arms up
+[98.054205][Info] FrontCollector: ScaledPosition set to: 0.0
+[98.055075][Info] BackCollector: ScaledPosition set to: 0.0
+[98.055942][Info] FieldOrientedCollectionWorker: Initialized state machine
+[98.19484100000001][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[98.19629900000001][Info] DriveCore: New DesiredHeading is: 167.32999992370605
+[99.956131][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[99.957205][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up
+[99.96066799999998][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[100.85632700000001][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up

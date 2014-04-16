@@ -1,0 +1,16 @@
+[183.67233000000002][Info] SetRobotDisabledStateWorker: Initializing
+[183.68052][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[183.68204400000002][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING) to worker -1 (Success)
+[183.683355][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[183.684805][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING) to worker -1 (Success)
+[183.68651400000002][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[183.68749200000002][Info] FireCatapultWorker: Catapult firing
+[183.691481][Info] CollectorDeployPIDWorker:FrontCollector:FIRING: Finished Firing
+[183.692878][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:FrontCollector:FIRING) to worker -1 (Success)
+[183.69403400000002][Info] CollectorDeployPIDWorker:BackCollector:FIRING: Finished Firing
+[183.695511][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 1 (CollectorDeployPIDWorker:BackCollector:FIRING) to worker -1 (Success)
+[183.697037][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[183.69795000000002][Info] FireCatapultWorker: Catapult firing
+[184.894699][Info] FireCatapultWorker: Catapult finished firing
+[184.89609900000002][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[184.898497][Info] SetArmsAndFireCatapultWorker:  was interrupted!

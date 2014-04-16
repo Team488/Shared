@@ -1,0 +1,11 @@
+/CompetitionBot/Tests/dist/
+/CompetitionBot/OnRobotCode/build/
+/CompetitionBot/OnRobotCode/nbproject/private/
+/CompetitionBot/AerialAssistOnRobotCode/nbproject/private
+/WPILib/nbproject/private/
+/SDJavaControls/nbproject/private/
+/SDJavaControls/dist/
+/SDJavaControls/build/
+/DriverStation/TimeSender/nbproject/private/
+/DriverStation/TimeSender/build/
+/DriverStation/TimeSender/dist/

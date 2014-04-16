@@ -1,0 +1,68 @@
+<head><version>2.59.3</version></head>
+<Load_Image>
+  <filename>C:\Users\Shelly Bensal\Desktop\VisionTargets.jpg</filename>
+  <frame_delay>33</frame_delay>
+  <load_numbered_images>FALSE</load_numbered_images>
+  <numerical_sort>TRUE</numerical_sort>
+  <page_number>1</page_number>
+  <recursive>TRUE</recursive>
+</Load_Image>
+<Color_Threshold>
+  <blue_end>30</blue_end>
+  <blue_start>0</blue_start>
+  <green_end>255</green_end>
+  <green_start>200</green_start>
+  <red_end>255</red_end>
+  <red_start>200</red_start>
+</Color_Threshold>
+<Dilate>
+  <avoid_connection>FALSE</avoid_connection>
+  <count>5</count>
+  <dilate_borders>FALSE</dilate_borders>
+  <kernal_shape>4</kernal_shape>
+</Dilate>
+<Erode>
+  <count>5</count>
+  <erode_borders>FALSE</erode_borders>
+  <kernal_shape>4</kernal_shape>
+</Erode>
+<Blob_Filter>
+  <create_blob_array_variable>FALSE</create_blob_array_variable>
+  <filters>
+    <tab>
+      <filter>
+        <count_threshold>1</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>21</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>0</weight_threshold>
+      </filter>
+    </tab>
+    <tab:2/>
+    <tab:3/>
+    <tab:4/>
+    <tab:5/>
+    <tab:6/>
+  </filters>
+  <largest_is_background>FALSE</largest_is_background>
+  <show_weights>FALSE</show_weights>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+</Blob_Filter>
+<Geometric_Statistics>
+  <basic_statistics>FALSE</basic_statistics>
+  <scope>1</scope>
+</Geometric_Statistics>
+<NetworkTables>
+  <delay>100</delay>
+  <filter_type_index>0</filter_type_index>
+  <hostname>localhost</hostname>
+  <port>1735</port>
+  <prefix>/SmartDashboard/</prefix>
+  <variables_to_send>COG_X
+COG_Y
+IMAGE_HEIGHT
+IMAGE_WIDTH</variables_to_send>
+  <variable_type_index>2</variable_type_index>
+</NetworkTables>

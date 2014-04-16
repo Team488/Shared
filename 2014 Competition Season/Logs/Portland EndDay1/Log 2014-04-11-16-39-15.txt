@@ -1,0 +1,107 @@
+[285.639837][Important] Robot: disabledInit()
+[285.776391][Info] RobotPermanentStorage: Saving properties to disk
+[285.77777800000007][Info] RobotPermanentStorage: Serializing Properties to String
+[285.82099300000004][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[286.051769][Info] SetRobotDisabledStateWorker: Initializing
+[286.06396300000006][Warning] RoboAdapter: Time between update calls was 456.25400000001537ms
+[290.6401620000001][Important] Robot: teleopInit()
+[290.641421][Info] DriveCore: New DesiredHeading is: 179.86000001430511
+[290.6422380000001][Info] SetRobotDisabledStateWorker: Initializing
+[294.08504600000003][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[294.08623000000006][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[294.087387][Info] FrontCollector: ScaledPosition set to: 0.0
+[294.544783][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[294.5457160000001][Info] RaiseBothArmsWorker: Setting arms up
+[294.54681800000003][Info] BackCollector: ScaledPosition set to: 0.0
+[295.54490300000003][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[295.546207][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[295.54728500000004][Info] FrontCollector: ScaledPosition set to: 1.0
+[296.2646450000001][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[296.265618][Info] RaiseBothArmsWorker: Setting arms up
+[296.26654400000007][Info] FrontCollector: ScaledPosition set to: 0.0
+[297.045092][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[297.046228][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[297.047262][Info] BackCollector: ScaledPosition set to: 1.0
+[297.625151][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[297.626104][Info] RaiseBothArmsWorker: Setting arms up
+[297.627197][Info] BackCollector: ScaledPosition set to: 0.0
+[308.78457700000007][Info] FrontCollector: ScaledPosition set to: 1.0
+[308.786544][Info] BackCollector: ScaledPosition set to: 1.0
+[308.905824][Info] FrontCollector: ScaledPosition set to: 0.0
+[308.90774500000003][Info] BackCollector: ScaledPosition set to: 0.0
+[309.54509][Info] FrontCollector: ScaledPosition set to: 1.0
+[309.547012][Info] BackCollector: ScaledPosition set to: 1.0
+[309.70775000000003][Info] FrontCollector: ScaledPosition set to: 0.0
+[309.70956900000004][Info] BackCollector: ScaledPosition set to: 0.0
+[311.18634000000003][Info] ManualBallEjectBallWorker:  was interrupted!
+[311.188439][Info] BackRollerListenerWorker:  was interrupted!
+[311.19023500000003][Info] FrontRollerListenerWorker:  was interrupted!
+[311.1922380000001][Info] FieldOrientedCollectionWorker:  was interrupted!
+[311.245856][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[311.246927][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[311.2477180000001][Info] EjectBallWorker: Initialized state machine
+[311.249026][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up, position: 0.0
+[311.251202][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up, position: 0.001086831914894207
+[311.252665][Info] EjectBallWorker: Transitioned from worker 0 (Open collectors) to worker 1 (ManualBallEjectBallWorker)
+[311.253637][Info] ManualBallEjectBallWorker: init: shouldEject: true
+[311.326883][Info] EjectBallWorker: Transitioned from worker 1 (ManualBallEjectBallWorker) to worker 2 (FieldOrientedBallEjection)
+[311.44579100000004][Info] EjectBallWorker:  was interrupted!
+[311.48574][Info] ManualBallEjectBallWorker: init: shouldEject: false
+[311.486818][Info] FrontRollerListenerWorker: Initializing
+[311.48789400000004][Info] BackRollerListenerWorker: Initializing
+[311.489017][Info] RaiseBothArmsWorker: Setting arms up
+[311.48999][Info] FieldOrientedCollectionWorker: Initialized state machine
+[311.88617200000004][Info] ManualBallEjectBallWorker:  was interrupted!
+[311.88825600000007][Info] BackRollerListenerWorker:  was interrupted!
+[311.890101][Info] FrontRollerListenerWorker:  was interrupted!
+[311.89201600000007][Info] FieldOrientedCollectionWorker:  was interrupted!
+[311.945845][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[311.947068][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[311.9478680000001][Info] EjectBallWorker: Initialized state machine
+[311.949362][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up, position: 0.007080971111111332
+[311.9507550000001][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up, position: 0.0
+[311.952205][Info] EjectBallWorker: Transitioned from worker 0 (Open collectors) to worker 1 (ManualBallEjectBallWorker)
+[311.9531860000001][Info] ManualBallEjectBallWorker: init: shouldEject: true
+[312.027164][Info] EjectBallWorker: Transitioned from worker 1 (ManualBallEjectBallWorker) to worker 2 (FieldOrientedBallEjection)
+[313.706096][Info] EjectBallWorker:  was interrupted!
+[313.74778000000003][Info] ManualBallEjectBallWorker: init: shouldEject: false
+[313.748809][Info] FrontRollerListenerWorker: Initializing
+[313.7498530000001][Info] BackRollerListenerWorker: Initializing
+[313.750971][Info] RaiseBothArmsWorker: Setting arms up
+[313.752069][Info] FieldOrientedCollectionWorker: Initialized state machine
+[314.10624600000006][Info] ManualBallEjectBallWorker:  was interrupted!
+[314.10834500000004][Info] BackRollerListenerWorker:  was interrupted!
+[314.11045200000007][Info] FrontRollerListenerWorker:  was interrupted!
+[314.112611][Info] FieldOrientedCollectionWorker:  was interrupted!
+[314.186107][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[314.18718600000005][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[314.188021][Info] EjectBallWorker: Initialized state machine
+[314.189478][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up, position: 0.007080971111111332
+[314.19104100000004][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up, position: 0.0120300404255317
+[314.192541][Info] EjectBallWorker: Transitioned from worker 0 (Open collectors) to worker 1 (ManualBallEjectBallWorker)
+[314.193511][Info] ManualBallEjectBallWorker: init: shouldEject: true
+[314.26628900000003][Info] EjectBallWorker: Transitioned from worker 1 (ManualBallEjectBallWorker) to worker 2 (FieldOrientedBallEjection)
+[316.965667][Info] EjectBallWorker:  was interrupted!
+[317.0127750000001][Info] ManualBallEjectBallWorker: init: shouldEject: false
+[317.013783][Info] FrontRollerListenerWorker: Initializing
+[317.0148040000001][Info] BackRollerListenerWorker: Initializing
+[317.015977][Info] RaiseBothArmsWorker: Setting arms up
+[317.017069][Info] FieldOrientedCollectionWorker: Initialized state machine
+[317.427216][Info] ManualBallEjectBallWorker:  was interrupted!
+[317.42910600000005][Info] BackRollerListenerWorker:  was interrupted!
+[317.430942][Info] FrontRollerListenerWorker:  was interrupted!
+[317.432878][Info] FieldOrientedCollectionWorker:  was interrupted!
+[317.491216][Info] CollectorDeployPIDWorker:FrontCollector:UP: initializing
+[317.49230100000005][Info] CollectorDeployPIDWorker:BackCollector:UP: initializing
+[317.49311000000006][Info] EjectBallWorker: Initialized state machine
+[317.494618][Info] CollectorDeployPIDWorker:FrontCollector:UP: Finished Up, position: 0.007080971111111332
+[317.49601300000006][Info] CollectorDeployPIDWorker:BackCollector:UP: Finished Up, position: 0.0
+[317.497992][Info] EjectBallWorker: Transitioned from worker 0 (Open collectors) to worker 1 (ManualBallEjectBallWorker)
+[317.499082][Info] ManualBallEjectBallWorker: init: shouldEject: true
+[317.5667650000001][Info] EjectBallWorker: Transitioned from worker 1 (ManualBallEjectBallWorker) to worker 2 (FieldOrientedBallEjection)
+[317.765724][Info] EjectBallWorker:  was interrupted!
+[317.806107][Info] ManualBallEjectBallWorker: init: shouldEject: false
+[317.80718700000006][Info] FrontRollerListenerWorker: Initializing
+[317.808288][Info] BackRollerListenerWorker: Initializing
+[317.809334][Info] RaiseBothArmsWorker: Setting arms up
+[317.81028900000007][Info] FieldOrientedCollectionWorker: Initialized state machine

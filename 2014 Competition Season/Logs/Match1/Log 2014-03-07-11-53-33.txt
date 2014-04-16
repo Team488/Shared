@@ -1,0 +1,34 @@
+[64.851486][Info] RobotPermanentStorage: Saving properties to disk
+[64.852232][Info] RobotPermanentStorage: Serializing Properties to String
+[64.887121][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[65.26795][Info] SetRobotDisabledStateWorker: Initializing
+[65.30286600000001][Warning] RoboAdapter: Time between update calls was 566.5190000000075ms
+[72.514495][Info] DriveCore: New DesiredHeading is: 180.38999998569489
+[72.515408][Info] SetRobotDisabledStateWorker: Initializing
+[73.51632][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[73.51735299999999][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[73.51832399999999][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[73.51974799999999][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[73.521061][Info] FrontCollector: ScaledPosition set to: 1.0
+[73.521749][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[73.523184][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[73.524247][Info] BackCollector: ScaledPosition set to: 1.0
+[73.52506699999998][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[73.526117][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[73.526918][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[73.527657][Info] SetArmsAndFireCatapultWorker: Initialized state machine
+[73.52916999999998][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[73.530244][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[73.532158][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[73.533082][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[73.656843][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[73.658378][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[73.659687][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[73.660672][Info] FireCatapultWorker: Catapult firing
+[73.662005][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[73.66326299999999][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[73.66458899999999][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 0 (WhenAllWorker) to worker 1 (FireCatapultWorker)
+[73.665612][Info] FireCatapultWorker: Catapult firing
+[74.876739][Info] FireCatapultWorker: Catapult finished firing
+[74.87823399999998][Info] SetArmsAndFireCatapultWorker: Transitioned from worker 1 (FireCatapultWorker) to worker -1 (Success)
+[74.880538][Info] SetArmsAndFireCatapultWorker:  was interrupted!

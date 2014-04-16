@@ -1,0 +1,81 @@
+<head><version>2.59.3</version></head>
+<Axis_Internet_Camera>
+  <auto_back_light>TRUE</auto_back_light>
+  <auto_exposure>FALSE</auto_exposure>
+  <auto_white_balance>TRUE</auto_white_balance>
+  <brightness_value>50</brightness_value>
+  <color_level_value>50</color_level_value>
+  <compression_index>5</compression_index>
+  <contrast_value>50</contrast_value>
+  <exposure_value>50</exposure_value>
+  <ip_address>10.4.88.11</ip_address>
+  <is_active>TRUE</is_active>
+  <password>FRC</password>
+  <port>80</port>
+  <sharpness_value>50</sharpness_value>
+  <username>FRC</username>
+</Axis_Internet_Camera>
+<Canny>
+  <high_threshold>46</high_threshold>
+  <low_threshold>0</low_threshold>
+  <theta>1.0</theta>
+</Canny>
+<Circles>
+  <circle_color_index>10</circle_color_index>
+  <fill_circles>FALSE</fill_circles>
+  <isolation>3</isolation>
+  <max_radius>1000</max_radius>
+  <min_radius>500</min_radius>
+  <overlay_image>Current</overlay_image>
+  <statistics_image>Source</statistics_image>
+  <thickness>-1</thickness>
+  <threshold>1</threshold>
+</Circles>
+<Blob_Filter>
+  <create_blob_array_variable>FALSE</create_blob_array_variable>
+  <filters>
+    <tab>
+      <filter>
+        <count_threshold>100</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>100</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>0.7</weight_threshold>
+      </filter>
+      <filter:2>
+        <count_threshold>1</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>21</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>0</weight_threshold>
+      </filter:2>
+    </tab>
+    <tab:2/>
+    <tab:3/>
+    <tab:4/>
+    <tab:5/>
+    <tab:6/>
+  </filters>
+  <largest_is_background>FALSE</largest_is_background>
+  <show_weights>FALSE</show_weights>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+</Blob_Filter>
+<Geometric_Statistics>
+  <basic_statistics>FALSE</basic_statistics>
+  <scope>1</scope>
+</Geometric_Statistics>
+<NetworkTables>
+  <delay>100</delay>
+  <filter_type_index>0</filter_type_index>
+  <hostname>localhost</hostname>
+  <port>1735</port>
+  <prefix>/SmartDashboard/</prefix>
+  <variables_to_send>COG_X
+COG_Y
+IMAGE_HEIGHT
+IMAGE_WIDTH</variables_to_send>
+  <variable_type_index>0</variable_type_index>
+</NetworkTables>

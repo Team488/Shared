@@ -1,0 +1,742 @@
+ant -f C:\\GitHub\\TeamXbot2014\\CompetitionBot\\OnRobotCode deploy run
+clean:
+Deleting directory C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build
+Created dir: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build
+Created dir: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\classes
+[crio-compile] ./src, C:/Users/John/sunspotfrcsdk\lib\wpilibj.jar;C:/Users/John/sunspotfrcsdk\lib\networktables-crio.jar;C:\GitHub\TeamXbot2014\CompetitionBot\CoreCode\dist\lib\corecode.jar, C:/Users/John/sunspotfrcsdk\lib\squawk.jar -> ./build/classes
+Compiling 31 source files to C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\classes
+compile:
+preverify:
+Created dir: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\preverify
+Created dir: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\preverify.raw.util
+[crio-preverify] ./build/classes, , C:/Users/John/sunspotfrcsdk\lib\wpilibj.jar;C:/Users/John/sunspotfrcsdk\lib\networktables-crio.jar;C:\GitHub\TeamXbot2014\CompetitionBot\CoreCode\dist\lib\corecode.jar, C:/Users/John/sunspotfrcsdk\lib\squawk.jar -> ./build/preverify
+Expanding: C:\Users\John\sunspotfrcsdk\lib\wpilibj.jar into C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\preverify
+Expanding: C:\Users\John\sunspotfrcsdk\lib\networktables-crio.jar into C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\preverify
+Expanding: C:\GitHub\TeamXbot2014\CompetitionBot\CoreCode\dist\lib\corecode.jar into C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\preverify
+jar:
+[crio-jar] ./build/preverify, ./resources -> ./build/app.jar
+Building jar: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\app.jar
+suite:
+Created dir: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\suite
+[crio-suite] ./build/app.jar -> ./build/suite/image
+CompilerOracle: exclude com/sun/squawk/Method.getParameterTypes
+CompilerOracle: exclude com/sun/squawk/SymbolParser.getSignatureTypeAt
+CompilerOracle: exclude com/sun/squawk/SymbolParser.stripMethods
+[translating suite image [closed: false, parent: squawk] ...]
+### Excluding compile: com.sun.squawk.Method::getParameterTypes
+### Excluding compile: com.sun.squawk.SymbolParser::getSignatureTypeAt
+[Including resource: META-INF/MANIFEST.MF]
+[Including resource: META-INF/maven/edu.wpi.first.wpilib.networktables.java/NetworkTablesAzalea/pom.xml]
+[Including resource: META-INF/maven/edu.wpi.first.wpilib.networktables.java/NetworkTablesAzalea/pom.properties]
+Romizer processed 604 classes and generated 4 files.
+Expanding: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\app.jar into C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\suite
+Moving 1 file to C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\suite
+Moving 1 file to C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\suite
+Moving 1 file to C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\build\suite
+Deleting: C:\GitHub\TeamXbot2014\CompetitionBot\OnRobotCode\image.suite.api
+deploy:
+[crio-configure] Configuration files not included in this version of the sdk
+[crio-configure] Checking that crio is configured for Java
+Host OS: Windows 7 6.1, 6.1
+Host JVM: Java HotSpot(TM) 64-Bit Server VM 23.25-b01
+Target IP: 10.4.88.2
+Network interfaces on host:
+WARNING: Host is not on same subnet as robot. May not be able to complete all communication with robot.
+Connecting FTP @10.4.88.2
+[crio-deploy] ./build/suite/image.suite -> 10.4.88.2
+Sending local file image.suite
+run:
+[cRIO] [OTA Server] ********* REBOOTING cRIO *********
+[cRIO] 
+   Waiting for cRIO to reboot (1s)
+   Waiting for cRIO to reboot (2s)
+   Waiting for cRIO to reboot (3s)
+   Waiting for cRIO to reboot (4s)
+   Waiting for cRIO to reboot (5s)
+   Waiting for cRIO to reboot (6s)
+   Waiting for cRIO to reboot (7s)
+   Waiting for cRIO to reboot (8s)
+   Waiting for cRIO to reboot (9s)
+   Waiting for cRIO to reboot (10s)
+   Waiting for cRIO to reboot (11s)
+[cRIO] 
+[cRIO] -> * Loading debug.o: debug
+[cRIO] Debugging is up, target server mounted at /tsfs
+[cRIO] 
+[cRIO] 
+[cRIO]                 VxWorks
+[cRIO] 
+[cRIO] Copyright 1984-2006  Wind River Systems, Inc.
+[cRIO] 
+[cRIO]              CPU: cRIO-FRC II
+[cRIO]     Runtime Name: VxWorks
+[cRIO]  Runtime Version: 6.3
+[cRIO]      BSP version: 1.0/0
+[cRIO]          Created: May 23 2013, 16:00:09
+[cRIO] ED&R Policy Mode: Deployed
+[cRIO]    WDB Comm Type: WDB_COMM_END
+[cRIO]              WDB: Ready.
+[cRIO] 
+[cRIO] * Loading nisysrpc.out: nisysrpc
+[cRIO] * Loading NiRioRpc.out: NiRioRpc
+[cRIO] * Loading nivissvc.out: nivissvc
+[cRIO] task 0x18b1b90 (Service Locator Thread 5) deleted: errno=0 (0) status=0 (0)
+[cRIO] NI-RIO Server 13.0 started successfully.
+[cRIO] task 0x181ddc8 (NiRioRpc) deleted: errno=0 (0) status=0 (0)
+[cRIO] * Loading nivision.out: nivision
+[cRIO] * Loading visa32.out: visa32
+[cRIO] task 0x18ecf48 (VISA Jungo Init Thread) deleted: errno=196709 (0x30065) status=-1073807360 (0xbfff0000)
+[cRIO] * Loading niserial.out: niserial
+[cRIO] * Loading NiFpgaLv.out: NiFpgaLv
+[cRIO] task 0x18b1b90 (Service Locator Thread 6) deleted: errno=0 (0) status=0 (0)
+[cRIO] task 0x18b1b90 (Service Locator Thread 7) deleted: errno=0 (0) status=0 (0)
+[cRIO] task 0x1a00c18 (Service Locator Thread 8) deleted: errno=0 (0) status=0 (0)
+[cRIO] * Loading FRC_FPGA_ChipObject.out: FRC_FPGA_ChipObject
+[cRIO] task 0x13c6e90 (nisysapi-mDns) deleted: errno=0 (0) status=0 (0)
+[cRIO] * Loading FRC_NetworkCommunication.out: FRC_NetworkCommunication
+[cRIO] FRC_NetworkCommunication version: p4-1.4.0a18
+[cRIO] FPGA Hardware GUID: 0x1394F6DC1FEB42EC6910E5767ED1D22C
+[cRIO] FPGA Software GUID: 0x1394F6DC1FEB42EC6910E5767ED1D22C
+[cRIO] FPGA Hardware Version: 2012
+[cRIO] FPGA Software Version: 2012
+[cRIO] FPGA Hardware Revision: 1.6.4
+[cRIO] FPGA Software Revision: 1.6.4
+[cRIO] * Loading FRC_JavaVM.out: FRC_JavaVM
+[cRIO] 
+[cRIO] 
+[cRIO] [OTA Server] Version: 2012 FRC, Jan  5 2012, 17:20:48
+[cRIO] 
+[cRIO] 
+[cRIO] Welcome to LabVIEW Real-Time 13.0
+[cRIO] task 0x177d7a0 (sysapi-rpc) deleted: errno=0 (0) status=0 (0)
+[cRIO] 
+[cRIO] [Squawk VM] Version: 2011 FRC, Nov  5 2011, 14:34:13
+[cRIO] FPGA Hardware GUID: 0x1394f6dc1feb42ec6910e5767ed1d22c
+[cRIO] FPGA Software GUID: 0xa14c11bde4bb64aef6a86fc52a294cd9
+[cRIO] edu.wpi.first.wpilibj.networktables2.server.ServerConnectionAdapter@9 entered connection state: GOT_CONNECTION_FROM_CLIENT
+[cRIO] edu.wpi.first.wpilibj.networktables2.server.ServerConnectionAdapter@9 entered connection state: CONNECTED_TO_CLIENT
+[cRIO] [0.5783659999999995][Important] Robot: RobotContext initialized!
+[cRIO] [0.5981469999999994][Info] PneumaticCore: Initializing
+[cRIO] [0.609721][Info] CatapultCore: Initializing
+[cRIO] [1.8713049999999998][Info] FieldOrientedCollectionWorker: Added worker RaiseBothArmsWorker with id 0
+[cRIO] [1.8726479999999996][Info] FieldOrientedCollectionWorker: Added worker FrontFOSideCollectionWorker with id 1
+[cRIO] [1.8740669999999995][Info] FieldOrientedCollectionWorker: Added worker BackFOSideCollectionWorker with id 2
+[cRIO] [1.875297][Info] FieldOrientedCollectionWorker: On success: 0 -> 1
+[cRIO] [1.8762009999999996][Info] FieldOrientedCollectionWorker: On failure: 0 -> 2
+[cRIO] [1.8779200000000005][Info] FieldOrientedCollectionWorker: On success: 1 -> 2
+[cRIO] [1.8789309999999992][Info] FieldOrientedCollectionWorker: On failure: 1 -> 0
+[cRIO] [1.8800329999999998][Info] FieldOrientedCollectionWorker: On success: 2 -> 1
+[cRIO] [1.881033][Info] FieldOrientedCollectionWorker: On failure: 2 -> 0
+[cRIO] [1.9451099999999992][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[cRIO] [1.9467049999999995][Info] FrontCollector: ScaledPosition set to: 0.25
+[cRIO] [1.9477770000000005][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[cRIO] [1.9491290000000003][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [1.950328][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[cRIO] [1.951329][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[cRIO] [1.952261][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[cRIO] [1.953203][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[cRIO] [1.9541420000000003][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[cRIO] [1.9561210000000004][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[cRIO] [1.957703][Info] BackCollector: ScaledPosition set to: 0.25
+[cRIO] [1.9587050000000004][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[cRIO] [1.960189][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [1.9611500000000002][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[cRIO] [1.9622739999999999][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[cRIO] [1.9632769999999995][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[cRIO] [1.9642809d worker WhenAllWorker with id 0
+[cRIO] [1.96823][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[cRIO] [1.9691910000000004][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[cRIO] [1.9702910000000007][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[cRIO] [1.9754339999999997][Info] SideCollect:FrontCollector: Added worker CollectorRollerWorker:FrontCollector:COLLECT with id 0
+[cRIO] [1.977515][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [1.9784509999999995][Info] SideCollect:FrontCollector: Added worker Open collectors with id 1
+[cRIO] [1.9796349999999998][Info] SideCollect:FrontCollector: Added worker WaitWorker with id 2
+[cRIO] [1.9809320000000001][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [1.981993][Info] SideCollect:FrontCollector: Added worker CollectorDeployPIDWorker:FrontCollector:UP with id 3
+[cRIO] [1.9830279999999998][Info] SideCollect:FrontCollector: Added worker WaitWorker with id 4
+[cRIO] [1.9846609999999996][Info] FrontCollector: ScaledPosition set to: 0.25
+[cRIO] [1.986096][Info] BackCollector: ScaledPosition set to: 0.25
+[cRIO] [1.9870390000000002][Info] SideCollect:FrontCollector: Added worker Open collectors with id 5
+[cRIO] [1.9884159999999997][Info] SideCollect:FrontCollector: Added worker CollectorRollerWorker:FrontCollector:STOP with id 6
+[cRIO] [1.9897419999999997][Info] SideCollect:FrontCollector: On success: 0 -> 1
+[cRIO] [1.990766][Info] SideCollect:FrontCollector: On success: 1 -> 2
+[cRIO] [1.9916449999999999][Info] SideCollect:FrontCollector: On success: 2 -> 3
+[cRIO] [1.9926079999999997][Info] SideCollect:FrontCollector: On success: 3 -> 4
+[cRIO] [1.9935629999999998][Info] SideCollect:FrontCollector: On success: 4 -> 5
+[cRIO] [1.994618][Info] SideCollect:FrontCollector: On success: 5 -> 6
+[cRIO] [1.9960300000000002][Info] SideCollect:FrontCollector: On success: 6 -> -1
+[cRIO] [1.9997670000000003][Info] Fire and cock catapult: Added worker FireCatapultWorker with id 0
+[cRIO] [2.0008939999999997][Info] Fire and cock catapult: Added worker cockCatapultWorker with id 1
+[cRIO] [2.001935][Info] Fire and cock catapult: On success: 0 -> 1
+[cRIO] [2.0028300000000003][Info] Fire and cock catapult: On success: 1 -> -1
+[cRIO] [2.00752][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [2.008578][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [2.0096969999999996][Info] Autonomous: Added worker DeployCollectors:DOWN,DOWN with id 0
+[cRIO] [2.01122][Info] Autonomous: Added worker FireCatapultWorker with id 1
+[cRIO] worker BoolPropertyWorker:AutonomousUseFront with id 2
+[cRIO] [2.014712][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:FrontCollector:DOWN with id 0
+[cRIO] [2.0158219999999996][Info] HoldAndCollectBallWorker: Added worker WaitWorker with id 1
+[cRIO] [2.0172670000000004][Info] FrontCollector: ScaledPosition set to: 0.6
+[cRIO] [2.018305][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:FrontCollector:SAFE with id 2
+[cRIO] [t to: 0.0
+[cRIO] [2.0243619999999996][Info] CollectAndFireBallFromSideWorker: Added worker PrepareToCollectBallWorker with id 0
+[cRIO] [2.0258510000000003][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [2.026894000000001][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFinishCockingWorker with id 0
+[cRIO] [2.028284][Info] ConsumeBallAndFireWorker: Added worker CollectorRollerWorker:FrontCollector:STOP with id 0
+[cRIO] [2.029712][Info] ConsumeBallAndFireWorker: Added worker WaitForBallToSettleWorker with id 1
+[cRIO] [2.0313619999999997][Info] BackCollector: ScaledPosition set to: 0.25
+[cRIO] [2.0326820000000003][Info] FrontCollector: ScaledPosition set to: 0.25
+[cRIO] [2.033801999999999][Info] ConsumeBallAndFireWorker: Added worker DeployCollectors:FIRING,FIRING with id 2
+[cRIO] [2.035387][Info] ConsumeBallAndFireWorker: Added worker FireCatapultWorker with id 3
+[cRIO] [2.0369050000000004][Info] ConsumeBallAndFireWorker: On success: 0 -> 1
+[cRIO] [2.0378709999999995][Info] ConsumeBallAndFireWorker: On success: 1 -> 2
+[cRIO] [2.038827000000001][Info] ConsumeBallAndFireWorker: On success: 2 -> 3
+[cRIO] [2.0399200000000004][Info] ConsumeBallAndFireWorker: On success: 3 -> -1
+[cRIO] [2.040971][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFireWorker with id 1
+[cRIO] [2.0419379999999996][Info] ConsumeAndFireWorker: On success: 0 -> 1
+[cRIO] [2.0428829999999993][Info] ConsumeAndFireWorker: On success: 1 -> -1
+[cRIO] [2.0438780000000003][Info] CollectAndFireBallFromSideWorker: Added worker ConsumeAndFireWorker with id 1
+[cRIO] [2.045028][Info] CollectAndFireBallFromSideWorker: On success: 0 -> 1
+[cRIO] [2.0461689999999995][Info] CollectAndFireBallFromSideWorker: On success: 1 -> -1
+[cRIO] [2.047257][Info] Autonomous: Added worker CollectAndFireBallFromSideWorker with id 3
+[cRIO] [2.048432][Info] Autonomous: Added worker BoolPropertyWorker:AutonomousUseBack with id 4
+[cRIO] [2.0502270000000005][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [2.051324][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:BackCollector:DOWN with id 0
+[cRIO] [2.052395][Info] HoldAndCollectBallWorker: Added worker WaitWorker with id 1
+[cRIO] [2.0538269999999996][Info] BackCollector: ScaledPosition set to: 0.6
+[cRIO] [2.0549999999999997][Info] HoldAndCollectBallWorker: Added worker CollectorDeployPIDWorker:BackCollector:SAFE with id 2
+[cRIO] [2.0560899999999998][Info] HoldAndCollectBallWorker: On success: 0 -> 1
+[cRIO] [2.05705][Info] HoldAndCollectBallWorker: On success: 1 -> 2
+[cRIO] [2.058506][Info] HoldAndCollectBallWorker: On success: 2 -> -1
+[cRIO] [2.0600350000000005][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [2.0610769999999996][Info] CollectAndFireBallFromSideWhileMovingWorker: Added worker PrepareToCollectBallWorker with id 0
+[cRIO] [2.0624429999999996][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [2.063498][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFinishCockingWorker with id 0
+[cRIO] [2.0649469999999996][Info] ConsumeBallAndFireWorker: Added worker CollectorRollerWorker:BackCollector:STOP with id 0
+[cRIO] [2.0661469999999995][Info] ConsumeBallAndFireWorker: Added worker WaitForBallToSettleWorker with id 1
+[cRIO] [2.067840000000001][Info] BackCollector: ScaledPosition set to: 0.25
+[cRIO] [2.069137][Info] FrontCollector: ScaledPosition set to: 0.25
+[cRIO] [2.070298][Info] ConsumeBallAndFireWorker: Added worker DeployCollectors:FIRING,FIRING with id 2
+[cRIO] [2.0717339999999997][Info] ConsumeBallAndFireWorker: Added worker FireCatapultWorker with id 3
+[cRIO] [2.072897][Info] ConsumeBallAndFireWorker: On success: 0 -> 1
+[cRIO] [2.07378][Info] ConsumeBallAndFireWorker: On success: 1 -> 2
+[cRIO] [2.074761][Info] ConsumeBallAndFireWorker: On success: 2 -> 3
+[cRIO] [2.076181][Info] ConsumeBallAndFireWorker: On success: 3 -> -1
+[cRIO] [2.077168][Info] ConsumeAndFireWorker: Added worker ConsumeBallAndFireWorker with id 1
+[cRIO] [2.0781379999999996][Info] ConsumeAndFireWorker: On success: 0 -> 1
+[cRIO] [2.0790930000000003][Info] ConsumeAndFireWorker: On success: 1 -> -1
+[cRIO] [2.083057][Info] CollectAndFireBallFromSideWhileMovingWorker: Added worker WhenAllWorker with id 1
+[cRIO] [2.0840539999999996][Info] CollectAndFireBallFromSideWhileMovingWorker: On success: 0 -> 1
+[cRIO] [2.0852010000000005][Info] CollectAndFireBallFromSideWhileMovingWorker: On success: 1 -> -1
+[cRIO] [2.086316][Info] Autonomous: Added worker CollectAndFireBallFromSideWhileMovingWorker with id 5
+[cRIO] [2.0872710000000003][Info] Autonomous: On success: 0 -> 1
+[cRIO] [2.0881879999999997][Info] Autonomous: On success: 1 -> 2
+[cRIO] [2.0890969999999993][Info] Autonomous: On success: 2 -> 3
+[cRIO] [2.0901159999999996][Info] Autonomous: On failure: 2 -> 4
+[cRIO] [2.091038][Info] Autonomous: On success: 3 -> 4
+[cRIO] [2.09189][Info] Autonomous: On success: 4 -> 5
+[cRIO] [2.0927569999999993][Info] Autonomous: On failure: 4 -> -1
+[cRIO] [2.093778][Info] Autonomous: On success: 5 -> -1
+[cRIO] [2.1203019999999992][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [2.1214459999999993][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [2.1224900000000004][Info] LoadBallWorker: Added worker DeployCollectors:DOWN,DOWN with id 0
+[cRIO] [2.123578][Info] LoadBallWorker: Added worker WaitWorker with id 1
+[cRIO] [2.1252089999999995][Info] BackCollector: ScaledPosition set to: 0.6
+[cRIO] [2.126524][Info] FrontCollector: ScaledPosition set to: 0.6
+[cRIO] [2.127462999999999][Info] LoadBallWorker: Added worker DeployCollectors:SAFE,SAFE with id 2
+[cRIO] [2.1286130000000005][Info] LoadBallWorker: On success: 0 -> 1
+[cRIO] [2.1297630000000005][Info] LoadBallWorker: On success: 1 -> 2
+[cRIO] [2.130725][Info] LoadBallWorker: On success: 2 -> -1
+[cRIO] [2.1322959999999997][Info] TwoBallAutonomousWorker: Added worker LoadBallAndWaitForGoalHotWorker with id 0
+[cRIO] [2.134414][Info] AutoGoalHotWorker: Added worker FireCatapultWorker with id 0
+[cRIO] [2.1381110000000003][Info] AutoGoalHotWorker: Added worker WhenAllWorker with id 1
+[cRIO] [2.1398669999999997][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 0
+[cRIO] [2.141334][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [2.142461][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [2.1434189999999993][Info] BringArmsUpAndStopRollersWorker: Added worker DeployCollectors:UP,UP with id 1
+[cRIO] [2.1451080000000005][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 2
+[cRIO] [2.1461639999999993][Info] BringArmsUpAndStopRollersWorker: On success: 0 -> 1
+[cRIO] [2.1471389999999997][Info] BringArmsUpAndStopRollersWorker: On success: 1 -> 2
+[cRIO] [2.1481279999999994][Info] BringArmsUpAndStopRollersWorker: On success: 2 -> -1
+[cRIO] [2.14917][Info] AutoGoalHotWorker: Added worker WhenAllWorker with id 2
+[cRIO] [2.1506509999999994][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[cRIO] [2.1521829999999995][Info] FrontCollector: ScaledPosition set to: 0.25
+[cRIO] [2.153247][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[cRIO] [2.1547400000000003][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [2.1562729999999997][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[cRIO] [2.1573539999999998][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[cRIO] [2.1585400000000003][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[cRIO] [2.1596599999999992][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[cRIO] [2.1606909999999995][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[cRIO] [2.1620139999999997][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[cRIO] [2.1635439999999995][Info] BackCollector: ScaledPosition set to: 0.25
+[cRIO] [2.1647129999999994][Info] BackCollector:SafeArmForFiringWorker: dded worker ImmediateWorker with id 2
+[cRIO] [2.1682500000000005][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[cRIO] [2.1692319999999996][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[cRIO] [2.17035][Info] BackCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[cRIO] [2.1712680000000004][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[cRIO] [2.1724259999999997][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0
+[cRIO] [2.1739240000000004][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[cRIO] [2.175095][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[cRIO] [2.1760629999999996][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[cRIO] [2.1777230000000003][Info] AutoGoalHotWorker: Added worker SetArmsAndFireCatapultWorker with id 3
+[cRIO] [2.178823][Info] AutoGoalHotWorker: On success: 0 -> 1
+[cRIO] [2.179814][Info] AutoGoalHotWorker: On success: 1 -> 2
+[cRIO] [2.1806970000000008][Info] AutoGoalHotWorker: On success: 2 -> 3
+[cRIO] [2.181632][Info] AutoGoalHotWorker: On success: 3 -> -1
+[cRIO] [2.1825539999999997][Info] TwoBallAutonomousWorker: Added worker AutoGoalHotWorker with id 1
+[cRIO] [2.1857249999999997][Info] AutoGoalColdWorker: Added worker MaintainHeadingWorker with id 0
+[cRIO] [2.1871559999999994][Info] AutoGoalColdWorker: Added worker FireCatapultWorker with id 1
+[cRIO] [2.1906290000000004][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 0
+[cRIO] [2.1920799999999994][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [2.19318][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [2.194114][Info] BringArmsUpAndStopRollersWorker: Added worker DeployCollectors:UP,UP with id 1
+[cRIO] [2.1962170000000003][Info] BringArmsUpAndStopRollersWorker: Added worker WhenAllWorker with id 2
+[cRIO] [2.197301][Info] BringArmsUpAndStopRollersWorker: On success: 0 -> 1
+[cRIO] [2.1981960000000003][Info] BringArmsUpAndStopRollersWorker: On success: 1 -> 2
+[cRIO] [2.199186][Info] BringArmsUpAndStopRollersWorker: On success: 2 -> -1
+[cRIO] [2.2002769999999994][Info] AutoGoalColdWorker: Added worker WhenAllWorker with id 2
+[cRIO] [2.2017819999999997][Info] FrontCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[cRIO] [2.2033240000000003][Info] FrontCollector: ScaledPosition set to: 0.25
+[cRIO] [2.204391][Info] FrontCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[cRIO] [2.2058220000000004][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [2.2068359999999996][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[cRIO] [2.207877][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[cRIO] [2.208796][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[cRIO] [2.209842][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[cRIO] [2.2108619999999997][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[cRIO] [2.2122][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[cRIO] [2.213842][Info] BackCollector: ScaledPosition set to: 0.25
+[cRIO] [2.2149959999999997][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[cRIO] [2.2168780000000003][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [2.217958][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[cRIO] [2.21894][Info] BackCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[cRIO] [2.2199649999999997][Info] BackCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[cRIO] [2.2210400000000003][Info] BackCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[cRIO] [2.2220519999999992][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[cRIO] [2.2231129999999997][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0
+[cRIO] [2.224721][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[cRIO] [2.2257940000000005][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[cRIO] [2.226810999999999][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[cRIO] [2.2278510000000002][Info] AutoGoalColdWorker: Added worker SetArmsAndFireCatapultWorker with id 3
+[cRIO] [2.229036][Info] AutoGoalColdWorker: On success: 0 -> 1
+[cRIO] [2.2300529999999994][Info] AutoGoalColdWorker: On success: 1 -> 2
+[cRIO] [2.230993][Info] AutoGoalColdWorker: On success: 2 -> 3
+[cRIO] [2.2318719999999996][Info] AutoGoalColdWorker: On success: 3 -> -1
+[cRIO] [2.2328650000000003][Info] TwoBallAutonomousWorker: Added worker AutoGoalColdWorker with id 2
+[cRIO] [2.2362189999999997][Info] TwoBallAutono
+[cRIO] [2.239225][Info] TwoBallAutonomousWorker: On success: 1 -> 3
+[cRIO] er: Added worker CollectorDeployPIDWorker:FrontCollector:FIRING with id 1
+[cRIO] [2.2636080000000005][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [2.264729][Info] FrontCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[cRIO] [2.2657319999999994][Info] FrontCollector:SafeArmForFiringWorker: On success: 0 -> 2
+[cRIO] [2.266721][Info] FrontCollector:SafeArmForFiringWorker: On failure: 0 -> 1
+[cRIO] [2.2676550000000004][Info] FrontCollector:SafeArmForFiringWorker: On success: 2 -> -1
+[cRIO] [2.268654][Info] FrontCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[cRIO] [2.270148][Info] BackCollector:SafeArmForFiringWorker: Added worker IsArmSafeToFireWorker with id 0
+[cRIO] [2.2716439999999998][Info] BackCollector: ScaledPosition set to: 0.25
+[cRIO] [2.2728349999999997][Info] BackCollector:SafeArmForFiringWorker: Added worker CollectorDeployPIDWorker:BackCollector:FIRING with id 1
+[cRIO] [2.2742729999999995][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [2.2754099999999995][Info] BackCollector:SafeArmForFiringWorker: Added worker ImmediateWorker with id 2
+[cRIO] [2.277026][Info] BackCollector:SafeA409999999998][Info] BackCollector:SafeArmForFiringWorker: On success: 1 -> -1
+[cRIO] [2.2811120000000007][Info] SetArmsAndFireCatapultWorker: Added worker WhenAllWorker with id 0
+[cRIO] [2.2825980000000006][Info] SetArmsAndFireCatapultWorker: Added worker FireCatapultWorker with id 1
+[cRIO] [2.283628][Info] SetArmsAndFireCatapultWorker: On success: 0 -> 1
+[cRIO] [2.284638][Info] SetArmsAndFireCatapultWorker: On success: 1 -> -1
+[cRIO] [2.2890949999999997][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [2.2903200000000004][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [2.3270800000000005][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [2.3311330000000003][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [2.3363789999999995][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [2.340099000000001][Info] BackCollector: Scal[24.103617][Info] DriveCore: New DesiredHeading is: 180.0
+[cRIO] [24.104501999999997][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [24.181845000000003][Info] RotationForceProviderWorker: Added worker HumanRotationWorker with id 0
+[cRIO] [24.183873][Info] RobotControlsHeadingWorker: Added worker WaitAfterJoystickWorker with id 0
+[cRIO] [24.186376][Info] RobotControlsHeadingWorker: Added worker MaintainHeadingWorker with id 1
+[cRIO] [24.187352999999998][Info] RobotControlsHeadingWorker: On success: 0 -> 1
+[cRIO] [24.188312000000003][Info] RobotControlsHeadingWorker: On success: 1 -> 1
+[cRIO] [24.189508999999997][Info] RotationForceProviderWorker: Added worker RobotControlsHeadingWorker with id 1
+[cRIO] [24.190582999999997][Info] RotationForceProviderWorker: On failure: 0 -> 1
+[cRIO] [24.191544999999998][Info] RotationForceProviderWorker: On failure: 1 -> 0
+[cRIO] [24.192496][Info] RotationForceProviderWorker: On success: 0 -> 0
+[cRIO] [24.193365][Info] RotationForceProviderWorker: On success: 1 -> 1
+[cRIO] [24.194087999999997][Info] HumanRotationWorker: Initializing
+[cRIO] [24.195504][Info] RotationForceProviderWorker: Initialized state machine
+[cRIO] [24.196232][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[cRIO] [24.199879999999997][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [24.202931999999997][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [24.203787000000002][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [24.205156][Important] PneumaticCore: Compressor is ON
+[cRIO] [24.205878][I[24.212843][Info] FrontRollerListenerWorker: Initializing
+[cRIO] [24.213956999999997][Info] BackRollerListenerWorker: Initializing
+[cRIO] [24.217751999999997][Info] CatapultPIDWorker - cock: Initializing
+[cRIO] [24.219015][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [24.219915999999998][Info] FieldOrientedCollectionWorker: Initialized state machine
+[cRIO] [24.338549999999998][Info] Rob[LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [40.212622][Info] RobotPermanentStorage: Saving properties to disk
+[cRIO] [40.213326][Info] RobotPermanentStorage: Serializing Properties to String
+[cRIO] [40.244748][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[cRIO] [40.432121][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [40.459364][Warning] RoboAdapter: Time between update calls was 318.8249999999971ms
+[cRIO] [51.917669000000004][Info] DriveCore: New DesiredHeading is: 180.0
+[cRIO] [51.918578000000004][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [52.41109700000001][Info] RobotPermanentStorage: Saving properties to disk
+[cRIO] [52.411851000000006][Info] RobotPermanentStorage: Serializing Properties to String
+[cRIO] [52.440389][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[cRIO] [52.540890000000005][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [52.558871][Warning] RoboAdapter: Time between update calls was 219.4670000000042ms
+[cRIO] [53.337723000000004][Info] DriveCore: New DesiredHeading is: 180.0
+[cRIO] [53.338558][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [53.831955][Info] RobotPermanentStorage: Saving properties to disk
+[cRIO] [53.832651][Info] RobotPermanentStorage: Serializing Properties to String
+[cRIO] [53.860174][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[cRIO] [53.957735][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [53.978682][Warning] RoboAdapter: Time between update calls was 219.26900000000023ms
+[cRIO] [85.197101][Info] DriveCore: New DesiredHeading is: 180.0
+[cRIO] [85.19786200000001][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [92.903116][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [92.904353][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [92.905356][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [94.381753][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [94.38267][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [94.383649][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [95.48256500000001][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [95.483862][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [95.484871][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] task 0xc8cb30 (worker.0) deleted: errno=0 (0) status=0 (0)
+[cRIO] [96.761493][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [96.76240200000001][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [96.763334][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [102.38519000000001][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [102.386375][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [102.387362][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [103.40168][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [103.402602][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [103.40361][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [104.562109][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [104.563253][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [104.564407][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [105.181903][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [105.18282500000001][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [105.18395100000001][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [106.982637][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [106.983881][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [106.984883][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [107.84180500000001][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [107.842776][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [107.84386][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [109.403638][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [109.404771][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [109.405752][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [110.32449700000001][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [110.32548200000001][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [110.326494][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [116.461896][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [116.463022][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [116.464135][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [116.621751][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [116.622666][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [116.623673][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [119.381926][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [119.38305][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [119.384157][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [119.921442][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [119.92237200000001][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [119.92342500000001][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [121.283858][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [121.285077][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [121.286083][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [121.761534][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [121.76245400000002][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [121.763507][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [123.282259][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [123.283518][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [123.28470300000001][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [123.441882][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [123.442802][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [123.443807][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [126.30443899999999][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [126.305629][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [126.30662][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [126.621776][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [126.62270099999999][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [126.62376400000001][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [127.70193800000001][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [127.70322600000002][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [127.70431699999999][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [128.24167100000003][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [128.24265699999998][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [128.24379299999998][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [128.963819][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [128.96495][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [128.965933][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [129.38164700000002][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [129.38262600000002][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [129.38369000000003][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [129.981681][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [129.982803][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [129.983923][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [130.84103000000002][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [130.841995][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [130.842977][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [149.001074][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [149.002207][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [149.00338399999998][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [149.62077][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [149.62176799999997][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [149.62271099999998][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [150.84135899999998][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 1 (FrontFOSideCollectionWorker)
+[cRIO] [150.84255199999998][Info] FrontFOSideCollectionWorker: Lowering:FrontCollector, Raising:BackCollector
+[cRIO] [150.843721][Info] FrontCollector: ScaledPosition set to: 1.0
+[cRIO] [151.28117699999999][Info] FieldOrientedCollectionWorker: Transitioned from worker 1 (FrontFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [151.282163][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [151.283243][Info] FrontCollector: ScaledPosition set to: 0.0
+[cRIO] [156.80247799999998][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [156.803777][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [156.80478399999998][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [156.92096999999998][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [156.92193999999998][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [156.923061][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [156.981909][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [156.983164][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [156.98418099999998][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [157.26098499999998][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [157.26196099999999][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [157.263019][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [158.161614][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [158.16274099999998][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [158.16393399999998][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [158.72102999999998][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [158.72200199999997][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [158.72305999999998][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [159.62165399999998][Info] FieldOrientedCollectionWorker: Transitioned from worker 0 (RaiseBothArmsWorker) to worker 2 (BackFOSideCollectionWorker)
+[cRIO] [159.622955][Info] BackFOSideCollectionWorker: Lowering:BackCollector, Raising:FrontCollector
+[cRIO] [159.62397199999998][Info] BackCollector: ScaledPosition set to: 1.0
+[cRIO] [159.72296599999999][Info] FieldOrientedCollectionWorker: Transitioned from worker 2 (BackFOSideCollectionWorker) to worker 0 (RaiseBothArmsWorker)
+[cRIO] [159.72395899999998][Info] RaiseBothArmsWorker: Setting arms up
+[cRIO] [159.72490299999998][Info] BackCollector: ScaledPosition set to: 0.0
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [178.430852][Info] RobotPermanentStorage: Saving properties to disk
+[cRIO] [178.431547][Info] RobotPermanentStorage: Serializing Properties to String
+[cRIO] [178.459295][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[cRIO] [178.62042599999998][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [178.63697299999995][Warning] RoboAdapter: Time between update calls was 279.5559999999823ms
+[cRIO] [184.835299][Info] DriveCore: New DesiredHeading is: 180.0
+[cRIO] [184.836075][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [188.23665699999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [188.238191][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [188.23908][Info] HumanRotationWorker: Initializing
+[cRIO] [198.59657099999998][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [198.597713][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [198.59848799999997][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [199.617222][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [199.61850299999998][Info] DriveCore: New DesiredHeading is: 180.0
+[cRIO] [211.136404][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [211.137881][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [211.138773][Info] HumanRotationWorker: Initializing
+[cRIO] [211.355989][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [211.356959][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [211.35784299999997][Info] RobotControlsHeadingWorker: Initialized s[212.37636300000003][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [212.37767][Info] DriveCore: New DesiredHeading is: 180.0
+[cRIO] [213.20086899999998][Info] SensorCore: has reset Gyro heading
+[cRIO] [213.20174][Important] ResetGyroWorker: Resetting heading
+[cRIO] [213.237145][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.238427][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.27648][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.27770299999997][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.32054499999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.321712][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.356429][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.357669][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.397013][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.39845499999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.44975799999997][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.45092][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.496691][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.49793799999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.536519][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.537768][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.576348][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.57758199999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.616669][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.61792499999999][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.656308][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.657549][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.696495][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.697746][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.736502][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.73775799999999][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.777517][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.778653][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.81639099999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.81769][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.85631899999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.857608][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.89659999999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.89790299999999][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.93640399999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.93770099999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [213.97645899999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [213.97776299999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [214.016506][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [214.017755][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [214.066186][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [214.06747299999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [214.116639][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [214.11789299999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [214.157324][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [214.15865499999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [214.19647999999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [214.19778][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] er) to worker -2 (Failure)
+[cRIO] [221.679846][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [221.68074099999998][Info] HumanRotationWorker: Initializing
+[cRIO] [221.875882][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [221.876849][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [221.87772199999998][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [222.03637999999998][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[cRIO] [222.037927][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [222.038817][Info] HumanRotationWorker: Initializing
+[cRIO] [222.315776][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [222.316849][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [222.317751][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [223.33572999999998][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [223.336905][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [223.45588999999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [223.45740899999998][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [223.45835599999998][Info] HumanRotationWorker: Initializing
+[cRIO] [223.6375][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [223.63854099999998][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [223.639356][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [223.695766][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [223.696969][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [223.99595][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [223.99741999999998][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [223.99837][Info] HumanRotationWorker: Initializing
+[cRIO] [224.135642][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [224.136607][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [224.137486][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [224.17578699999999][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [224.176956][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [224.456177][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [224.45764599999998][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [224.45866999999998][Info] HumanRotationWorker: Initializing
+[cRIO] [224.65534799999998][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [224.656366][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [224.657231][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [224.69665099999997][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [224.697951][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [225.05640699999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [225.057933][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotCont[225.275535][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [225.276595][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [225.27749599999999][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [225.31947799999998][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [225.32064899999997][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [225.736491][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [225.73797199999998][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [225.73892099999998][Info] HumanRotationWorker: Initializing
+[cRIO] [225.87601099999998][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [225.87703199999999][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [225.87796999999998][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [225.93624699999998][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[cRIO] [225.93772099999998][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [227.55024699999998][Info] RobotPermanentStorage: Saving properties to disk
+[cRIO] [227.55101499999998][Info] RobotPermanentStorage: Serializing Properties to String
+[cRIO] [227.578511][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[cRIO] [227.729804][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [227.756217][Warning] RoboAdapter: Time between update calls was 278.80799999999ms
+[cRIO] [243.314731][Info] DriveCore: New DesiredHeading is: 90.0
+[cRIO] [243.315511][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [249.75616599999998][Info] RobotControlsHeadingWorker: Transitioned from worker 1 (MaintainHeadingWorker) to worker -2 (Failure)
+[cRIO] [249.75768699999998][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [249.75862899999998][Info] HumanRotationWorker: Initializing
+[cRIO] [250.21608099999997][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [250.21728199999998][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [250.218164][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [250.276031][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker -2 (Failure)
+[cRIO] [250.27758999999998][Info] RotationForceProviderWorker: Transitioned from worker 1 (RobotControlsHeadingWorker) to worker 0 (HumanRotationWorker)
+[cRIO] [250.27854299999998][Info] HumanRotationWorker: Initializing
+[cRIO] [250.81690899999998][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[cRIO] [250.817968][Info] WaitAfterJoystickWorker: Initializing
+[cRIO] [250.818703][Info] RobotControlsHeadingWorker: Initialized state machine
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [LogConsumer] We are being forced to flush to storage by external caller.
+[cRIO] Writing to Robot Storage
+[cRIO] Output stream created.
+[cRIO] Entry written to disk.
+[cRIO] Output stream closed.
+[cRIO] [251.887653][Info] RobotPermanentStorage: Saving properties to disk
+[cRIO] [251.88838199999998][Info] RobotPermanentStorage: Serializing Properties to String
+[cRIO] [251.91599699999998][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[cRIO] [252.02162299999998][Info] SetRobotDisabledStateWorker: Initializing
+[cRIO] [252.03513999999998][Warning] RoboAdapter: Time between update calls was 219.70699999999488ms
+[cRIO] [281.54195899999996][Warning] RoboAdapter: Time between update calls was 1026.4820000000182ms
+[cRIO] [282.030172][Warning] RoboAdapter: Time between update calls was 273.7720000000554ms
+[cRIO] [291.89660100000003][Warning] RoboAdapter: Time between update calls was 281.10600000002887ms
+[cRIO] 0x17670d8 (SquawkRobotTask): memPartAlloc: block too big 256 bytes (0x8 aligned) in partition 0x35e4f8
+[cRIO] Uncaught out of memory error on thread  - aborting isolate Thread-10
+[cRIO] 0x17670d8 (SquawkRobotTask): memPartAlloc: block too big 72 bytes (0x8 aligned) in partition 0x35e4f8
+[cRIO] Tried to execute callbacks in the context of an isolate that is no longer alive: isolate 1 "org.usfirst.frc488.OnRobotCode.Robot" (EXITED)
+[cRIO] Skipping that set of callbacks
+[cRIO] task 0x176f618 (cached TaskExecutor 1) deleted: errno=0 (0) status=0 (0)
+[cRIO] 
+[cRIO] 
+[cRIO] --------------------------------------------------------------------
+[cRIO] GCs: 1 full, 123 partial
+[cRIO] ** VM stopped: exit code = 999 ** 
+[cRIO] event request id = 132776
+[cRIO] unexpected result in SimpleMonitorDestroy mutex on threadEventMonitor: 16. errno: 0 
+[cRIO] unexpected result in SimpleMonitorDestroy condvar on threadEventMonitor: 16. errno: 0 
+[cRIO] task 0x17670d8 (SquawkRobotTask) deleted: errno=0 (0) status=999 (0x3e7)

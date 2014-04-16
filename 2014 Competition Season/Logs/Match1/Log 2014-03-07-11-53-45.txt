@@ -1,0 +1,7 @@
+[100.11085199999998][Info] RobotPermanentStorage: Saving properties to disk
+[100.11168599999999][Info] RobotPermanentStorage: Serializing Properties to String
+[100.142343][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[100.27435199999998][Info] SetRobotDisabledStateWorker: Initializing
+[100.301308][Warning] RoboAdapter: Time between update calls was 305.5949999999866ms
+[105.51382799999999][Info] DriveCore: New DesiredHeading is: 181.27999997138977
+[105.51482299999999][Info] SetRobotDisabledStateWorker: Initializing

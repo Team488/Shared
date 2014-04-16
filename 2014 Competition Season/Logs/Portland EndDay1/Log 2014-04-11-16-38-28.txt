@@ -1,0 +1,124 @@
+[0.457610999999999][Important] Robot: RobotContext initialized!
+[0.4664399999999996][Info] SensorCore: Constructing, gyroOffset:90.0
+[0.48315099999999983][Info] PneumaticCore: Initializing
+[0.49605499999999936][Info] CatapultCore: Initializing
+[1.2164539999999997][Info] BackCollector: ScaledPosition set to: 1.0
+[1.2178859999999996][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.2230649999999996][Info] BackCollector: ScaledPosition set to: 0.0
+[1.2393409999999994][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.2424259999999996][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.2466899999999996][Info] BackCollector: ScaledPosition set to: 0.6
+[1.2481819999999988][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.255924][Info] BackCollector: ScaledPosition set to: 1.0
+[1.2579670000000005][Info] BackCollector: ScaledPosition set to: 0.6
+[1.2603409999999995][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.2620549999999995][Info] BackCollector: ScaledPosition set to: 0.0
+[1.265986999999999][Info] BackCollector: ScaledPosition set to: 0.6
+[1.2673489999999992][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.273414999999999][Info] BackCollector: ScaledPosition set to: 1.0
+[1.27542][Info] BackCollector: ScaledPosition set to: 0.6
+[1.277870999999999][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.2795450000000002][Info] BackCollector: ScaledPosition set to: 0.0
+[1.2893360000000003][Info] BackCollector: ScaledPosition set to: 1.0
+[1.290607][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.2927880000000005][Info] BackCollector: ScaledPosition set to: 0.6
+[1.2942249999999995][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.301344][Info] BackCollector: ScaledPosition set to: 0.0
+[1.3025479999999998][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.3076040000000002][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.3094219999999996][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.3114079999999995][Info] FrontCollector: ScaledPosition set to: 0.35
+[1.3144569999999993][Info] BackCollector: ScaledPosition set to: 0.6
+[1.3161509999999998][Info] BackCollector: ScaledPosition set to: 1.0
+[1.318276999999999][Info] BackCollector: ScaledPosition set to: 0.45
+[1.3288270000000002][Info] BackCollector: ScaledPosition set to: 0.0
+[1.3300939999999992][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.3339669999999997][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.3356309999999993][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.3379709999999996][Info] FrontCollector: ScaledPosition set to: 0.35
+[1.3408269999999993][Info] BackCollector: ScaledPosition set to: 0.6
+[1.342483][Info] BackCollector: ScaledPosition set to: 1.0
+[1.3445449999999992][Info] BackCollector: ScaledPosition set to: 0.45
+[1.3592619999999997][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.3610510000000005][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.3631939999999996][Info] FrontCollector: ScaledPosition set to: 0.35
+[1.3661929999999993][Info] BackCollector: ScaledPosition set to: 0.6
+[1.3679759999999996][Info] BackCollector: ScaledPosition set to: 1.0
+[1.3700029999999996][Info] BackCollector: ScaledPosition set to: 0.45
+[1.4540739999999996][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.4565100000000002][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.459285][Info] BackCollector: ScaledPosition set to: 0.0
+[1.4672489999999998][Info] FrontCollector: ScaledPosition set to: 1.0
+[1.4698319999999994][Info] FrontCollector: ScaledPosition set to: 0.6
+[1.4732399999999999][Info] FrontCollector: ScaledPosition set to: 0.0
+[1.4817829999999994][Info] BackCollector: ScaledPosition set to: 0.6
+[1.4836940000000005][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.0237599999999993][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.0261679999999997][Info] FrontCollector: ScaledPosition set to: 0.35
+[2.0302420000000003][Info] BackCollector: ScaledPosition set to: 1.0
+[2.0328500000000003][Info] BackCollector: ScaledPosition set to: 0.45
+[2.0421179999999994][Info] FrontCollector: ScaledPosition set to: 0.6
+[2.044376][Info] FrontCollector: ScaledPosition set to: 1.0
+[2.049838][Info] BackCollector: ScaledPosition set to: 0.6
+[2.051867][Info] BackCollector: ScaledPosition set to: 1.0
+[2.0543419999999997][Info] BackCollector: ScaledPosition set to: 0.45
+[2.5448049999999993][Important] Robot: disabledInit()
+[2.655371][Info] RobotPermanentStorage: Saving properties to disk
+[2.656173999999999][Info] RobotPermanentStorage: Serializing Properties to String
+[2.6890289999999997][Info] RobotPermanentStorage: Properties file found. Deleting and creating a new one.
+[2.750322][Info] SetRobotDisabledStateWorker: Initializing
+[272.926594][Warning] RoboAdapter: Time between update calls was 263.63300000003073ms
+[272.935329][Info] FrontCollector: IsManual = true
+[272.938851][Info] BackCollector: IsManual = true
+[273.178338][Warning] RoboAdapter: Time between update calls was 248.2750000000815ms
+[273.185721][Info] FrontCollector: IsManual = false
+[273.19116][Info] BackCollector: IsManual = false
+[273.532381][Warning] RoboAdapter: Time between update calls was 351.83700000005774ms
+[282.1994440000001][Important] Robot: teleopInit()
+[282.200722][Info] DriveCore: New DesiredHeading is: 179.97000002861023
+[282.201534][Info] SetRobotDisabledStateWorker: Initializing
+[282.283605][Info] ManualBallEjectBallWorker: init: shouldEject: false
+[282.295777][Info] HumanRotationWorker: Initializing
+[282.29714300000006][Info] RotationForceProviderWorker: Initialized state machine
+[282.298007][Important] DriveMecanumWithJoysticksWorker: is running Mecanum drive
+[282.29989][Info] RotationForceProviderWorker: Transitioned from worker 0 (HumanRotationWorker) to worker 1 (RobotControlsHeadingWorker)
+[282.302936][Info] WaitAfterJoystickWorker: Initializing
+[282.303911][Info] RobotControlsHeadingWorker: Initialized state machine
+[282.3052660000001][Important] PneumaticCore: Compressor is ON
+[282.3060700000001][Important] CompressorWorker: Compressor on
+[282.306981][Info] CollectionPositionMaintainer: init
+[282.30942500000003][Info] CollectionPositionMaintainer: init
+[282.31173700000005][Info] FrontRollerListenerWorker: Initializing
+[282.312821][Info] BackRollerListenerWorker: Initializing
+[282.313947][Info] CatapultPIDWorker - cock: Initializing
+[282.315345][Info] RaiseBothArmsWorker: Setting arms up
+[282.317061][Info] FrontCollector: ScaledPosition set to: 0.0
+[282.3256850000001][Info] BackCollector: ScaledPosition set to: 0.0
+[282.327395][Info] FieldOrientedCollectionWorker: Initialized state machine
+[282.4408700000001][Info] RobotControlsHeadingWorker: Transitioned from worker 0 (WaitAfterJoystickWorker) to worker 1 (MaintainHeadingWorker)
+[282.442377][Info] DriveCore: New DesiredHeading is: 179.95999991893768
+[282.4473970000001][Info] CatapultPIDWorker - cock: Initializing
+[284.445781][Info] SetFiringLockWorker: Initializing
+[284.44657][Info] CatapultCore: IsFiring flag has been set!
+[284.447343][Info] SetArmsAndFireCatapultWorkerSimultaneous: Initialized state machine
+[284.44873500000006][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 0 (SetFiringLockWorker) to worker 1 (WhenAllWorker)
+[284.450174][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 1. Name: CollectorDeployPIDWorker:FrontCollector:FIRING
+[284.451478][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 3. Name: IsArmSafeToFireWorkerUnderDuress
+[284.4528190000001][Warning] FrontCollector:SafeArmForFiringWorker: No success transition defined from state 4. Name: CollectorDeployPIDWorker:FrontCollector:DURESS
+[284.453911][Info] FrontCollector:SafeArmForFiringWorker: Initialized state machine
+[284.45521][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 1. Name: CollectorDeployPIDWorker:BackCollector:FIRING
+[284.45666600000004][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 3. Name: IsArmSafeToFireWorkerUnderDuress
+[284.45805600000006][Warning] BackCollector:SafeArmForFiringWorker: No success transition defined from state 4. Name: CollectorDeployPIDWorker:BackCollector:DURESS
+[284.459172][Info] BackCollector:SafeArmForFiringWorker: Initialized state machine
+[284.45999900000004][Info] CatapultCore: IsFiring flag has been set!
+[284.460817][Info] FireCatapultWorker: Catapult firing
+[284.586591][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[284.58775600000007][Info] FrontCollector: ScaledPosition set to: 1.0
+[284.5895][Info] CollectorDeployPIDWorker:FrontCollector:DOWN: initializing
+[284.591032][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 0 (IsArmSafeToFireWorker) to worker 2 (ImmediateWorker)
+[284.59244100000006][Info] BackCollector: ScaledPosition set to: 1.0
+[284.594358][Info] CollectorDeployPIDWorker:BackCollector:DOWN: initializing
+[284.66624600000006][Info] FrontCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[284.66762][Info] BackCollector:SafeArmForFiringWorker: Transitioned from worker 2 (ImmediateWorker) to worker -1 (Success)
+[285.4655920000001][Info] FireCatapultWorker: Catapult finished firing
+[285.467035][Info] SetArmsAndFireCatapultWorkerSimultaneous: Transitioned from worker 1 (WhenAllWorker) to worker -1 (Success)
