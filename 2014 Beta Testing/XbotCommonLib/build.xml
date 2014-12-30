@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="XbotCommonLib" default="jar">
+
+	<target name="jar">
+		<jar destfile="dist/XbotCommonLib.jar" basedir="src"/>
+	</target>
+</project> 
