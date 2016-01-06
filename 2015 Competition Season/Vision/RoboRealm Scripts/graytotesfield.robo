@@ -1,0 +1,58 @@
+<head><version>2.69.13</version></head>
+<function>
+<function_name>Tab4</function_name>
+<function_always_run>0</function_always_run>
+<Load_Image>
+  <filename>C:\Users\XBot Robotics\Documents\GitHub\TeamXbot2015\Vision\Pictures\recyclerushfield.PNG</filename>
+  <frame_delay>33</frame_delay>
+  <load_numbered_images>FALSE</load_numbered_images>
+  <numerical_sort>TRUE</numerical_sort>
+  <page_number>1</page_number>
+  <recursive>TRUE</recursive>
+</Load_Image>
+<Color_Threshold>
+  <blue_end>193</blue_end>
+  <blue_start>95</blue_start>
+  <green_end>198</green_end>
+  <green_start>98</green_start>
+  <red_end>219</red_end>
+  <red_start>98</red_start>
+  <result_type>2</result_type>
+</Color_Threshold>
+<Blob_Size>
+  <limit>4</limit>
+  <mask>TRUE</mask>
+  <max_area>0</max_area>
+  <min_area>255</min_area>
+  <threshold>87</threshold>
+  <treat_as_color_image>FALSE</treat_as_color_image>
+</Blob_Size>
+<Display_Variables>
+  <border_color>red</border_color>
+  <dim_background>TRUE</dim_background>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <display_value_only>FALSE</display_value_only>
+  <font_color>white</font_color>
+  <font_size>Normal (10pt)</font_size>
+  <northwest>COG_Y
+COG_X
+BLOB_COUNT
+</northwest>
+</Display_Variables>
+<Geometric_Statistics>
+  <basic_statistics>FALSE</basic_statistics>
+</Geometric_Statistics>
+<Marker>
+  <include_graphics>0</include_graphics>
+  <name>GreyToteLandfill</name>
+  <revert_to>Current</revert_to>
+</Marker>
+<Math>
+  <all_channels>TRUE</all_channels>
+  <bias>0</bias>
+  <divisor>1</divisor>
+  <function>15</function>
+  <image1>Source</image1>
+  <image2>GreyToteLandfill</image2>
+</Math>
+</function>

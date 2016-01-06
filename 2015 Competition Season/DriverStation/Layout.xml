@@ -1,0 +1,160 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Ramping Power Rate" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="25" y="521"/>
+	</widget>
+	<widget field="CrazyA" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="19" y="292"/>
+	</widget>
+	<widget field="Elevator I" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="12" y="223"/>
+	</widget>
+	<widget field="Elevator Manual used recently" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1174" y="367"/>
+	</widget>
+	<widget field="Elevator power samples to average" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="124"/>
+	</widget>
+	<widget field="HeightChooser - highest height" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="103"/>
+	</widget>
+	<widget field="Elevator pot height" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="403" y="141"/>
+	</widget>
+	<widget field="Elevator sensors enabled" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1189" y="341"/>
+	</widget>
+	<widget field="Stall history percentage threshold" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="710"/>
+	</widget>
+	<widget field="BLOB_COUNT" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="182" y="754"/>
+	</widget>
+	<widget field="COG_X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="665" y="666"/>
+	</widget>
+	<widget field="COG_Y" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="663" y="613"/>
+	</widget>
+	<widget field="IMAGE_WIDTH" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="257" y="680"/>
+		<height>20</height>
+	</widget>
+	<widget field="Target X velocity" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="232" y="657"/>
+	</widget>
+	<widget field="IMAGE_HEIGHT" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="363" y="718"/>
+	</widget>
+	<widget field="Stall history length" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="425" y="673"/>
+	</widget>
+	<widget field="Stall rate threshold" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="454" y="644"/>
+	</widget>
+	<widget field="Operational stall deadzone" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="561" y="713"/>
+	</widget>
+	<widget field="ToteHeight" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="650" y="639"/>
+	</widget>
+	<widget field="Elevator encoder position (in)" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="550" y="732"/>
+	</widget>
+	<widget field="Raw elevator encoder ticks" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="571" y="758"/>
+	</widget>
+	<widget field="Target Y velocity" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="38" y="674"/>
+	</widget>
+	<widget field="Elevator inches per pulse" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="17" y="636"/>
+	</widget>
+	<widget field="Translational velocity Y" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="434" y="520"/>
+	</widget>
+	<widget field="Translational velocity X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="434" y="495"/>
+	</widget>
+	<widget field="Translational position Y" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="432" y="425"/>
+	</widget>
+	<widget field="Translational position X" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="433" y="402"/>
+		<height>21</height>
+	</widget>
+	<widget field="elevatorTargetHeight" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="391" y="168"/>
+	</widget>
+	<widget field="Elevator current position deadband (in)" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="375" y="323"/>
+	</widget>
+	<widget field="Elevator current pot voltage" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="102" y="13"/>
+	</widget>
+	<widget field="Is elevator stalled?" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="868" y="355"/>
+	</widget>
+	<widget field="ElevatorPower" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="125" y="383"/>
+	</widget>
+	<widget field="Right rear power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="209" y="432"/>
+	</widget>
+	<widget field="Right front power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="204" y="411"/>
+	</widget>
+	<widget field="Left rear power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="17" y="433"/>
+	</widget>
+	<widget field="Left front power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="14" y="410"/>
+	</widget>
+	<widget field="Is tote in position" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1162" y="108"/>
+	</widget>
+	<widget field="Current yaw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="146" y="465"/>
+	</widget>
+	<widget field="Collector tote angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1150" y="131"/>
+		<height>21</height>
+	</widget>
+	<widget field="Front right distance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1152" y="176"/>
+	</widget>
+	<widget field="Front left distance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1157" y="155"/>
+	</widget>
+	<widget field="Enable elevator safety checks" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1166" y="317"/>
+	</widget>
+	<widget field="Elevator pot danger threshold" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="95" y="82"/>
+	</widget>
+	<widget field="Elevator manual power down" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="69" y="337"/>
+	</widget>
+	<widget field="Elevator P" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="10" y="201"/>
+	</widget>
+	<widget field="Collector sensor minimum reliable distance (in)" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1028" y="221"/>
+	</widget>
+	<widget field="ElevatorMaxSafeHeight" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="635" y="17"/>
+	</widget>
+	<widget field="Collector sensor maximum reliable distance (in)" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1022" y="198"/>
+	</widget>
+	<widget field="CalibrateTranslationCommand" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1194" y="545"/>
+	</widget>
+	<widget field="ElevatorMinSafeHeight" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="638" y="37"/>
+	</widget>
+	<widget field="Elevator upper position reference voltage" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="38" y="38"/>
+	</widget>
+	<widget field="HeightChooser - Carriage 4 Height" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<loca

@@ -1,0 +1,87 @@
+double,BLOB_COUNT,0.0
+double,BetweenToteDistanceObtain,5.0
+double,COG_X,0.0
+double,COG_Y,0.0
+double,CollecterPower,0.4
+double,Collector distance between sensors (in),11.0
+double,Collector sensor maximum reliable distance (in),6.0
+double,Collector sensor minimum reliable distance (in),0.8
+double,Collector tote angle,0.0
+double,Collector tote distance threshold,3.0
+double,CollectorPower,1.0
+double,Current yaw,178.70000457763672
+double,Elevator D,1.0
+double,Elevator I,0.002
+double,Elevator P,0.0
+double,Elevator current position deadband (in),0.3
+double,Elevator current pot voltage,2.839355230331421
+double,Elevator deadband large (in),0.3
+double,Elevator deadband small (in),0.1
+double,Elevator encoder position (in),11.989528482610531
+double,Elevator inches per pulse,1.0
+double,Elevator lower position reference height (in),0.0
+double,Elevator lower position reference voltage,3.81
+double,Elevator manual power down,0.5
+double,Elevator manual power up,0.6
+double,Elevator pot danger threshold,0.2
+double,Elevator pot height,16.880778602931812
+boolean,Elevator sensors enabled,true
+boolean,Elevator stall detection enabled,false
+double,Elevator upper position reference height (in),60.0
+double,Elevator upper position reference voltage,0.36
+boolean,ElevatorBypassSensors,true
+double,ElevatorMaxSafeHeight,55.0
+double,ElevatorMinSafeHeight,0.0
+double,ElevatorPower,0.0
+boolean,Enable elevator safety checks,true
+boolean,Enable elevator safety checks?,true
+double,Front left distance,2.79654296272218
+double,Front right distance,6.158867177696875
+double,FrontLeftDistance,0.0
+double,FrontRightDistance,0.0
+double,Heading D,0.0
+double,Heading I,0.0
+double,Heading P,0.02
+double,Height to get Tote 1,2.7
+double,HeightChooser - Carriage 1 Height,1.68
+double,HeightChooser - Carriage 2 Height,16.775
+double,HeightChooser - Carriage 3 Height,31.7
+double,HeightChooser - Carriage 4 Height,46.66
+double,HeightChooser - lowest height,0.0
+double,Heightchooser - highest height,55.0
+double,IMAGE_HEIGHT,0.0
+double,IMAGE_WIDTH,0.0
+boolean,Is elevator stalled?,true
+boolean,Is tote in position,false
+double,Left front power,0.008187699749678194
+double,Left rear power,-0.007433278549310804
+double,LidarPollDurationMs,100.0
+double,Operational stall deadzone,0.1
+double,Position D,0.0
+double,Position I,0.0
+double,Position P,0.0
+double,Raw elevator encoder ticks,-0.0
+double,Right front power,-0.007833211410638929
+double,Right rear power,0.007787766888350069
+double,RotationAssistDeadzone,0.15
+double,RotationAssistTimeout,0.3
+double,Stall history length,10.0
+double,Stall history percentage threshold,0.1
+double,Stall rate threshold,1.0
+double,StepHeight,7.0
+double,Target X velocity,0.0
+double,Target Y velocity,0.0
+double,Target position tolerance,4.0
+double,Target velocity tolerance,1.0
+double,ToteHeight,10.0
+double,Translational position X,17.77355970316769
+double,Translational position Y,106.24106694217689
+double,Translational velocity X,0.0
+double,Translational velocity Y,0.0
+double,Velocity D,0.0
+double,Velocity I,0.0
+double,Velocity P,0.0
+double,elevatorHeightTolerance,2.0
+double,elevatorMaximumPidPower,0.6
+double,elevatorPowerDeadband,0.1
+double,elevatorTargetHeight,16.775

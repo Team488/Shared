@@ -1,0 +1,79 @@
+<head><version>2.69.13</version></head>
+<Load_Image>
+  <filename>C:\Users\XBot Robotics\Documents\GitHub\TeamXbot2015\Vision\Pictures\yellowtote.jpg</filename>
+  <frame_delay>33</frame_delay>
+  <load_numbered_images>FALSE</load_numbered_images>
+  <numerical_sort>TRUE</numerical_sort>
+  <page_number>1</page_number>
+  <recursive>TRUE</recursive>
+</Load_Image>
+<RGB_Filter>
+  <channel>64</channel>
+  <hue_value>112</hue_value>
+  <hysteresis>0</hysteresis>
+  <min_value>105</min_value>
+</RGB_Filter>
+<Convex_Hull/>
+<Blob_Filter>
+  <create_blob_array_variable>FALSE</create_blob_array_variable>
+  <filters>
+    <tab>
+      <filter>
+        <count_threshold>0</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>21</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>0.5</weight_threshold>
+      </filter>
+    </tab>
+    <tab:2/>
+    <tab:3/>
+    <tab:4/>
+    <tab:5/>
+    <tab:6/>
+  </filters>
+  <font_size>Normal (10pt)</font_size>
+  <largest_is_background>FALSE</largest_is_background>
+  <show_weights>FALSE</show_weights>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+</Blob_Filter>
+<Geometric_Statistics>
+  <basic_statistics>FALSE</basic_statistics>
+</Geometric_Statistics>
+<Display_Variables>
+  <border_color>red</border_color>
+  <dim_background>TRUE</dim_background>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <display_value_only>FALSE</display_value_only>
+  <font_color>white</font_color>
+  <font_size>Normal (10pt)</font_size>
+  <northwest>COG_Y
+COG_X
+BLOB_COUNT
+</northwest>
+</Display_Variables>
+<Marker>
+  <include_graphics>0</include_graphics>
+  <name>YellowTote</name>
+  <revert_to>Source</revert_to>
+</Marker>
+<Math>
+  <all_channels>TRUE</all_channels>
+  <bias>0</bias>
+  <divisor>1</divisor>
+  <function>15</function>
+  <image1>Current</image1>
+  <image2>YellowTote</image2>
+  <image_1_channel>2</image_1_channel>
+</Math>
+<Color_Threshold>
+  <blue_end>255</blue_end>
+  <blue_start>0</blue_start>
+  <green_end>245</green_end>
+  <green_start>0</green_start>
+  <red_end>255</red_end>
+  <red_start>0</red_start>
+  <result_type>2</result_type>
+</Color_Threshold>

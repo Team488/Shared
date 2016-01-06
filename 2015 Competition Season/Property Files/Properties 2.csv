@@ -1,0 +1,64 @@
+double,BetweenToteDistanceObtain,5
+double,BLOB_COUNT,0
+double,COG_X,0
+double,COG_Y,0
+double,CollecterPower,1
+double,Current yaw,84.2300005
+double,Elevator current pot voltage,0.92163074
+double,Elevator D,0
+double,Elevator encoder position (in),758.3124943
+double,Elevator I,0
+double,Elevator inches per pulse,1
+double,Elevator lower position reference height (in),0
+double,Elevator lower position reference voltage,3.49
+double,Elevator manual power down,0.5
+double,Elevator manual power up,0.45
+double,Elevator P,0
+double,Elevator pot danger threshold,0.2
+double,Elevator pot height,45.76838598
+boolean,Elevator sensors enabled,TRUE
+boolean,Elevator stall detection enabled,FALSE
+double,Elevator upper position reference height (in),60
+double,Elevator upper position reference voltage,0.123
+double,ElevatorDeadbandLarge,0.2
+double,ElevatorDeadbandSmall,0.05
+double,elevatorHeightTolerance,2
+double,elevatorMaximumPidPower,0.6
+double,ElevatorMaxSafeHeight,55
+double,ElevatorMinSafeHeight,0
+double,elevatorPowerDeadband,0.2
+double,elevatorTargetHeight,47.31284447
+boolean,Enable elevator safety checks,TRUE
+double,Heading D,0
+double,Heading I,0
+double,Heading P,0.06
+double,IMAGE_HEIGHT,0
+double,IMAGE_WIDTH,0
+boolean,Is elevator stalled?,FALSE
+double,Left front power,-0.029085909
+double,Left rear power,-0.018289775
+double,Operational stall deadzone,0.1
+double,Position D,0
+double,Position I,0
+double,Position P,0
+double,Raw elevator encoder ticks,714.25
+double,Right front power,-0.019489688
+double,Right rear power,-0.030285822
+double,RotationAssistDeadzone,0.15
+double,RotationAssistTimeout,0.3
+double,Stall history length,10
+double,Stall history percentage threshold,0.1
+double,Stall rate threshold,1
+double,StepHeight,7
+double,Target position tolerance,4
+double,Target velocity tolerance,1
+double,Target X velocity,0
+double,Target Y velocity,0
+double,ToteHeight,10
+double,Translational position X,54.09873751
+double,Translational position Y,92.42249513
+double,Translational velocity X,0
+double,Translational velocity Y,0
+double,Velocity D,0
+double,Velocity I,0
+double,Velocity P,0

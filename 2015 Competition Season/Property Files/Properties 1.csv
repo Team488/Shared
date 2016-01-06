@@ -1,0 +1,75 @@
+double,BLOB_COUNT,0.0
+double,BetweenToteDistanceObtain,5.0
+double,COG_X,0.0
+double,COG_Y,0.0
+double,CollecterPower,1.0
+double,Current yaw,90.09000015258789
+double,Elevator D,0.0
+double,Elevator I,0.0
+double,Elevator P,0.07
+double,Elevator current pot voltage,0.4467772841453552
+double,Elevator encoder position (in),1.9794918298721313
+double,Elevator inches per pulse,1.0
+double,Elevator lower position reference height (in),0.0
+double,Elevator lower position reference voltage,3.65
+double,Elevator manual power down,0.7301587301587301
+double,Elevator manual power up,0.6825396825396826
+double,Elevator pot danger threshold,0.2
+double,Elevator pot height,55.708221145298175
+boolean,Elevator sensors enabled,true
+boolean,Elevator stall detection enabled,false
+double,Elevator upper position reference height (in),60.0
+double,Elevator upper position reference voltage,0.2
+boolean,ElevatorBypassSensors,false
+double,ElevatorDeadbandLarge,0.2
+double,ElevatorDeadbandSmall,0.13
+double,ElevatorMaxSafeHeight,55.0
+double,ElevatorMinSafeHeight,0.0
+boolean,Enable elevator safety checks,true
+boolean,Enable elevator safety checks?,true
+double,FrontLeftDistance,0.0
+double,FrontRightDistance,0.0
+double,Heading D,0.0
+double,Heading I,0.0
+double,Heading P,0.02
+double,IMAGE_HEIGHT,0.0
+double,IMAGE_WIDTH,0.0
+boolean,Is elevator stalled?,false
+double,Left front power,-0.03750855994036817
+double,Left rear power,-0.021883559940368173
+double,LidarPollDurationMs,100.0
+double,Maximum X velocity,120.0
+double,Maximum Y velocity,120.0
+double,Operational stall deadzone,0.1
+double,Position D,1.0
+double,Position I,0.001
+double,Position P,0.1
+double,Raw elevator encoder ticks,-3.25
+double,Right front power,-0.025483566043883795
+double,Right rear power,-0.0411085660438838
+double,RotationAssistDeadzone,0.15
+double,RotationAssistTimeout,0.3
+double,Stall history length,10.0
+double,Stall history percentage threshold,0.1
+double,Stall rate threshold,1.0
+double,StepHeight,7.0
+double,Target X position,0.0
+double,Target X velocity,0.0
+double,Target Y position,84.0
+double,Target Y velocity,0.0
+double,Target position tolerance,4.0
+double,Target velocity tolerance,1.0
+double,Test target X field position,-56.0
+double,Test target Y field position,0.0
+double,ToteHeight,10.0
+double,Translational position X,-80.9468947656429
+double,Translational position Y,91.47032968617214
+double,Translational velocity X,0.0
+double,Translational velocity Y,0.0
+double,Velocity D,0.001
+double,Velocity I,1.0E-4
+double,Velocity P,0.02
+double,elevatorHeightTolerance,2.0
+double,elevatorMaximumPidPower,0.6
+double,elevatorPowerDeadband,0.2
+double,elevatorTargetHeight,55.0
